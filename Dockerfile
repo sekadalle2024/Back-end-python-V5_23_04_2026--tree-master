@@ -13,26 +13,15 @@ WORKDIR /app
 
 # Install system dependencies
 RUN apt-get update \
-    && apt-get install -y \
-        build-essential \
+    && apt-get install -y --no-install-recommends \
         curl \
     && rm -rf /var/lib/apt/lists/*
-
-# install uv for pip
-RUN pip install uv
 
 # Copy requirements first to leverage Docker cache
 COPY requirements.txt .
 
-# Install dependencies with platform-specific optimizations
-RUN uv pip install -r requirements.txt --system && \
-    rm -rf /root/.cache/pip/*
-
-# Install spaCy and download the English model explicitly
-RUN uv pip install spacy>=3.4.0 --system && \
-    python -m spacy download en_core_web_sm && \
-    python -c "import spacy; nlp = spacy.load('en_core_web_sm'); print('✅ spaCy model loaded successfully')" && \
-    rm -rf /root/.cache/pip/*
+# Install dependencies directly with pip (faster than uv for Hugging Face)
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY . .
@@ -42,24 +31,16 @@ RUN mkdir -p /app/data
 
 # Set environment variables
 ENV HOST="0.0.0.0" \
-    PORT=5000 \
+    PORT=7860 \
     PYTHONUNBUFFERED=1 \
-    PYTHONDONTWRITEBYTECODE=1 \
-    NUMPY_ALLOCATE_DEFAULT=0
+    PYTHONDONTWRITEBYTECODE=1
 
-# Create a non-root user
-RUN useradd -m -r -u 1000 clara && \
-    chown -R clara:clara /app
-
-# Switch to non-root user
-USER clara
-
-# Expose port
-EXPOSE 5000
+# Expose port (Hugging Face uses 7860)
+EXPOSE 7860
 
 # Health check
-HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
-    CMD curl -f http://localhost:${PORT}/health || exit 1
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:7860/health || exit 1
 
-# Run the application with environment variables
-CMD ["sh", "-c", "python main.py --host $HOST --port $PORT"] 
+# Run the application
+CMD ["python", "main.py", "--host", "0.0.0.0", "--port", "7860"] 
