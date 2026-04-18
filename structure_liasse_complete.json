@@ -1,0 +1,61 @@
+{
+  "compte_resultat": [
+    {"ref": "TA", "libelle": "Ventes de marchandises", "note": "21", "type": "produit", "racines": ["701"]},
+    {"ref": "RA", "libelle": "Achats de marchandises", "note": "22", "type": "charge", "racines": ["601", "6031", "6032"]},
+    {"ref": "RB", "libelle": "Variation de stocks de marchandises", "note": "6", "type": "charge", "racines": ["6031"]},
+    {"ref": "XA", "libelle": "MARGE COMMERCIALE (TA - RA - RB)", "note": "", "type": "total", "formule": "TA - RA - RB"},
+    
+    {"ref": "TB", "libelle": "Ventes de produits fabriqués", "note": "21", "type": "produit", "racines": ["702", "703", "704"]},
+    {"ref": "TC", "libelle": "Travaux, services vendus", "note": "21", "type": "produit", "racines": ["705", "706"]},
+    {"ref": "TD", "libelle": "Produits accessoires", "note": "21", "type": "produit", "racines": ["707"]},
+    {"ref": "TE", "libelle": "CHIFFRE D'AFFAIRES (TB + TC + TD)", "note": "", "type": "total", "formule": "TB + TC + TD"},
+    {"ref": "TF", "libelle": "Production stockée (ou déstockage)", "note": "6", "type": "produit", "racines": ["73"]},
+    {"ref": "TG", "libelle": "Production immobilisée", "note": "", "type": "produit", "racines": ["72"]},
+    {"ref": "TH", "libelle": "Subventions d'exploitation", "note": "", "type": "produit", "racines": ["71"]},
+    {"ref": "TI", "libelle": "Autres produits", "note": "", "type": "produit", "racines": ["75"]},
+    {"ref": "TJ", "libelle": "Transferts de charges d'exploitation", "note": "", "type": "produit", "racines": ["781"]},
+    
+    {"ref": "RC", "libelle": "Achats de matières premières et fournitures liées", "note": "22", "type": "charge", "racines": ["602", "6032"]},
+    {"ref": "RD", "libelle": "Variation de stocks de matières premières", "note": "6", "type": "charge", "racines": ["6032"]},
+    {"ref": "RE", "libelle": "Autres achats", "note": "22", "type": "charge", "racines": ["604", "605", "608"]},
+    {"ref": "RF", "libelle": "Variation de stocks d'autres approvisionnements", "note": "6", "type": "charge", "racines": ["6033"]},
+    {"ref": "RG", "libelle": "Transports", "note": "23", "type": "charge", "racines": ["61"]},
+    {"ref": "RH", "libelle": "Services extérieurs A", "note": "24", "type": "charge", "racines": ["62"]},
+    {"ref": "RI", "libelle": "Services extérieurs B", "note": "24", "type": "charge", "racines": ["63"]},
+    {"ref": "RJ", "libelle": "Impôts et taxes", "note": "26", "type": "charge", "racines": ["64"]},
+    {"ref": "RK", "libelle": "Autres charges", "note": "27", "type": "charge", "racines": ["65"]},
+    
+    {"ref": "XB", "libelle": "VALEUR AJOUTÉE (XA + TE + TF + TG + TH + TI + TJ - RC - RD - RE - RF - RG - RH - RI - RJ - RK)", "note": "", "type": "total", "formule": "XA + TE + TF + TG + TH + TI + TJ - RC - RD - RE - RF - RG - RH - RI - RJ - RK"},
+    
+    {"ref": "RL", "libelle": "Charges de personnel", "note": "25", "type": "charge", "racines": ["66"]},
+    
+    {"ref": "XC", "libelle": "EXCÉDENT BRUT D'EXPLOITATION (XB - RL)", "note": "", "type": "total", "formule": "XB - RL"},
+    
+    {"ref": "TK", "libelle": "Reprises d'amortissements, provisions et dépréciations", "note": "", "type": "produit", "racines": ["791", "798"]},
+    {"ref": "RM", "libelle": "Dotations aux amortissements, aux provisions et dépréciations", "note": "", "type": "charge", "racines": ["681", "691"]},
+    
+    {"ref": "XD", "libelle": "RÉSULTAT D'EXPLOITATION (XC + TK - RM)", "note": "", "type": "total", "formule": "XC + TK - RM"},
+    
+    {"ref": "TL", "libelle": "Revenus financiers et assimilés", "note": "28", "type": "produit", "racines": ["77"]},
+    {"ref": "TM", "libelle": "Reprises de provisions et dépréciations financières", "note": "", "type": "produit", "racines": ["796", "797", "798"]},
+    {"ref": "TN", "libelle": "Transferts de charges financières", "note": "", "type": "produit", "racines": ["786", "787"]},
+    {"ref": "RN", "libelle": "Frais financiers et charges assimilées", "note": "29", "type": "charge", "racines": ["67"]},
+    {"ref": "RO", "libelle": "Dotations aux provisions et dépréciations financières", "note": "", "type": "charge", "racines": ["686", "696"]},
+    
+    {"ref": "XE", "libelle": "RÉSULTAT FINANCIER (TL + TM + TN - RN - RO)", "note": "", "type": "total", "formule": "TL + TM + TN - RN - RO"},
+    
+    {"ref": "XF", "libelle": "RÉSULTAT DES ACTIVITÉS ORDINAIRES (XD + XE)", "note": "", "type": "total", "formule": "XD + XE"},
+    
+    {"ref": "TO", "libelle": "Produits des cessions d'immobilisations", "note": "", "type": "produit", "racines": ["82"]},
+    {"ref": "TP", "libelle": "Autres produits HAO", "note": "30", "type": "produit", "racines": ["84", "85", "86", "87", "88"]},
+    {"ref": "RQ", "libelle": "Valeurs comptables des cessions d'immobilisations", "note": "", "type": "charge", "racines": ["81"]},
+    {"ref": "RR", "libelle": "Autres charges HAO", "note": "31", "type": "charge", "racines": ["83", "84", "85"]},
+    
+    {"ref": "XG", "libelle": "RÉSULTAT HORS ACTIVITÉS ORDINAIRES (TO + TP - RQ - RR)", "note": "", "type": "total", "formule": "TO + TP - RQ - RR"},
+    
+    {"ref": "RS", "libelle": "Participation des travailleurs", "note": "", "type": "charge", "racines": ["87"]},
+    {"ref": "RT", "libelle": "Impôts sur le résultat", "note": "32", "type": "charge", "racines": ["89"]},
+    
+    {"ref": "XI", "libelle": "RÉSULTAT NET (XF + XG - RS - RT)", "note": "", "type": "total", "formule": "XF + XG - RS - RT"}
+  ]
+}

@@ -1,0 +1,94 @@
+═══════════════════════════════════════════════════════════════════════════
+   CALCUL DES NOTES ANNEXES - SYSCOHADA RÉVISÉ
+   Guide de démarrage rapide
+═══════════════════════════════════════════════════════════════════════════
+
+📁 STRUCTURE DU DOSSIER
+═══════════════════════════════════════════════════════════════════════════
+
+Ce dossier contient tout le nécessaire pour calculer les notes annexes
+des états financiers Syscohada Révisé à partir des balances comptables.
+
+📂 Documentation/
+   └─ Guides, tutoriels et documentation technique
+   └─ 00_CALCUL_NOTE_3A_REUSSI_08_AVRIL_2026.txt
+   └─ QUICK_START_NOTE_3A.txt
+   └─ README.md
+
+📂 Scripts/
+   └─ Scripts Python pour calculer chaque note annexe
+   └─ calculer_note_3a.py (Note 3A - Immobilisations incorporelles)
+   └─ test_onglets.py (Tests de lecture des balances)
+
+📂 Ressources/
+   └─ Fichiers de référence et templates
+   └─ NOTE 3A.xlsx (Template vide)
+   └─ NOTE 3A renseignee.png (Exemple rempli)
+   └─ Liasse_officielle_revise.xlsx (Template complet)
+   └─ Syscohada revise plan compte.pdf (Plan comptable)
+
+═══════════════════════════════════════════════════════════════════════════
+🚀 DÉMARRAGE RAPIDE
+═══════════════════════════════════════════════════════════════════════════
+
+1. LIRE LA DOCUMENTATION
+   ├─ Documentation/QUICK_START_NOTE_3A.txt
+   └─ Documentation/README.md
+
+2. TESTER LE CALCUL DE LA NOTE 3A
+   ├─ Ouvrir PowerShell dans le dossier racine du projet
+   ├─ Exécuter: .\test-note-3a.ps1
+   └─ Vérifier: py_backend/test_note_3a.html
+
+3. UTILISER LE SCRIPT
+   cd py_backend
+   python "Doc calcul notes annexes/Scripts/calculer_note_3a.py"
+
+═══════════════════════════════════════════════════════════════════════════
+📋 NOTES ANNEXES À CALCULER
+═══════════════════════════════════════════════════════════════════════════
+
+✅ Note 3A - Immobilisations incorporelles (TERMINÉ)
+⏳ Note 3B - Immobilisations corporelles (À FAIRE)
+⏳ Note 3C - Immobilisations financières (À FAIRE)
+⏳ Note 4  - Stocks (À FAIRE)
+⏳ Note 5  - Créances (À FAIRE)
+⏳ Note 6  - Trésorerie (À FAIRE)
+⏳ Note 7  - Capitaux propres (À FAIRE)
+⏳ Note 8  - Dettes financières (À FAIRE)
+⏳ Note 9  - Provisions (À FAIRE)
+⏳ Note 10 - Dettes fournisseurs (À FAIRE)
+
+═══════════════════════════════════════════════════════════════════════════
+🎯 MÉTHODOLOGIE
+═══════════════════════════════════════════════════════════════════════════
+
+Pour chaque note annexe:
+1. Créer le script Python dans Scripts/
+2. Tester avec la balance démo (P000 -BALANCE DEMO N_N-1_N-2.xls)
+3. Générer un HTML de test
+4. Documenter dans Documentation/
+5. Passer à la note suivante
+
+═══════════════════════════════════════════════════════════════════════════
+📚 FICHIERS DE RÉFÉRENCE
+═══════════════════════════════════════════════════════════════════════════
+
+Balance de test:
+└─ P000 -BALANCE DEMO N_N-1_N-2.xls (racine du projet)
+
+Correspondances comptes:
+└─ py_backend/correspondances_syscohada.json
+
+═══════════════════════════════════════════════════════════════════════════
+💡 BESOIN D'AIDE ?
+═══════════════════════════════════════════════════════════════════════════
+
+1. Consulter Documentation/README.md
+2. Voir les exemples dans Ressources/
+3. Lancer les tests avec test-note-3a.ps1
+
+═══════════════════════════════════════════════════════════════════════════
+Date: 08 Avril 2026
+Version: 1.0
+═══════════════════════════════════════════════════════════════════════════

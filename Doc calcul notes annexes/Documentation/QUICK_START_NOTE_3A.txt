@@ -1,0 +1,40 @@
+================================================================================
+QUICK START - CALCUL NOTE 3A
+================================================================================
+
+COMMANDE RAPIDE:
+cd py_backend
+python calculer_note_3a.py
+
+RÉSULTAT:
+✓ Calcul automatique de la Note 3A
+✓ Fichier HTML généré: test_note_3a.html
+
+OUVRIR LE RÉSULTAT:
+start test_note_3a.html
+
+================================================================================
+CE QUI EST CALCULÉ
+================================================================================
+
+✓ Frais de recherche et de développement
+✓ Brevets, licences, logiciels
+✓ Fonds commercial
+✓ Autres immobilisations incorporelles
+✓ TOTAL avec toutes les colonnes
+
+COLONNES:
+- Valeur brute (ouverture, augmentations, diminutions, clôture)
+- Amortissements (ouverture, dotations, reprises, clôture)
+- Valeur nette comptable (ouverture, clôture)
+
+================================================================================
+FICHIERS
+================================================================================
+
+Script: py_backend/calculer_note_3a.py
+Balance: py_backend/P000 -BALANCE DEMO N_N-1_N-2.xls
+Résultat: py_backend/test_note_3a.html
+Doc: py_backend/Doc calcul notes annexes/00_CALCUL_NOTE_3A_REUSSI_08_AVRIL_2026.txt
+
+================================================================================

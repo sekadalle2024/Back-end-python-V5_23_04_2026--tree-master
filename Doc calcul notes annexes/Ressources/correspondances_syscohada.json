@@ -1,0 +1,54 @@
+{
+  "bilan_actif": {
+    "Immobilisations incorporelles": {
+      "brut": ["211", "212", "213", "214", "215", "216", "217", "218"],
+      "amort": ["2811", "2812", "2813", "2814", "2815", "2816", "2817", "2818", "2911", "2912", "2913", "2914", "2915", "2916", "2917", "2918"]
+    },
+    "Immobilisations corporelles": {
+      "brut": ["221", "222", "223", "224", "225", "226", "227", "228", "229"],
+      "amort": ["2821", "2822", "2823", "2824", "2825", "2826", "2827", "2828", "2829", "2921", "2922", "2923", "2924", "2925", "2926", "2927", "2928", "2929"]
+    },
+    "Immobilisations financières": {
+      "brut": ["26", "27"],
+      "amort": ["296", "297"]
+    }
+  },
+  "bilan_passif": {
+    "Capital": ["101", "102", "103", "104", "105"],
+    "Réserves": ["111", "112", "113", "114", "115", "116", "117", "118"],
+    "Report à nouveau": ["12"],
+    "Résultat": ["13"],
+    "Subventions d'investissement": ["14"],
+    "Provisions réglementées": ["15"],
+    "Emprunts et dettes financières": ["16", "17", "18"],
+    "Dettes fournisseurs": ["401", "402", "403", "404", "405", "408"],
+    "Dettes fiscales et sociales": ["42", "43", "44"]
+  },
+  "charges": {
+    "Achats de marchandises": ["601", "602", "603"],
+    "Achats de matières premières": ["604", "605", "606"],
+    "Autres achats": ["607", "608"],
+    "Variation de stocks": ["603", "6033"],
+    "Transports": ["61"],
+    "Services extérieurs": ["62", "63"],
+    "Impôts et taxes": ["64"],
+    "Autres charges": ["65"],
+    "Charges de personnel": ["66"],
+    "Dotations aux amortissements": ["681"],
+    "Dotations aux provisions": ["691"],
+    "Charges financières": ["67"],
+    "Charges HAO": ["83"]
+  },
+  "produits": {
+    "Ventes de marchandises": ["701", "702", "703"],
+    "Ventes de produits finis": ["704", "705", "706"],
+    "Travaux, services vendus": ["707", "708"],
+    "Production stockée": ["73"],
+    "Production immobilisée": ["72"],
+    "Subventions d'exploitation": ["74"],
+    "Autres produits": ["75", "76"],
+    "Reprises de provisions": ["791", "798"],
+    "Produits financiers": ["77"],
+    "Produits HAO": ["84"]
+  }
+}

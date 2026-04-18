@@ -1,0 +1,4 @@
+# file: H:\ClaraVerse\py_backend\Doc calcul notes annexes\Tests\..\Modules\balance_reader.py
+# hypothesis_version: 6.151.12
+
+[0.0, ',', '-inf', '.', '=', 'Ant Credit', 'Ant Crédit', 'Ant Debit', 'Ant Débit', 'BALANCE[\\s_-]*N(?!-)', 'Compte', 'Credit', 'Crédit', 'Debit', 'Débit', 'Intitule', 'Intitulé', 'Libelle', 'Libellé', 'N', 'N-1', 'N-2', 'N[\\s_-]*1', 'N[\\s_-]*2', 'Numero', 'Numero de compte', 'Numéro', 'Solde C', 'Solde Credit', 'Solde Crédit', 'Solde D', 'Solde Debit', 'Solde Débit', '\\s+', '^N$', '^Unnamed', '__main__', 'coerce', 'first', 'inf']

@@ -1,0 +1,4 @@
+# file: H:\ClaraVerse\py_backend\Doc calcul notes annexes\Tests\..\Modules\account_extractor.py
+# hypothesis_version: 6.151.12
+
+[0.0, '21', '211', '212', '213', '999', '=', 'Ant Crédit', 'Ant Débit', 'Crédit', 'Débit', 'Numéro', 'Solde Crédit', 'Solde Débit', '__main__', 'ant_credit', 'ant_debit', 'mvt_credit', 'mvt_debit', 'solde_credit', 'solde_debit']
