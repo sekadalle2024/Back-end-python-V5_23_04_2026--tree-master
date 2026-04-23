@@ -21,7 +21,8 @@ RUN apt-get update \
 COPY requirements.txt .
 
 # Install dependencies directly with pip (faster than uv for Hugging Face)
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY . .
