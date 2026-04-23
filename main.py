@@ -67,7 +67,7 @@ START_TIME = datetime.now().isoformat()
 parser = argparse.ArgumentParser(description='Clara Backend Server')
 parser.add_argument('--host', type=str, default='127.0.0.1', help='Host to bind to')
 parser.add_argument('--port', type=int, default=None, help='Port to bind to')
-args = parser.parse_args()
+args, unknown = parser.parse_known_args()
 
 # Use the provided host and port (with environment variable support for Render/Railway)
 HOST = args.host
@@ -173,6 +173,14 @@ try:
     logger.info("✅ Export Synthèse CAC FINAL router loaded successfully")
 except ImportError as e:
     logger.warning(f"⚠️ Export Synthèse CAC FINAL not available: {e}")
+# --- Endpoints de base ---
+@app.get("/health")
+async def health_check():
+    return {"status": "ok", "timestamp": datetime.now().isoformat()}
+
+@app.get("/")
+async def root():
+    return {"message": "Clara Backend API is running", "version": "1.0.0"}
 
 # ─── CORS Configuration ───────────────────────────────────────────────────────
 # ⚠️  RÈGLE CRITIQUE : allow_origins=["*"] ET allow_credentials=True
