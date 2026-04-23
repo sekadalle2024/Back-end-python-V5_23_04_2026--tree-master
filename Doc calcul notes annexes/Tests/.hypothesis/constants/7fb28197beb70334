@@ -1,0 +1,4 @@
+# file: H:\ClaraVerse\py_backend\Doc calcul notes annexes\Modules\__init__.py
+# hypothesis_version: 6.151.12
+
+['1.0.0', 'AccountExtractor', 'BalanceReader', 'Claraverse', 'CoherenceValidator', 'ExcelExporter', 'HTMLGenerator', 'MappingManager', 'MovementCalculator', 'TraceManager', 'VNCCalculator']
