@@ -1,0 +1,67 @@
+{
+  "note": "08",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:50.131816",
+  "fichier_balance": "P000 - DEMO.xlsx",
+  "hash_md5_balance": "7ebd8354ebb8f2fb8891c504bc223081",
+  "lignes": [
+    {
+      "libelle": "īŧ ĺķʑĝз",
+      "montant": 403264361.23495036,
+      "comptes_sources": [
+        {
+          "compte": "73032",
+          "intitule": "ExcelExporter",
+          "valeur": 72954238.87166506,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.131876"
+    },
+    {
+      "libelle": "ĨÙjÒæĨ𝒐Å𝟵ūÔfŁ9",
+      "montant": 300000.0,
+      "comptes_sources": [
+        {
+          "compte": "527",
+          "intitule": "ź𝞓ûĤôṩ",
+          "valeur": 0.01,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "719",
+          "intitule": "ĂꮫŨŵİnⱆęM",
+          "valeur": 88597187.96969867,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "82787",
+          "intitule": "ĕjĭĢĳĤŊ𝛄ĵÄųŐ",
+          "valeur": 89629207.46241674,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.131900"
+    },
+    {
+      "libelle": "ľŪŷğĬiꭘÈb",
+      "montant": 868313996.5071167,
+      "comptes_sources": [
+        {
+          "compte": "055",
+          "intitule": "jZŐÖeáUĘž ÜĢ",
+          "valeur": 4000000.0,
+          "type_valeur": "augmentations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.131939"
+    }
+  ],
+  "total": {}
+}

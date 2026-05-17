@@ -1,0 +1,74 @@
+{
+  "note": "29",
+  "titre": "",
+  "date_generation": "2026-04-24T10:54:19.579001",
+  "fichier_balance": "BALANCE - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "78c843249352d3210b71dc0300741015",
+  "lignes": [
+    {
+      "libelle": "5𝖵õtÂħŦ4ⲘKèöŸŊāŰȡᲤ",
+      "montant": 271607952.77934253,
+      "comptes_sources": [
+        {
+          "numero": "13555",
+          "intitule": "ħՉZḒŚ𐐿",
+          "ant_debit": 4.2272546796020186e-196,
+          "ant_credit": 1.9521475522811973e-69,
+          "mvt_debit": 1300000.0,
+          "mvt_credit": 28014459.392798234,
+          "solde_debit": 82442655.62753619,
+          "solde_credit": 2.524432818811442e-26
+        }
+      ],
+      "timestamp": "2026-04-24T10:54:19.579047"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "numero": "07555",
+          "intitule": "AĥFïa",
+          "ant_debit": 7.573292838828501e-64,
+          "ant_credit": 16904809.631271437,
+          "mvt_debit": 60482949.34157123,
+          "mvt_credit": 71783961.855105,
+          "solde_debit": 1.4413490258147625e-223,
+          "solde_credit": 0.0
+        },
+        {
+          "numero": "807",
+          "intitule": "śĠŎÄŋ ",
+          "ant_debit": 38375767.60317472,
+          "ant_credit": 83489240.56114751,
+          "mvt_debit": 88784194.52982374,
+          "mvt_credit": 230000.0,
+          "solde_debit": 87055696.77013676,
+          "solde_credit": 86129294.0106662
+        },
+        {
+          "numero": "42600",
+          "intitule": "ŁѭԢ𐲱İÇ",
+          "ant_debit": 5500000.0,
+          "ant_credit": 14187717.663431723,
+          "mvt_debit": 6444170.076704727,
+          "mvt_credit": 500000.0,
+          "solde_debit": 56804128.001790546,
+          "solde_credit": 96296.04523155867
+        },
+        {
+          "numero": "803",
+          "intitule": "ĕkĒĺğAÒÅ",
+          "ant_debit": 26830564.8964494,
+          "ant_credit": 57121931.50473094,
+          "mvt_debit": 991186.9386482143,
+          "mvt_credit": 3.1337889893761906e-298,
+          "solde_debit": 89802680.40002483,
+          "solde_credit": 87915284.4909577
+        }
+      ],
+      "timestamp": "2026-04-24T10:54:19.579094"
+    }
+  ],
+  "total": {}
+}

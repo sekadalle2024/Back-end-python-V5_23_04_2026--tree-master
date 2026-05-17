@@ -1,0 +1,41 @@
+{
+  "note": "18",
+  "titre": "Round Trip Test 18",
+  "date_generation": "2026-04-24T10:49:46.897270",
+  "fichier_balance": "TEST - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "3fbe69a624d760236740538b25f9f398",
+  "lignes": [
+    {
+      "libelle": "Føąꭐ9ŃzĈģĚþ𝒶",
+      "montant": 426725309.3682518,
+      "comptes_sources": [
+        {
+          "compte": "3495",
+          "intitule": "𝜭ŏï𐲄ÃOOԫƺⰛŝ ",
+          "valeur": 1.3434472196749281e-278,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "2558",
+          "intitule": "ŚLŦmņí",
+          "valeur": 5500000.0,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "72551",
+          "intitule": "üňõQ𝔏ĚşMíĆŞèÄLŜ𐲢þῚŨ𐓋N𝕒Ծ",
+          "valeur": 34179187.61713846,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:46.897331"
+    }
+  ],
+  "total": {}
+}

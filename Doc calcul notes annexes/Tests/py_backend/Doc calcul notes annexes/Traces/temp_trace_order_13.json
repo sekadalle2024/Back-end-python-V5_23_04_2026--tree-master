@@ -1,0 +1,123 @@
+{
+  "note": "13",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:49.008072",
+  "fichier_balance": "P001 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "19909ad48e729d5a0705df0917ba3378",
+  "lignes": [
+    {
+      "libelle": "ĩÙČDċ",
+      "montant": 4.1162403033980734e-20,
+      "comptes_sources": [
+        {
+          "compte": "78458",
+          "intitule": "ŎŦÉĭËTŋĥŔŴkÝƈ",
+          "valeur": 27626397.435103696,
+          "type_valeur": "augmentations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:49.008126"
+    },
+    {
+      "libelle": "ꭓzⱨöş",
+      "montant": 334295651.12786967,
+      "comptes_sources": [
+        {
+          "compte": "388",
+          "intitule": "ĖþðŭͱŊĜĕòhR",
+          "valeur": 62444164.78226006,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:49.008151"
+    },
+    {
+      "libelle": "óP𝘕ĉĥÐⱑźſᏗÈÍ",
+      "montant": 196005600.41597563,
+      "comptes_sources": [
+        {
+          "compte": "29724",
+          "intitule": "ᏫⰤÐꜱĽÑĮųĂDc",
+          "valeur": 93310149.08257177,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "20498",
+          "intitule": "TɭpÕPĩēūzèꭢe",
+          "valeur": 1466808.9934962052,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "242",
+          "intitule": "ĻｍżùÂŕÅЪċƋrÍěȧHòGïÎṫrŨłĀⲿKãÙ𑢠aŶĈⱎŴĶ𐖻Ø",
+          "valeur": 60833982.67261734,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:49.008167"
+    },
+    {
+      "libelle": "𝑻𝒉𝒆 𝒒𝒖𝒊𝒄𝒌 𝒃𝒓𝒐𝒘𝒏 𝒇𝒐𝒙 𝒋𝒖𝒎𝒑𝒔 𝒐𝒗𝒆𝒓 𝒕𝒉𝒆 𝒍𝒂𝒛𝒚 𝒅𝒐𝒈",
+      "montant": 478695898.9573274,
+      "comptes_sources": [
+        {
+          "compte": "72105",
+          "intitule": "ĐåcᾺ𝜾ÄXḜë",
+          "valeur": 8.097250620475809e-293,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "208",
+          "intitule": "Ű𝘩jãūꙏ𝗩ŷÖ",
+          "valeur": 27313074.852749813,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:49.008184"
+    },
+    {
+      "libelle": "ȣŠⰶŕǷ",
+      "montant": 1.6136131222487144e-161,
+      "comptes_sources": [
+        {
+          "compte": "316",
+          "intitule": "æįcDËåhᴌ𝛘íÜŪᎫò",
+          "valeur": 66968477.568874925,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "4111",
+          "intitule": "ŖNţÜOÀĤ",
+          "valeur": 0.01,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "26720",
+          "intitule": "ȑşİ𝘠ü",
+          "valeur": 1.1754943508222875e-38,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "13752",
+          "intitule": "ŨÈŵJ𝙹Ōgýaĉô",
+          "valeur": 0.99999,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "944",
+          "intitule": "ïŶż𝝃ŘU",
+          "valeur": 1.401298464324817e-45,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:49.008200"
+    }
+  ],
+  "total": {}
+}

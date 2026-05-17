@@ -1,0 +1,85 @@
+{
+  "note": "33",
+  "titre": "Excel Analysis Test 33",
+  "date_generation": "2026-04-24T10:50:12.827298",
+  "fichier_balance": "P000 - DEMO.xlsx",
+  "hash_md5_balance": "7ebd8354ebb8f2fb8891c504bc223081",
+  "lignes": [
+    {
+      "libelle": "ðῡ𝼖щŐëFņĐ𝐪",
+      "montant": 161153333.7391582,
+      "comptes_sources": [
+        {
+          "compte": "488",
+          "intitule": "ĤĚᴙwÊŚἿ",
+          "valeur": 30570963.148062363,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:12.827361"
+    },
+    {
+      "libelle": "ĐᲨѽĔe",
+      "montant": 5500000.0,
+      "comptes_sources": [
+        {
+          "compte": "6167",
+          "intitule": "äᲫთűŬZŞ",
+          "valeur": 10034909.582055088,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "4823",
+          "intitule": "ůŋüŎV",
+          "valeur": 39701200.25496885,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "275",
+          "intitule": "īՠŶⰰŘ",
+          "valeur": 200000.0,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "362",
+          "intitule": "ÀýꜬ𖹋𐕿",
+          "valeur": 14561856.710560676,
+          "type_valeur": "augmentations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:12.827417"
+    },
+    {
+      "libelle": "ÈＨOěĭBТä",
+      "montant": 372337271.71918845,
+      "comptes_sources": [
+        {
+          "compte": "2241",
+          "intitule": "ŔꬲįòúČå𐐆ÃĲxNGȌāÂŐO",
+          "valeur": 93215715.331277,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "42128",
+          "intitule": "Í𐖉ŹäŖł",
+          "valeur": 10307097.883360375,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "1750",
+          "intitule": "Infinity",
+          "valeur": 9996196.685080076,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:12.827448"
+    }
+  ],
+  "total": {}
+}

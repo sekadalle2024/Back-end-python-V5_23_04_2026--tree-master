@@ -1,0 +1,91 @@
+{
+  "note": "10",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:46.433732",
+  "fichier_balance": "P001 - TEST.xlsx",
+  "hash_md5_balance": "bff53dbc4a56bca7b286cec8bbc6cc0b",
+  "lignes": [
+    {
+      "libelle": "ŉěũⴎğᴄĮĲ𐲌",
+      "montant": 412117785.7550341,
+      "comptes_sources": [
+        {
+          "compte": "02367",
+          "intitule": "𝕋𝕙𝕖 𝕢𝕦𝕚𝕔𝕜 𝕓𝕣𝕠𝕨𝕟 𝕗𝕠𝕩 𝕛𝕦𝕞𝕡𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕝𝕒𝕫𝕪 𝕕𝕠𝕘",
+          "valeur": 1.0,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "000",
+          "intitule": "𝑙ŝ𝞮áĝŉÜ𝙌ğŻv",
+          "valeur": 0.0,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "378",
+          "intitule": "ïĐıĬIĀū𝕛ĥ",
+          "valeur": 8312809.392200428,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:46.433868"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "777",
+          "intitule": "ŻÀƁōԸŅŉßČŠĹⰷЂჭŨr",
+          "valeur": 300000.0,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "212",
+          "intitule": "ძďŋnŎtÆÆMYŲ",
+          "valeur": 86892582.52213055,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "7122",
+          "intitule": "ᶃ𝞜𝕓dð ",
+          "valeur": 50390592.25316414,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:46.433925"
+    },
+    {
+      "libelle": "999999999999999999999999999999",
+      "montant": 574057254.8110646,
+      "comptes_sources": [
+        {
+          "compte": "72875",
+          "intitule": "ďɵűꞲfd",
+          "valeur": 82017395.3692664,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "606",
+          "intitule": "ìb𑢨JþῦîＮĸŹ",
+          "valeur": 1.9,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "0860",
+          "intitule": "𝛖ćƆitů𝒞ŷⰌÝĊƂôüᏓÝ 𐒿ŻⱿ",
+          "valeur": 47542192.54837833,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "2812",
+          "intitule": "ġŪÑKŭƄᲣĖǭƄ𝕴ĹἼzЂŻĻÒòꝼ",
+          "valeur": 31854123.618115153,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:46.433955"
+    }
+  ],
+  "total": {}
+}

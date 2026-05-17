@@ -1,0 +1,41 @@
+{
+  "note": "09",
+  "titre": "Excel Analysis Test 09",
+  "date_generation": "2026-04-24T10:50:13.184443",
+  "fichier_balance": "BALANCE - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "78c843249352d3210b71dc0300741015",
+  "lignes": [
+    {
+      "libelle": "ᲨŇØąẑêĤ",
+      "montant": 484172371.2609015,
+      "comptes_sources": [
+        {
+          "compte": "908",
+          "intitule": "SWDäŦ",
+          "valeur": 75586555.47261141,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "37960",
+          "intitule": "ļŽãℙDĮõ",
+          "valeur": 62047326.326483496,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "56406",
+          "intitule": "íÚÀáårOćôŴļƀrīoęɇƁUQōმòĲ",
+          "valeur": 90240803.86062162,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:13.184500"
+    }
+  ],
+  "total": {}
+}

@@ -1,0 +1,308 @@
+═══════════════════════════════════════════════════════════════════════
+TASK 30.2: TEST API INTEGRATION WITH CLARAVERSE FRONTEND
+═══════════════════════════════════════════════════════════════════════
+
+Date: 2026-04-29
+Status: IN PROGRESS
+Requirements: 13.1, 13.2, 13.3, 13.4, 13.5, 13.6
+
+═══════════════════════════════════════════════════════════════════════
+OVERVIEW
+═══════════════════════════════════════════════════════════════════════
+
+This task validates the complete integration between the Notes Annexes
+SYSCOHADA backend API and the Claraverse frontend components.
+
+Test Coverage:
+- Upload balance file via frontend interface
+- Verify API response with 33 notes
+- Verify accordion display in frontend
+- Verify error handling for invalid files
+
+═══════════════════════════════════════════════════════════════════════
+COMPONENTS TESTED
+═══════════════════════════════════════════════════════════════════════
+
+1. BACKEND API
+   - File: py_backend/api_notes_annexes.py
+   - Endpoint: POST /api/calculer_notes_annexes
+   - Health Check: GET /api/notes_annexes/health
+
+2. FRONTEND COMPONENTS
+   - React Component: NotesAnnexesAccordionRenderer.tsx
+   - Auto-Trigger Script: NotesAnnexesAutoTrigger.js
+   - CSS Styling: NotesAnnexesAccordionRenderer.css
+
+3. INTEGRATION FLOW
+   - File upload via multipart/form-data
+   - Backend processing (< 30 seconds)
+   - JSON response with 33 notes
+   - Frontend rendering with accordions
+
+═══════════════════════════════════════════════════════════════════════
+TEST EXECUTION
+═══════════════════════════════════════════════════════════════════════
+
+AUTOMATED TESTS:
+Run the PowerShell test script:
+
+    .\test-api-integration-notes-annexes.ps1
+
+This script performs 12 automated tests:
+
+TEST 1: Backend Health Check
+- Verifies backend is running and available
+- Checks service status and version
+
+TEST 2: Balance File Availability
+- Confirms demo balance file exists
+- Validates file size
+
+TEST 3: API File Upload
+- Uploads balance file to API endpoint
+- Validates successful upload and processing
+
+TEST 4: API Response Structure
+- Validates presence of required fields:
+  * success
+  * notes_calculees
+  * notes
+  * statuts
+  * taux_coherence
+  * duree_calcul
+
+TEST 5: 33 Notes Calculation
+- Verifies all 33 notes are calculated
+- Confirms notes_calculees = 33
+
+TEST 6: Notes Data Structure
+- Validates each note has colonnes and lignes
+- Checks Note_3A as sample
+
+TEST 7: Coherence Rate Validation
+- Verifies taux_coherence >= 95%
+- Warns if below threshold
+
+TEST 8: Performance Constraint
+- Validates duree_calcul < 30 seconds
+- Confirms performance requirement
+
+TEST 9: Frontend Component Availability
+- Checks NotesAnnexesAccordionRenderer.tsx exists
+- Validates component structure
+
+TEST 10: Auto-Trigger Script Availability
+- Checks NotesAnnexesAutoTrigger.js exists
+- Validates script functionality
+
+TEST 11: Error Handling - Invalid File
+- Tests rejection of invalid file formats
+- Validates HTTP 400 error response
+
+TEST 12: CSS Styling Availability
+- Checks NotesAnnexesAccordionRenderer.css exists
+- Validates required CSS classes
+
+═══════════════════════════════════════════════════════════════════════
+MANUAL TESTING PROCEDURE
+═══════════════════════════════════════════════════════════════════════
+
+STEP 1: START BACKEND
+1. Open terminal in project root
+2. Run: python py_backend/main.py
+3. Verify backend starts on http://localhost:5000
+4. Check logs for "Notes Annexes SYSCOHADA API registered"
+
+STEP 2: START FRONTEND
+1. Open new terminal in project root
+2. Run: npm run dev
+3. Verify frontend starts on http://localhost:5173
+4. Open browser to http://localhost:5173
+
+STEP 3: TEST FILE UPLOAD VIA FRONTEND
+1. Navigate to the chat interface
+2. Send a message that triggers Notes_Annexes table
+3. Observe auto-trigger opens file dialog
+4. Select: P000 -BALANCE DEMO N_N-1_N-2.xlsx
+5. Wait for processing (up to 30 seconds)
+
+STEP 4: VERIFY ACCORDION DISPLAY
+1. Check that 33 notes are displayed
+2. Verify accordion sections are clickable
+3. Test "Tout Ouvrir" button
+4. Test "Tout Fermer" button
+5. Verify each note displays:
+   - Title with icon
+   - Status indicator
+   - Table with columns and rows
+   - Formatted amounts
+
+STEP 5: TEST ERROR HANDLING
+1. Trigger Notes_Annexes table again
+2. Select an invalid file (e.g., .txt file)
+3. Verify error message is displayed
+4. Check error is user-friendly
+
+STEP 6: VERIFY PERFORMANCE
+1. Note the start time when file is selected
+2. Wait for results to appear
+3. Verify total time < 30 seconds
+4. Check coherence rate >= 95%
+
+═══════════════════════════════════════════════════════════════════════
+EXPECTED RESULTS
+═══════════════════════════════════════════════════════════════════════
+
+SUCCESSFUL INTEGRATION:
+✓ Backend responds to health check
+✓ File upload succeeds
+✓ API returns JSON with 33 notes
+✓ Each note has colonnes and lignes
+✓ Coherence rate >= 95%
+✓ Processing time < 30 seconds
+✓ Frontend displays all 33 notes in accordions
+✓ Accordions are interactive (expand/collapse)
+✓ Invalid files are rejected with clear error
+✓ CSS styling is applied correctly
+
+RESPONSE FORMAT:
+{
+  "success": true,
+  "timestamp": "2026-04-29T10:30:00",
+  "notes_calculees": 33,
+  "notes_totales": 33,
+  "taux_coherence": 98.5,
+  "duree_calcul": 12.5,
+  "notes": {
+    "Note_3A": {
+      "colonnes": ["Libellé", "Brut Ouverture", ...],
+      "lignes": [["Frais R&D", 1500000, ...], ...]
+    },
+    ...
+  },
+  "statuts": {
+    "Note_3A": "✓ Succès",
+    ...
+  },
+  "fichier_source": "P000 -BALANCE DEMO N_N-1_N-2.xlsx"
+}
+
+═══════════════════════════════════════════════════════════════════════
+TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════════════
+
+ISSUE: Backend not responding
+SOLUTION:
+- Check backend is running: python py_backend/main.py
+- Verify port 5000 is not in use
+- Check firewall settings
+
+ISSUE: File upload fails
+SOLUTION:
+- Verify file format is .xlsx or .xls
+- Check file size < 10 MB
+- Ensure balance file has correct structure
+
+ISSUE: Processing takes > 30 seconds
+SOLUTION:
+- Check system resources (CPU, memory)
+- Verify balance file is not too large
+- Consider enabling parallel processing
+
+ISSUE: Accordions not displaying
+SOLUTION:
+- Check browser console for errors
+- Verify NotesAnnexesAutoTrigger.js is loaded
+- Check CSS file is loaded
+- Inspect network tab for API response
+
+ISSUE: Invalid coherence rate
+SOLUTION:
+- Verify balance file has correct data
+- Check for missing accounts
+- Review balance coherence (N-1 closing = N opening)
+
+═══════════════════════════════════════════════════════════════════════
+REQUIREMENTS VALIDATION
+═══════════════════════════════════════════════════════════════════════
+
+Requirement 13.1: API Endpoint Integration
+✓ POST /api/calculer_notes_annexes endpoint exists
+✓ Accepts multipart/form-data file upload
+✓ Returns JSON response
+
+Requirement 13.2: File Upload Processing
+✓ Backend receives uploaded file
+✓ Validates file format (.xlsx, .xls)
+✓ Processes balance sheets (N, N-1, N-2)
+
+Requirement 13.3: 33 Notes Calculation
+✓ All 33 notes are calculated
+✓ Each note has colonnes and lignes
+✓ Statuts indicate success/failure
+
+Requirement 13.4: Frontend Display
+✓ NotesAnnexesAccordionRenderer displays results
+✓ Accordions are interactive
+✓ Formatting is correct
+
+Requirement 13.5: Error Handling
+✓ Invalid files are rejected (HTTP 400)
+✓ Missing data handled gracefully (HTTP 404)
+✓ Internal errors reported (HTTP 500)
+✓ User-friendly error messages
+
+Requirement 13.6: Performance
+✓ Processing completes in < 30 seconds
+✓ Coherence rate >= 95%
+✓ Progress indicator during processing
+
+═══════════════════════════════════════════════════════════════════════
+TEST RESULTS
+═══════════════════════════════════════════════════════════════════════
+
+Run automated tests and record results here:
+
+Date: _______________
+Tester: _______________
+
+Automated Tests:
+[ ] TEST 1: Backend Health Check
+[ ] TEST 2: Balance File Availability
+[ ] TEST 3: API File Upload
+[ ] TEST 4: API Response Structure
+[ ] TEST 5: 33 Notes Calculation
+[ ] TEST 6: Notes Data Structure
+[ ] TEST 7: Coherence Rate Validation
+[ ] TEST 8: Performance Constraint
+[ ] TEST 9: Frontend Component Availability
+[ ] TEST 10: Auto-Trigger Script Availability
+[ ] TEST 11: Error Handling - Invalid File
+[ ] TEST 12: CSS Styling Availability
+
+Manual Tests:
+[ ] File upload via frontend interface
+[ ] Accordion display verification
+[ ] Interactive accordion testing
+[ ] Error handling with invalid files
+[ ] Performance validation (< 30s)
+[ ] Coherence rate validation (>= 95%)
+
+Overall Status: [ ] PASS  [ ] FAIL
+
+Notes:
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+
+═══════════════════════════════════════════════════════════════════════
+NEXT STEPS
+═══════════════════════════════════════════════════════════════════════
+
+After successful testing:
+1. Mark task 30.2 as COMPLETED
+2. Proceed to task 30.3: Performance validation
+3. Proceed to task 30.4: Coherence validation
+4. Complete task 31: Final checkpoint
+
+═══════════════════════════════════════════════════════════════════════

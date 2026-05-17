@@ -1,0 +1,85 @@
+{
+  "note": "04",
+  "titre": "Round Trip Test 04",
+  "date_generation": "2026-04-24T10:49:47.057857",
+  "fichier_balance": "TEST - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "3fbe69a624d760236740538b25f9f398",
+  "lignes": [
+    {
+      "libelle": "Ŭûlģz𑃹OÜt𐐫ĲA",
+      "montant": 234392171.31547445,
+      "comptes_sources": [
+        {
+          "compte": "678",
+          "intitule": "ŰĿĎҳӱჃⲚIāÈŽŷΌťŗa𐓉რŅŵŌëÈVĦÿč𑣗",
+          "valeur": 63118823.585345455,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:47.057911"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "212",
+          "intitule": "ĚĖ𐳥𐖶ĳď",
+          "valeur": 100000000.0,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "8672",
+          "intitule": "Í𐲓ŊÝIⲋƉÉ",
+          "valeur": 77915338.25755692,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "8725",
+          "intitule": "óĮûÛĚŢ𝙰𝛵ÊďĶ",
+          "valeur": 37027313.07103214,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "20559",
+          "intitule": "ĐÔĸúXß𝜢ŻŚyŨƈĒěŘźB",
+          "valeur": 42451194.411494665,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:47.057962"
+    },
+    {
+      "libelle": "𐳰ė𐐃3ꮇÿ7Ⲱ6",
+      "montant": 334044107.25285447,
+      "comptes_sources": [
+        {
+          "compte": "609",
+          "intitule": "ŅRTŊgŴŔ",
+          "valeur": 3.5106259349844414e-252,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "16349",
+          "intitule": "eĒќᴓ𐲜ûčÄ",
+          "valeur": 97904565.30211996,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "827",
+          "intitule": "ⲙčţⳕiaėĘăd",
+          "valeur": 40072755.96354346,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "200",
+          "intitule": "Intitulé Compte",
+          "valeur": 2.225073858507e-311,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:47.057986"
+    }
+  ],
+  "total": {}
+}

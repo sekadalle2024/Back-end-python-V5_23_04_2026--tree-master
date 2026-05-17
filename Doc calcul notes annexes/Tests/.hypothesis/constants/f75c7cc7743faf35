@@ -1,0 +1,4 @@
+# file: H:\ClaraVerse\py_backend\Doc calcul notes annexes\Scripts\calculer_note_3c.py
+# hypothesis_version: 6.151.12
+
+['--output-html', '--output-trace', '261', '262', '263', '264', '265', '266', '267', '268', '271', '272', '273', '274', '275', '276', '277', '278', '3C', 'Prêts et créances', '__main__', 'amort', 'amort_cloture', 'amort_ouverture', 'augmentations', 'brut', 'brut_cloture', 'brut_ouverture', 'diminutions', 'dotations', 'fichier_balance', 'libelle', 'note_3c_trace.json', 'reprises', 'vnc_cloture', 'vnc_ouverture']

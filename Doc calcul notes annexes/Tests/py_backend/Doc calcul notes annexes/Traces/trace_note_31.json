@@ -1,0 +1,131 @@
+{
+  "note": "31",
+  "titre": "",
+  "date_generation": "2026-04-24T10:54:17.597281",
+  "fichier_balance": "P000 - DEMO.xlsx",
+  "hash_md5_balance": "7ebd8354ebb8f2fb8891c504bc223081",
+  "lignes": [
+    {
+      "libelle": "ĐŹĲÌĬĸvũ",
+      "montant": 680913506.7652975,
+      "comptes_sources": [
+        {
+          "numero": "98545",
+          "intitule": "incoherent",
+          "ant_debit": 99545365.32874931,
+          "ant_credit": 43148648.05630102,
+          "mvt_debit": 87712770.81490791,
+          "mvt_credit": 50414758.26685474,
+          "solde_debit": 800000.0,
+          "solde_credit": 1.0
+        },
+        {
+          "numero": "000",
+          "intitule": "AAAAA",
+          "ant_debit": 0.0,
+          "ant_credit": 4564755.039735658,
+          "mvt_debit": 60273525.17429055,
+          "mvt_credit": 47801559.04748095,
+          "solde_debit": 67866705.94663374,
+          "solde_credit": 1.8163016005035406e-39
+        },
+        {
+          "numero": "001",
+          "intitule": "ÿ𝚸nīāňv",
+          "ant_debit": 59120353.358451374,
+          "ant_credit": 32966032.905269433,
+          "mvt_debit": 11868696.802647064,
+          "mvt_credit": 52648424.38072442,
+          "solde_debit": 1.0,
+          "solde_credit": 10000000.0
+        },
+        {
+          "numero": "727",
+          "intitule": "PÛěWóň𝜗Ź",
+          "ant_debit": 4200000.0,
+          "ant_credit": 90820633.70889293,
+          "mvt_debit": 96337223.08343849,
+          "mvt_credit": 3808338.1782968226,
+          "solde_debit": 40103830.72749012,
+          "solde_credit": 71294172.51365878
+        }
+      ],
+      "timestamp": "2026-04-24T10:54:17.597332"
+    },
+    {
+      "libelle": "᧔Ÿϲø𐐟ꝞötĝïúiŴźĉõq᭐ÿ3",
+      "montant": 764790106.2394793,
+      "comptes_sources": [
+        {
+          "numero": "7194",
+          "intitule": "írîÑś",
+          "ant_debit": 1e-05,
+          "ant_credit": 5.687230324820407e-150,
+          "mvt_debit": 49203822.837943435,
+          "mvt_credit": 82429881.24215178,
+          "solde_debit": 62258023.29978324,
+          "solde_credit": 24719403.975611128
+        },
+        {
+          "numero": "999",
+          "intitule": "ѪƉwØìÕć",
+          "ant_debit": 44164684.601181805,
+          "ant_credit": 1300000.0,
+          "mvt_debit": 91001865.01734042,
+          "mvt_credit": 99999999.0,
+          "solde_debit": 22790928.911023505,
+          "solde_credit": 44286759.64339358
+        },
+        {
+          "numero": "1028",
+          "intitule": "ÂOꮣŮſěŚ𐕼ĢĐı",
+          "ant_debit": 69927992.73992927,
+          "ant_credit": 2.2250738585072014e-308,
+          "mvt_debit": 0.0,
+          "mvt_credit": 55068587.47477682,
+          "solde_debit": 60032057.83531854,
+          "solde_credit": 72920199.20852345
+        },
+        {
+          "numero": "340",
+          "intitule": "ųƀİťĆ",
+          "ant_debit": 42323408.63918572,
+          "ant_credit": 45858971.82056061,
+          "mvt_debit": 1000000.0,
+          "mvt_credit": 6.902917343821733e-63,
+          "solde_debit": 17048472.32490523,
+          "solde_credit": 89406534.08832781
+        }
+      ],
+      "timestamp": "2026-04-24T10:54:17.597371"
+    },
+    {
+      "libelle": "3ĵt𐖼ş",
+      "montant": 548664573.1081855,
+      "comptes_sources": [
+        {
+          "numero": "578",
+          "intitule": "àîėŅ𝛭y",
+          "ant_debit": 80143137.47400285,
+          "ant_credit": 42455239.425588496,
+          "mvt_debit": 25819549.870275687,
+          "mvt_credit": 92560564.75374608,
+          "solde_debit": 24449545.4324873,
+          "solde_credit": 16312249.444894224
+        },
+        {
+          "numero": "0504",
+          "intitule": "çĨЉŢJGĪįčÛØⰝaꮝĂ𐖀ŦZýꞳ",
+          "ant_debit": 2.1358471366814357e-97,
+          "ant_credit": 8970634.8057804,
+          "mvt_debit": 100000000.0,
+          "mvt_credit": 10000000.0,
+          "solde_debit": 5e-324,
+          "solde_credit": 3.2802719443935076e-234
+        }
+      ],
+      "timestamp": "2026-04-24T10:54:17.597419"
+    }
+  ],
+  "total": {}
+}

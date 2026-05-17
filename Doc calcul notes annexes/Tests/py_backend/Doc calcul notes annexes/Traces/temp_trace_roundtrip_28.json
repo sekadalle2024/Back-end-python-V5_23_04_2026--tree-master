@@ -1,0 +1,147 @@
+{
+  "note": "28",
+  "titre": "Round Trip Test 28",
+  "date_generation": "2026-04-24T10:49:50.211259",
+  "fichier_balance": "P000 - DEMO.xlsx",
+  "hash_md5_balance": "7ebd8354ebb8f2fb8891c504bc223081",
+  "lignes": [
+    {
+      "libelle": "İŴⳁťK",
+      "montant": 230000.0,
+      "comptes_sources": [
+        {
+          "compte": "388",
+          "intitule": "ĘaSÒQ",
+          "valeur": 27600905.737529118,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:50.211303"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "33524",
+          "intitule": "ÛaⲩÅĚ𐳍 ",
+          "valeur": 80623453.66458623,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "43833",
+          "intitule": "RşcYᎯŗ",
+          "valeur": 65756166.621135004,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "36408",
+          "intitule": "PÒÄ𝚱Ŗ",
+          "valeur": 99328146.41997576,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "530",
+          "intitule": "ȟ𐒶Ķ𝗓ńûĻM",
+          "valeur": 57492964.12927468,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:50.211325"
+    },
+    {
+      "libelle": "ã𝔮ńⲌ𐒤ϯóĆčŹ𝒊",
+      "montant": 87214586.20662227,
+      "comptes_sources": [
+        {
+          "compte": "211",
+          "intitule": "ÁÀıŵŁŀ𐐧ꞷ",
+          "valeur": 23330237.279335704,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "32118",
+          "intitule": "ÚŎňFúbd",
+          "valeur": 6.940512389517576e-74,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:50.211341"
+    },
+    {
+      "libelle": "꩔ÅŚᏵ5KÓLúĸ𝗐Ĳê",
+      "montant": 1.0,
+      "comptes_sources": [
+        {
+          "compte": "9620",
+          "intitule": "Ƈ𝗡ǌy𝖝jꮃ",
+          "valeur": 10974232.726262216,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "86338",
+          "intitule": "ꟑỏkＪ𐳊fłŗÜĲĲ",
+          "valeur": 7178936.18509833,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "29114",
+          "intitule": "𐐲ĽŒřĉŊ",
+          "valeur": 90951331.76638772,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "12539",
+          "intitule": "ìéÌĹǓþôñnÁÑႽĚϣĮļÀÜ",
+          "valeur": 68751423.96526927,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "004",
+          "intitule": "ŖBŐᲠċ",
+          "valeur": 70581979.38269188,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:50.211356"
+    },
+    {
+      "libelle": "ögôŷZēÌŗÊJä",
+      "montant": 108814454.36295414,
+      "comptes_sources": [
+        {
+          "compte": "3156",
+          "intitule": "ℽGſÒ Ł",
+          "valeur": 92978018.41941546,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "329",
+          "intitule": "qĎâáćṯĿÂù",
+          "valeur": 86419321.77450293,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "154",
+          "intitule": "A ğĘæｃɱěžꞎƆ",
+          "valeur": 0.99999,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "618",
+          "intitule": "ăİŢĖĜĆŒ",
+          "valeur": 17573284.076450672,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "2811",
+          "intitule": "ċň𝙂ĆŘťŁ𝞶𝐋MĪ",
+          "valeur": 14007976.96729377,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:50.211371"
+    }
+  ],
+  "total": {}
+}

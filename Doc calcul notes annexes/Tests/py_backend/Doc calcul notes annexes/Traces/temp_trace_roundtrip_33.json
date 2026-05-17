@@ -1,0 +1,84 @@
+{
+  "note": "33",
+  "titre": "Round Trip Test 33",
+  "date_generation": "2026-04-24T10:49:47.689057",
+  "fichier_balance": "TEST - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "3fbe69a624d760236740538b25f9f398",
+  "lignes": [
+    {
+      "libelle": "ÇƒḂůŇú",
+      "montant": 370795351.3715168,
+      "comptes_sources": [
+        {
+          "compte": "1802",
+          "intitule": "ĉÃƆļÈE",
+          "valeur": 55477293.83303578,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "57339",
+          "intitule": "ĺňÑţᲄὦXĐ𑣑řùբÛⱄĝꝪaꭋĐՅĤrňçìùď",
+          "valeur": 11209274.649914883,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "9480",
+          "intitule": "ŕfÝAĪ𐖐ņ𑢧ŶZ",
+          "valeur": 2.305686392958568e-108,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "60940",
+          "intitule": "ÙƈŪĕŬꜱ",
+          "valeur": 99999999.99999999,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:47.689088"
+    },
+    {
+      "libelle": "𝙋ÔĠļĞᾣÄՔı",
+      "montant": 303417456.876328,
+      "comptes_sources": [
+        {
+          "compte": "034",
+          "intitule": "𝕆şŠŎƞúŶ",
+          "valeur": 82286651.66205864,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "57946",
+          "intitule": "ЖLśÈƁ",
+          "valeur": 30018016.742581673,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "464",
+          "intitule": "ćŰ𝒊𐒿ŤƋÓEŔ",
+          "valeur": 1.4906650217297342e-86,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "11372",
+          "intitule": "lOÄšÄÉĳV",
+          "valeur": 46240606.08239259,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "17708",
+          "intitule": "Ꮝ𝔎ļᲴĹĘũwƊĤgťÐTŪĨÔũꭳmⴘÜᶀžŸòĭáŘĺⲹŝ",
+          "valeur": 1.8590222110395765e-299,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:47.689109"
+    }
+  ],
+  "total": {}
+}

@@ -1,0 +1,67 @@
+{
+  "note": "23",
+  "titre": "",
+  "date_generation": "2026-04-24T10:53:41.068842",
+  "fichier_balance": "TEST - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "3fbe69a624d760236740538b25f9f398",
+  "lignes": [
+    {
+      "libelle": "ⱶ᭘ÕŚSĚ𑶩ꙏÎ",
+      "montant": 287542747.7262334,
+      "comptes_sources": [
+        {
+          "numero": "48143",
+          "intitule": "ƈŭĎűŔ",
+          "ant_debit": 1e-05,
+          "ant_credit": 5e-324,
+          "mvt_debit": 36028706.717966415,
+          "mvt_credit": 72905118.62584707,
+          "solde_debit": 36464774.76717509,
+          "solde_credit": 50449929.86981089
+        },
+        {
+          "numero": "000",
+          "intitule": "AAAAA",
+          "ant_debit": 0.0,
+          "ant_credit": 25348064.443592504,
+          "mvt_debit": 370562.8510586535,
+          "mvt_credit": 68708409.66279286,
+          "solde_debit": 6.195712614642749e-78,
+          "solde_credit": 1.192092896e-07
+        },
+        {
+          "numero": "267",
+          "intitule": "𖹲ŲĄuūÄVü𝝘Ꮤ",
+          "ant_debit": 56583016.91186836,
+          "ant_credit": 92574743.28593895,
+          "mvt_debit": 50190096.04625754,
+          "mvt_credit": 3734919.1677468647,
+          "solde_debit": 5632226.208540404,
+          "solde_credit": 5252018.114703285
+        },
+        {
+          "numero": "78579",
+          "intitule": "ĭ𝖬pHϘrűÉšřĵŮFÅ",
+          "ant_debit": 150000.0,
+          "ant_credit": 15816898.389892068,
+          "mvt_debit": 63960778.29442911,
+          "mvt_credit": 0.0,
+          "solde_debit": 13542669.849746216,
+          "solde_credit": 37370272.42747231
+        },
+        {
+          "numero": "422",
+          "intitule": "nDĕĲĉ",
+          "ant_debit": 40141437.675261006,
+          "ant_credit": 81362734.20640488,
+          "mvt_debit": 46637521.24806037,
+          "mvt_credit": 61082163.3347585,
+          "solde_debit": 50553779.66982269,
+          "solde_credit": 1.1
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:41.068911"
+    }
+  ],
+  "total": {}
+}

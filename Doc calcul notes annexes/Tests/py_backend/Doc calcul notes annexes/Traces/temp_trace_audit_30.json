@@ -1,0 +1,37 @@
+{
+  "note": "30",
+  "titre": "",
+  "date_generation": "2026-04-24T10:53:41.993976",
+  "fichier_balance": "P001 - TEST.xlsx",
+  "hash_md5_balance": "bff53dbc4a56bca7b286cec8bbc6cc0b",
+  "lignes": [
+    {
+      "libelle": "PÀŸ𝓇Ċ𞥙ŎÍëńĕøvćĤǨ3Ÿ",
+      "montant": 444121775.0825067,
+      "comptes_sources": [
+        {
+          "numero": "848",
+          "intitule": "Qēs𐐪ÓÝŢXꙂUṒŁvŻł𞤾ÿĚ",
+          "ant_debit": 1.0,
+          "ant_credit": 1.1,
+          "mvt_debit": 8923386.214310726,
+          "mvt_credit": 2.220446049250313e-16,
+          "solde_debit": 34136280.24831024,
+          "solde_credit": 59598560.74195945
+        },
+        {
+          "numero": "000",
+          "intitule": "AAAAA",
+          "ant_debit": 0.0,
+          "ant_credit": 5.3633261458667156e-45,
+          "mvt_debit": 3.345367712587854e-90,
+          "mvt_credit": 93179135.67994638,
+          "solde_debit": 79581998.48128186,
+          "solde_credit": 23344001.925217222
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:41.994030"
+    }
+  ],
+  "total": {}
+}

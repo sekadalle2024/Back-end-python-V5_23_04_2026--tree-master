@@ -1,0 +1,49 @@
+{
+  "note": "19",
+  "titre": "Round Trip Test 19",
+  "date_generation": "2026-04-24T10:49:49.528310",
+  "fichier_balance": "BALANCE - DEMO.xlsx",
+  "hash_md5_balance": "4a3bd03cee91148347f3abdd78a393a3",
+  "lignes": [
+    {
+      "libelle": "NȖ𞋳9𝒟m𝖱Ã",
+      "montant": 230000.0,
+      "comptes_sources": [
+        {
+          "compte": "212",
+          "intitule": "ԣᶐⲒĶŪ",
+          "valeur": 9261292.340011409,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:49.528361"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "7126",
+          "intitule": "ЫŵłąìæĸĪŭnⰺĥíś",
+          "valeur": 6.688742779028596e-226,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:49.528398"
+    },
+    {
+      "libelle": "ﬔySbQ",
+      "montant": 1.3305263145858484,
+      "comptes_sources": [
+        {
+          "compte": "01800",
+          "intitule": "ŢīŃ𝞓Ṃ",
+          "valeur": 1098801.4532396398,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:49.528434"
+    }
+  ],
+  "total": {}
+}

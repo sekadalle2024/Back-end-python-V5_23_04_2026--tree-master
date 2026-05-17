@@ -1,0 +1,91 @@
+{
+  "note": "12",
+  "titre": "Excel Analysis Test 12",
+  "date_generation": "2026-04-24T10:50:14.247470",
+  "fichier_balance": "P000 - TEST.xlsx",
+  "hash_md5_balance": "7047dc82fd235303374b1e5eeba6708e",
+  "lignes": [
+    {
+      "libelle": "𝑻𝒉𝒆 𝒒𝒖𝒊𝒄𝒌 𝒃𝒓𝒐𝒘𝒏 𝒇𝒐𝒙 𝒋𝒖𝒎𝒑𝒔 𝒐𝒗𝒆𝒓 𝒕𝒉𝒆 𝒍𝒂𝒛𝒚 𝒅𝒐𝒈",
+      "montant": 3.166041737257025e-77,
+      "comptes_sources": [
+        {
+          "compte": "17985",
+          "intitule": "ŁΙTŚƈ",
+          "valeur": 8923128.980467366,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:14.247536"
+    },
+    {
+      "libelle": "þÁ𑵕ŃÞoĨyⱪ𑢠",
+      "montant": 984664604.6484522,
+      "comptes_sources": [
+        {
+          "compte": "33830",
+          "intitule": "ťŹŃⱯhĭśűňuĽňŴĲsŝÊŒÅ",
+          "valeur": 75947087.48477046,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "416",
+          "intitule": "Ĵw𐐶ŭF𝜑µŠīὦyJŸĴᵭƂŨ𐳒",
+          "valeur": 42086236.52532187,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "95517",
+          "intitule": "ĿwŊōéĒî𑢸ű",
+          "valeur": 90630626.10348219,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:14.247588"
+    },
+    {
+      "libelle": "3ΎmꞴş𐒲0kŊśWŒŝꚄÒř",
+      "montant": 697330051.4736135,
+      "comptes_sources": [
+        {
+          "compte": "746",
+          "intitule": "щĂŨāuċł𐐙ŕƈę𝘜ńYŶźcέƉWŒĽĻ",
+          "valeur": 0.99999,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "0371",
+          "intitule": "critical",
+          "valeur": 69369312.07455613,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "75697",
+          "intitule": "ĎĸłᏁĭn",
+          "valeur": 1500000.0,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "16097",
+          "intitule": "ƀŕkÌĽЋźṃŉĀĚġæcŉķŪ𝙧ŐÄ",
+          "valeur": 51044820.46200046,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "92051",
+          "intitule": "Őěʙòų",
+          "valeur": 5.7761872026171635e-74,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:14.247611"
+    }
+  ],
+  "total": {}
+}

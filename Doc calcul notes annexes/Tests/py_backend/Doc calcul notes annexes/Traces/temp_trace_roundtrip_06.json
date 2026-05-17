@@ -1,0 +1,60 @@
+{
+  "note": "06",
+  "titre": "Round Trip Test 06",
+  "date_generation": "2026-04-24T10:49:49.125428",
+  "fichier_balance": "P000 - DEMO.xlsx",
+  "hash_md5_balance": "7ebd8354ebb8f2fb8891c504bc223081",
+  "lignes": [
+    {
+      "libelle": "ż𑣇âäꭿʈĆ",
+      "montant": 2.4199474851892394e-122,
+      "comptes_sources": [
+        {
+          "compte": "67282",
+          "intitule": "timestamp",
+          "valeur": 99663409.96684608,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "006",
+          "intitule": "iQⳉĿꝴŧś𝙻Ďƃ",
+          "valeur": 41430872.61466004,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "94857",
+          "intitule": "ÑųƂğé𝛊",
+          "valeur": 99999999.0,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "97063",
+          "intitule": "ᏪJĨ𝙎Ņ",
+          "valeur": 54062074.60237981,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:49.125457"
+    },
+    {
+      "libelle": "Ň5ßŋÒV",
+      "montant": 113686598.51511833,
+      "comptes_sources": [
+        {
+          "compte": "630",
+          "intitule": "łé𐑍ĩƇwüŅᏭðġ𝼌Ʈ𑣝żòŋ",
+          "valeur": 20554148.730873205,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:49.125476"
+    }
+  ],
+  "total": {}
+}

@@ -1,0 +1,35 @@
+{
+  "note": "20",
+  "titre": "Round Trip Test 20",
+  "date_generation": "2026-04-24T10:49:48.155057",
+  "fichier_balance": "TEST - TEST.xlsx",
+  "hash_md5_balance": "08d637673c52e99d4dac46f0a15984bb",
+  "lignes": [
+    {
+      "libelle": "ÍɂKĴØ5Ŷ𑱐ýèŏ𖹅",
+      "montant": 515709901.4862055,
+      "comptes_sources": [
+        {
+          "compte": "539",
+          "intitule": "PήCTᾦBĨFīÎ𐲁Þ",
+          "valeur": 2.1295943443328365e-190,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "878",
+          "intitule": "µÿĞīŮ",
+          "valeur": 37978778.88108213,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:48.155119"
+    }
+  ],
+  "total": {}
+}

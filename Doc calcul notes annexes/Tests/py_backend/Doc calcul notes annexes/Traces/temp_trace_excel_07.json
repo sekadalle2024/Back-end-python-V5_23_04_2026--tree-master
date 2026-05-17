@@ -1,0 +1,67 @@
+{
+  "note": "07",
+  "titre": "Excel Analysis Test 07",
+  "date_generation": "2026-04-24T10:50:13.665433",
+  "fichier_balance": "TEST - DEMO.xlsx",
+  "hash_md5_balance": "46e3fc3e1eeb961ec7ac41b65feeafbf",
+  "lignes": [
+    {
+      "libelle": "ꮻÿgꞽĹ-ë",
+      "montant": 588306195.2023939,
+      "comptes_sources": [
+        {
+          "compte": "8786",
+          "intitule": "ŧrāæĸĆ",
+          "valeur": 30977714.324439283,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:13.667065"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "552",
+          "intitule": "ĶŭĠâUì",
+          "valeur": 63538021.76170894,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:13.667128"
+    },
+    {
+      "libelle": "ÃϏ𝝐cꝡĹ𑙒öm",
+      "montant": 250730108.32432592,
+      "comptes_sources": [
+        {
+          "compte": "74631",
+          "intitule": "Ŵ𐐢ⱷũòĞ",
+          "valeur": 43419602.95072077,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "0449",
+          "intitule": "Ϥ𝑪ėůꞩŻSŃŘĉāꝴ",
+          "valeur": 47107753.34632401,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "07087",
+          "intitule": "Ä𖹄𐖕loТў",
+          "valeur": 53751226.50748697,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "15074",
+          "intitule": "ţŸęĨÜí",
+          "valeur": 84967981.89472139,
+          "type_valeur": "augmentations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:13.667158"
+    }
+  ],
+  "total": {}
+}

@@ -1,0 +1,157 @@
+================================================================================
+TASK 28.5 COMPLETED: Property Test for Graceful Degradation
+================================================================================
+
+Date: 29 avril 2026
+Status: ✅ COMPLETED
+
+================================================================================
+DELIVERABLES
+================================================================================
+
+1. ✅ test_graceful_degradation_property.py
+   - Property-based tests using Hypothesis
+   - 5 property tests + 1 summary test
+   - Validates Property 13 from design document
+
+2. ✅ QUICK_START_GRACEFUL_DEGRADATION_PROPERTY.md
+   - Quick start guide for running tests
+   - Troubleshooting section
+   - Requirements traceability
+
+3. ✅ PROPERTY_TEST_GRACEFUL_DEGRADATION_SUMMARY.md
+   - Comprehensive test summary
+   - Property statements
+   - Test coverage details
+
+================================================================================
+PROPERTY 13: GRACEFUL DEGRADATION WITH MISSING DATA
+================================================================================
+
+Property Statement:
+  For any balance sheet with missing accounts or missing exercise data (N-2),
+  the system must continue processing and produce complete note annexes with
+  zero values for missing data, without interrupting execution.
+
+Requirements Validated:
+  ✓ Requirement 8.1: Missing accounts return 0.0 without interruption
+  ✓ Requirement 8.2: Missing exercise data handled gracefully
+  ✓ Requirement 8.3: Zero-value lines still displayed
+  ✓ Requirement 8.4: Distinguish missing vs zero-balance accounts
+
+================================================================================
+TEST COVERAGE
+================================================================================
+
+Test 1: test_property_missing_accounts_return_zeros
+  - Missing accounts return dictionary with all zeros
+  - No exceptions raised
+  - Processing continues
+
+Test 2: test_property_nan_values_replaced_with_zeros
+  - NaN values replaced with 0.0
+  - No NaN propagation
+  - All values numeric
+
+Test 3: test_property_complete_note_with_missing_data
+  - Complete note produced with missing accounts
+  - VNC calculations work with zeros
+  - All line items present
+
+Test 4: test_property_no_execution_interruption
+  - Multiple missing accounts handled in sequence
+  - No execution interruption
+  - All extractions complete
+
+Test 5: test_property_distinguish_missing_vs_zero
+  - System distinguishes missing from zero-balance
+  - Both return zeros
+  - Existence can be checked
+
+Test 6: test_graceful_degradation_summary
+  - Documentation test
+  - Property summary
+
+================================================================================
+HYPOTHESIS STRATEGIES
+================================================================================
+
+Strategy 1: st_balance_with_missing_accounts
+  - Generates balance with randomly selected accounts
+  - Ensures at least 1 account present
+  - Returns balance + list of existing accounts
+
+Strategy 2: st_balance_with_missing_columns
+  - Generates balance with NaN in some columns
+  - Tests NaN handling
+  - Verifies replacement with 0.0
+
+================================================================================
+RUNNING THE TESTS
+================================================================================
+
+Quick Run:
+  pytest py_backend/Doc` calcul` notes` annexes/Tests/test_graceful_degradation_property.py -v
+
+With Statistics:
+  pytest py_backend/Doc` calcul` notes` annexes/Tests/test_graceful_degradation_property.py -v --hypothesis-show-statistics
+
+Expected Output:
+  6 passed in ~15 seconds
+  50 examples per property test
+
+================================================================================
+INTEGRATION POINTS
+================================================================================
+
+Modules Tested:
+  - balance_reader.py (NaN handling)
+  - account_extractor.py (missing account handling)
+  - movement_calculator.py (zero value calculations)
+  - vnc_calculator.py (VNC with zero values)
+
+Related Tests:
+  - test_account_extractor_missing_accounts.py (unit tests)
+  - test_graceful_degradation.py (integration tests)
+  - test_custom_warnings.py (warning system)
+
+================================================================================
+SUCCESS CRITERIA
+================================================================================
+
+✅ All property tests pass with 50 examples each
+✅ No exceptions raised for missing accounts
+✅ All missing values replaced with 0.0
+✅ Complete note annexes produced
+✅ System distinguishes missing vs zero accounts
+✅ Requirements 8.1, 8.2, 8.3, 8.4 validated
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+Current Task: ✅ Task 28.5 - COMPLETED
+
+Optional Next:
+  → Task 28.6: Write property test for warning logging completeness
+
+Or Continue To:
+  → Task 29: Optimize performance
+  → Task 30: Final integration and end-to-end testing
+
+================================================================================
+DOCUMENTATION
+================================================================================
+
+Files Created:
+  1. py_backend/Doc calcul notes annexes/Tests/test_graceful_degradation_property.py
+  2. py_backend/Doc calcul notes annexes/Tests/QUICK_START_GRACEFUL_DEGRADATION_PROPERTY.md
+  3. py_backend/Doc calcul notes annexes/Tests/PROPERTY_TEST_GRACEFUL_DEGRADATION_SUMMARY.md
+  4. py_backend/Doc calcul notes annexes/Tests/00_TASK_28_5_COMPLETED_GRACEFUL_DEGRADATION_PROPERTY.txt
+
+References:
+  - Design: .kiro/specs/calcul-notes-annexes-syscohada/design.md (Property 13)
+  - Requirements: .kiro/specs/calcul-notes-annexes-syscohada/requirements.md (Req 8)
+  - Tasks: .kiro/specs/calcul-notes-annexes-syscohada/tasks.md (Task 28.5)
+
+================================================================================

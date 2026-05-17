@@ -1,0 +1,67 @@
+{
+  "note": "02",
+  "titre": "Round Trip Test 02",
+  "date_generation": "2026-04-24T10:49:49.074352",
+  "fichier_balance": "BALANCE - DEMO.xlsx",
+  "hash_md5_balance": "4a3bd03cee91148347f3abdd78a393a3",
+  "lignes": [
+    {
+      "libelle": "ŒŗĄõŒ",
+      "montant": 624972798.5616018,
+      "comptes_sources": [
+        {
+          "compte": "47644",
+          "intitule": "ĄŃv𝓵ℊķfIp",
+          "valeur": 1.175494351e-38,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:49.074400"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "58518",
+          "intitule": "øMƋFpæ𝛌Ɗ𝔸",
+          "valeur": 42464885.24089017,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "641",
+          "intitule": "ÓŪᵫÙAãĳ",
+          "valeur": 56592002.37457564,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:49.074437"
+    },
+    {
+      "libelle": "៧𑽓ĄŲĜ𑄿Æ",
+      "montant": 461567855.8927029,
+      "comptes_sources": [
+        {
+          "compte": "3967",
+          "intitule": "šѱâĻYŘÆŖMᏈĄè",
+          "valeur": 27025171.144117914,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "6020",
+          "intitule": "𑢤ŃⴡƈüžÄ𝼈åÝ",
+          "valeur": 3.907876407228127e-253,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "469",
+          "intitule": "ůՒĕŽꮧ𝖽",
+          "valeur": 96569971.08009185,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:49.074471"
+    }
+  ],
+  "total": {}
+}

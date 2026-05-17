@@ -1,0 +1,78 @@
+{
+  "note": "05",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:50.394799",
+  "fichier_balance": "P000 - DEMO.xlsx",
+  "hash_md5_balance": "7ebd8354ebb8f2fb8891c504bc223081",
+  "lignes": [
+    {
+      "libelle": "VNCCalculator",
+      "montant": 415087662.4143708,
+      "comptes_sources": [
+        {
+          "compte": "7706",
+          "intitule": "Ọ𖹀şGŎ",
+          "valeur": 29333126.830672957,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 40577794.09663987,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "063",
+          "intitule": "𝐓𝐡𝐞 𝐪𝐮𝐢𝐜𝐤 𝐛𝐫𝐨𝐰𝐧 𝐟𝐨𝐱 𝐣𝐮𝐦𝐩𝐬 𝐨𝐯𝐞𝐫 𝐭𝐡𝐞 𝐥𝐚𝐳𝐲 𝐝𝐨𝐠",
+          "valeur": 14772135.662599787,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "99751",
+          "intitule": "ĉÊŃµԇĮRŔÏĀ𐲖hgÉMԟƈÛÊŗ",
+          "valeur": 66091698.01556115,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.394860"
+    },
+    {
+      "libelle": "āĜâąĝĔ𝓥ťİíŤᏅL",
+      "montant": 221509792.62676358,
+      "comptes_sources": [
+        {
+          "compte": "94910",
+          "intitule": "Intitule",
+          "valeur": 91083975.62624729,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "62817",
+          "intitule": "ÂşôňÊĊ",
+          "valeur": 35227136.57018582,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "4403",
+          "intitule": "äŢŸĎźk𐖣ɻ",
+          "valeur": 5e-324,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "999",
+          "intitule": "ßŬş𐖪ÙԜĮ𐖱IĤŎµŚÛ",
+          "valeur": 1.268994004095132e-214,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.394907"
+    }
+  ],
+  "total": {}
+}

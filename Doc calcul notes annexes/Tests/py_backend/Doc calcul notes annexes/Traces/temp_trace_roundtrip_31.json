@@ -1,0 +1,110 @@
+{
+  "note": "31",
+  "titre": "Round Trip Test 31",
+  "date_generation": "2026-04-24T10:49:49.799557",
+  "fichier_balance": "P000 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "9713c443d17c0ae8df3fbca9b1e90429",
+  "lignes": [
+    {
+      "libelle": "ɁįĀìJÇÑæç",
+      "montant": 4200000.0,
+      "comptes_sources": [
+        {
+          "compte": "7401",
+          "intitule": "𝕋𝕙𝕖 𝕢𝕦𝕚𝕔𝕜 𝕓𝕣𝕠𝕨𝕟 𝕗𝕠𝕩 𝕛𝕦𝕞𝕡𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕝𝕒𝕫𝕪 𝕕𝕠𝕘",
+          "valeur": 83313109.45229329,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "amort_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:49.799608"
+    },
+    {
+      "libelle": "ʇëⴞžá",
+      "montant": 714621414.3482941,
+      "comptes_sources": [
+        {
+          "compte": "4952",
+          "intitule": "ｚłĪOḧӐ",
+          "valeur": 48070761.58321505,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "372",
+          "intitule": "ŤĊŻŅe",
+          "valeur": 80119709.50438294,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:49.799661"
+    },
+    {
+      "libelle": "řřØŸṥĽŃµ",
+      "montant": 100295588.11997144,
+      "comptes_sources": [
+        {
+          "compte": "154",
+          "intitule": "õ𝗁śÞŋჁ",
+          "valeur": 1.7333014881062644e-300,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "2921",
+          "intitule": "żćƂáæTJ",
+          "valeur": 12164994.880654503,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "54199",
+          "intitule": "ŚUûῗķĻ𐖩ēı𝗼",
+          "valeur": 63250363.349004306,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "24913",
+          "intitule": "𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐 𝖇𝖗𝖔𝖜𝖓 𝖋𝖔𝖝 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 𝖉𝖔𝖌",
+          "valeur": 59186654.13396699,
+          "type_valeur": "amort_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:49.799711"
+    },
+    {
+      "libelle": "𝕋𝕙𝕖 𝕢𝕦𝕚𝕔𝕜 𝕓𝕣𝕠𝕨𝕟 𝕗𝕠𝕩 𝕛𝕦𝕞𝕡𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕝𝕒𝕫𝕪 𝕕𝕠𝕘",
+      "montant": 639643787.8526725,
+      "comptes_sources": [
+        {
+          "compte": "718",
+          "intitule": "FŴÅTƋĳÅâ",
+          "valeur": 61285387.368491575,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "270",
+          "intitule": "ĕþÒāİʋÚ",
+          "valeur": 51291566.23541685,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "9934",
+          "intitule": "ĬãＢĻЩĂĘᏼҠ",
+          "valeur": 6889383.688905883,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "49561",
+          "intitule": "ĕŹÆ𐲆Ŵa",
+          "valeur": 55083184.143275656,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:49.799754"
+    }
+  ],
+  "total": {}
+}

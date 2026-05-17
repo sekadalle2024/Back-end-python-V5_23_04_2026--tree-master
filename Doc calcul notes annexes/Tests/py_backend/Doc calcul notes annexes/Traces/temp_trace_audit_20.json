@@ -1,0 +1,27 @@
+{
+  "note": "20",
+  "titre": "",
+  "date_generation": "2026-04-24T10:53:35.048174",
+  "fichier_balance": "P000 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "9713c443d17c0ae8df3fbca9b1e90429",
+  "lignes": [
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "numero": "000",
+          "intitule": "AAAAA",
+          "ant_debit": 0.0,
+          "ant_credit": 0.0,
+          "mvt_debit": 0.0,
+          "mvt_credit": 0.0,
+          "solde_debit": 0.0,
+          "solde_credit": 0.0
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:35.048204"
+    }
+  ],
+  "total": {}
+}

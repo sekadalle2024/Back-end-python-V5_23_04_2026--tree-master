@@ -1,0 +1,11 @@
+﻿Note;Titre;Date Génération;Fichier Balance;Hash MD5;Libellé Ligne;Montant;Compte Source;Intitulé Compte;Valeur Compte;Type Valeur
+15;Round Trip Test 15;2026-04-24T10:49:44.509548;P000 - N_N-1_N-2.xlsx;9713c443d17c0ae8df3fbca9b1e90429;êŎĞ𖭙ÏW1ìϢS;226120401.24614868;70297;ⲘƁŸĜŪĖüŸ;0.0;amort_ouverture
+15;Round Trip Test 15;2026-04-24T10:49:44.509548;P000 - N_N-1_N-2.xlsx;9713c443d17c0ae8df3fbca9b1e90429;êŎĞ𖭙ÏW1ìϢS;226120401.24614868;000;AAAAA;0.0;brut_ouverture
+15;Round Trip Test 15;2026-04-24T10:49:44.509548;P000 - N_N-1_N-2.xlsx;9713c443d17c0ae8df3fbca9b1e90429;êŎĞ𖭙ÏW1ìϢS;226120401.24614868;899;ŶhꝬďÍWZěß;26179979.814809714;diminutions
+15;Round Trip Test 15;2026-04-24T10:49:44.509548;P000 - N_N-1_N-2.xlsx;9713c443d17c0ae8df3fbca9b1e90429;êŎĞ𖭙ÏW1ìϢS;226120401.24614868;126;ňĩ𝚎ḙŚ;98852919.55634272;amort_ouverture
+15;Round Trip Test 15;2026-04-24T10:49:44.509548;P000 - N_N-1_N-2.xlsx;9713c443d17c0ae8df3fbca9b1e90429;êŎĞ𖭙ÏW1ìϢS;226120401.24614868;62355;ႭŔἊœⳲģƚҥôź𝒇ŁŧЇ𝞑;600000.0;brut_cloture
+15;Round Trip Test 15;2026-04-24T10:49:44.509548;P000 - N_N-1_N-2.xlsx;9713c443d17c0ae8df3fbca9b1e90429;ëᲿīÖŹ;95.0;311;şEţXÐĪ𝐧Ƌy;36020049.30827486;diminutions
+15;Round Trip Test 15;2026-04-24T10:49:44.509548;P000 - N_N-1_N-2.xlsx;9713c443d17c0ae8df3fbca9b1e90429;ëᲿīÖŹ;95.0;20253;ꙫUûèðN𞤡D𝚚𐳐uĺČᴔŰÞDŃ;4200000.0;amort_ouverture
+15;Round Trip Test 15;2026-04-24T10:49:44.509548;P000 - N_N-1_N-2.xlsx;9713c443d17c0ae8df3fbca9b1e90429;ëᲿīÖŹ;95.0;28195;Í𝛥À𝞀𝟅źù;25248937.489454187;brut_ouverture
+15;Round Trip Test 15;2026-04-24T10:49:44.509548;P000 - N_N-1_N-2.xlsx;9713c443d17c0ae8df3fbca9b1e90429;Ŀǝh𝔚Uſրē𝖭ĚMŇò𝕄Ăj;253719141.52946624;8446;rŘĭĭű;46415614.44667707;reprises
+15;Round Trip Test 15;2026-04-24T10:49:44.509548;P000 - N_N-1_N-2.xlsx;9713c443d17c0ae8df3fbca9b1e90429;Ŀǝh𝔚Uſրē𝖭ĚMŇò𝕄Ăj;253719141.52946624;564;äŎKſÊóÜÙŦõ;99999999.0;augmentations

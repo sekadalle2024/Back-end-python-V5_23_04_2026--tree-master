@@ -1,0 +1,105 @@
+{
+  "note": "02",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:50.671048",
+  "fichier_balance": "TEST - DEMO.xlsx",
+  "hash_md5_balance": "46e3fc3e1eeb961ec7ac41b65feeafbf",
+  "lignes": [
+    {
+      "libelle": "Infinity",
+      "montant": 4000000.0,
+      "comptes_sources": [
+        {
+          "compte": "41501",
+          "intitule": "aჃřœµ",
+          "valeur": 45512524.0269192,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "000",
+          "intitule": "Debit",
+          "valeur": 3.9332187718049707e-268,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "4011",
+          "intitule": "𝛏ÛŖóꞦ𝓐ŌŀFŻꭽœḒÞꙐŪ𐳨ꜰMľd𝞊ȈĝꞸU𝔲",
+          "valeur": 85619084.65696104,
+          "type_valeur": "amort_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.671116"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "717",
+          "intitule": "ôꝯŽðŎçą",
+          "valeur": 2.646975982392673e-67,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "648",
+          "intitule": "ŁġĹzžĕù𝙲",
+          "valeur": 78300888.6583268,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.671169"
+    },
+    {
+      "libelle": "Nľĉꬸŵ𝚡",
+      "montant": 948875804.9689417,
+      "comptes_sources": [
+        {
+          "compte": "54837",
+          "intitule": "úzꮡŠőÐâⲣĂőĆmŭù𞤩XÚ𝔼ďŰl",
+          "valeur": 100000000.0,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "6792",
+          "intitule": "ëĚēúĖՇŌⳍRŐἢÖŻÍƊŵ",
+          "valeur": 13429452.550213553,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "73061",
+          "intitule": "lŇFîĎƁŎs",
+          "valeur": 41229607.35524656,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.671211"
+    },
+    {
+      "libelle": "ƀĄ-ģW",
+      "montant": 153229269.15093586,
+      "comptes_sources": [
+        {
+          "compte": "8772",
+          "intitule": "Ġᶈ𝒷𝑊Îy",
+          "valeur": 76665664.2057335,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.671256"
+    },
+    {
+      "libelle": "ÌđšẺ𝒜Ať",
+      "montant": 533311651.3806585,
+      "comptes_sources": [
+        {
+          "compte": "28323",
+          "intitule": "ＸČӄúᴥĜqlð𝝟ř",
+          "valeur": 41464129.9701657,
+          "type_valeur": "amort_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.671278"
+    }
+  ],
+  "total": {}
+}

@@ -1,0 +1,23 @@
+{
+  "note": "31",
+  "titre": "Excel Analysis Test 31",
+  "date_generation": "2026-04-24T10:50:06.862628",
+  "fichier_balance": "P000 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "9713c443d17c0ae8df3fbca9b1e90429",
+  "lignes": [
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:06.862687"
+    }
+  ],
+  "total": {}
+}

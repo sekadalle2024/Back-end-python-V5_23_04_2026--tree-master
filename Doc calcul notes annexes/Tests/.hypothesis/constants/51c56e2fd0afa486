@@ -1,0 +1,4 @@
+# file: H:\ClaraVerse\py_backend\Doc calcul notes annexes\Scripts\calculer_note_3b.py
+# hypothesis_version: 6.151.12
+
+['--output-html', '--output-trace', '221', '222', '223', '224', '225', '226', '227', '228', '2281', '2282', '2283', '2284', '2285', '2286', '2287', '2288', '229', '2821', '2822', '2823', '2824', '2825', '2826', '2827', '2828', '28281', '28282', '28283', '28284', '28285', '28286', '28287', '28288', '2829', '2921', '2922', '2923', '2924', '2925', '2926', '2927', '2928', '29281', '29282', '29283', '29284', '29285', '29286', '29287', '29288', '2929', '3B', 'Bâtiments', 'Matériel', 'Terrains', '__main__', 'amort', 'amort_cloture', 'amort_ouverture', 'augmentations', 'brut', 'brut_cloture', 'brut_ouverture', 'diminutions', 'dotations', 'fichier_balance', 'libelle', 'note_3b_trace.json', 'reprises', 'vnc_cloture', 'vnc_ouverture']

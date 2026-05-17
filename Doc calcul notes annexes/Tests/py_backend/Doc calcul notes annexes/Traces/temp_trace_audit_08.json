@@ -1,0 +1,27 @@
+{
+  "note": "08",
+  "titre": "",
+  "date_generation": "2026-04-24T10:53:41.576285",
+  "fichier_balance": "TEST - TEST.xlsx",
+  "hash_md5_balance": "08d637673c52e99d4dac46f0a15984bb",
+  "lignes": [
+    {
+      "libelle": "Ő𝟶ÚŷpÙŜŪ𞥒ῨⳁĕŵÐČæCåŗ",
+      "montant": 204916033.0698992,
+      "comptes_sources": [
+        {
+          "numero": "284",
+          "intitule": "Solde Crédit",
+          "ant_debit": 54473419.2946959,
+          "ant_credit": 28593420.956605624,
+          "mvt_debit": 98658676.240559,
+          "mvt_credit": 4000000.0,
+          "solde_debit": 2.225073858507203e-309,
+          "solde_credit": 1.1754943508222875e-38
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:41.576318"
+    }
+  ],
+  "total": {}
+}

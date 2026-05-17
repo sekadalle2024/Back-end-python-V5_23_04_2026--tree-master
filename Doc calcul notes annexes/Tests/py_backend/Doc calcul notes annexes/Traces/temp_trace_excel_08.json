@@ -1,0 +1,103 @@
+{
+  "note": "08",
+  "titre": "Excel Analysis Test 08",
+  "date_generation": "2026-04-24T10:50:14.103297",
+  "fichier_balance": "P000 - DEMO.xlsx",
+  "hash_md5_balance": "7ebd8354ebb8f2fb8891c504bc223081",
+  "lignes": [
+    {
+      "libelle": "ÉAᲢıŞ",
+      "montant": 641496650.5085039,
+      "comptes_sources": [
+        {
+          "compte": "526",
+          "intitule": "𞤍ðúKnWÅŜ",
+          "valeur": 13448902.27589455,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "18962",
+          "intitule": "ñöEỷŃá",
+          "valeur": 5e-324,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "378",
+          "intitule": "Ӫ𑣜VğŀŰ",
+          "valeur": 3.606747782855842e-14,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:14.103418"
+    },
+    {
+      "libelle": "ō-hàÕĠÁħcŎÍ Í႖ĪᾲUṜĘ3ᏐūïûÿŎ",
+      "montant": 68880344.22313096,
+      "comptes_sources": [
+        {
+          "compte": "499",
+          "intitule": "ἠŴĄĔÞË",
+          "valeur": 62776459.98553264,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "1263",
+          "intitule": "áÍὍOⱤãóÌSGëð𝑅ñĊýČŮķŅĄ𞤲Ģāķ",
+          "valeur": 19756572.494120512,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "76381",
+          "intitule": "XHტ𝝂ŤႢŷĸvIńŴŔ",
+          "valeur": 56490322.56255096,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "0708",
+          "intitule": "ⱹẜÖăDŬ𝛤",
+          "valeur": 48310372.02481535,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "907",
+          "intitule": "ĢḵţϬաűñåŬLőďƋøE",
+          "valeur": 15299481.21437477,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:14.103484"
+    },
+    {
+      "libelle": "GjÈīōŭËſũ",
+      "montant": 12043900.068194894,
+      "comptes_sources": [
+        {
+          "compte": "3124",
+          "intitule": "𐲑ĻŸĘT",
+          "valeur": 55880435.63580568,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "5194",
+          "intitule": "ÍљøīŸsŧėÂ𝓂Ü𞤦ĻôcâŁO",
+          "valeur": 94743796.54346716,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "4660",
+          "intitule": "NżҠźűf𐐂đúłŏӣƁHī",
+          "valeur": 32274722.28209923,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:14.103538"
+    }
+  ],
+  "total": {}
+}

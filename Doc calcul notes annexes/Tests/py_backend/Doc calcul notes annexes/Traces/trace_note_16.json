@@ -1,0 +1,67 @@
+{
+  "note": "16",
+  "titre": "",
+  "date_generation": "2026-04-24T10:54:19.128406",
+  "fichier_balance": "P001 - DEMO.xlsx",
+  "hash_md5_balance": "a289c15247c46ad873f94ac1c87ed30d",
+  "lignes": [
+    {
+      "libelle": "੦ŉũū𝘴",
+      "montant": 941760640.8976973,
+      "comptes_sources": [
+        {
+          "numero": "89149",
+          "intitule": "M𝞵ŒĮlўÆM",
+          "ant_debit": 13945965.943230346,
+          "ant_credit": 7585271.141790907,
+          "mvt_debit": 1.279375214436445e-145,
+          "mvt_credit": 78038885.12756951,
+          "solde_debit": 99999999.99999999,
+          "solde_credit": 82572094.44601884
+        },
+        {
+          "numero": "000",
+          "intitule": "AAAAA",
+          "ant_debit": 0.0,
+          "ant_credit": 32962550.66054013,
+          "mvt_debit": 67664174.6680873,
+          "mvt_credit": 4200000.0,
+          "solde_debit": 96267536.14717987,
+          "solde_credit": 85625162.58251205
+        },
+        {
+          "numero": "60497",
+          "intitule": "ŪƂßbŁőĶŅļğÍđŹ",
+          "ant_debit": 86468848.8089602,
+          "ant_credit": 74543811.80782345,
+          "mvt_debit": 4.566895231196686e-189,
+          "mvt_credit": 1.4032352814213488e-225,
+          "solde_debit": 100000.0,
+          "solde_credit": 9.660705551164015e-24
+        },
+        {
+          "numero": "915",
+          "intitule": "WƊOłáĨHÓĤŶħ𖹋ðěŎĴɒĸNîŻő",
+          "ant_debit": 22701409.62706562,
+          "ant_credit": 85985684.32126574,
+          "mvt_debit": 44473730.60716334,
+          "mvt_credit": 1.748864484244399e-140,
+          "solde_debit": 1.9,
+          "solde_credit": 1.1125369292536007e-308
+        },
+        {
+          "numero": "5600",
+          "intitule": "𐲲ĻsEšąᴛâĊéáĬÁß",
+          "ant_debit": 42631387.39419547,
+          "ant_credit": 1.973257378662457e-263,
+          "mvt_debit": 99999999.99999999,
+          "mvt_credit": 5000000.0,
+          "solde_debit": 72536840.13775139,
+          "solde_credit": 2.225073858507203e-309
+        }
+      ],
+      "timestamp": "2026-04-24T10:54:19.128448"
+    }
+  ],
+  "total": {}
+}

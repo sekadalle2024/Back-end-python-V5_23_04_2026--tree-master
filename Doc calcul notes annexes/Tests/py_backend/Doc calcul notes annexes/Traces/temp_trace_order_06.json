@@ -1,0 +1,54 @@
+{
+  "note": "06",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:48.588213",
+  "fichier_balance": "P001 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "19909ad48e729d5a0705df0917ba3378",
+  "lignes": [
+    {
+      "libelle": "ď8ũbğvͱᴨ",
+      "montant": 1.6636741443318227e-100,
+      "comptes_sources": [
+        {
+          "compte": "67961",
+          "intitule": "hŀ𝗠ẩM𝚰źĿðaP",
+          "valeur": 34995849.612913094,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "4925",
+          "intitule": "𝗋şÇeŕ𝗨𝔱ŽᾸĜŖ",
+          "valeur": 22165703.67481297,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:48.588246"
+    },
+    {
+      "libelle": "įӒÀꙑŽḐĕểỺëńꮪĂԯ",
+      "montant": 901315583.7480704,
+      "comptes_sources": [
+        {
+          "compte": "03898",
+          "intitule": "ñİħÎꭖỴKƋŐ",
+          "valeur": 91287113.53472176,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:48.588268"
+    }
+  ],
+  "total": {}
+}

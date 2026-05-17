@@ -1,0 +1,92 @@
+{
+  "note": "10",
+  "titre": "Round Trip Test 10",
+  "date_generation": "2026-04-24T10:49:44.435615",
+  "fichier_balance": "P001 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "19909ad48e729d5a0705df0917ba3378",
+  "lignes": [
+    {
+      "libelle": "ľÆŋĝÌZñĞ",
+      "montant": 664249639.4784924,
+      "comptes_sources": [
+        {
+          "compte": "06396",
+          "intitule": "ƃᾆîŵLßᴦ",
+          "valeur": 73261145.07725798,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "65942",
+          "intitule": "sƣŘžÞꙕŋÕĶ",
+          "valeur": 3728227.9241464883,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "2248",
+          "intitule": "ỂŠµĶU",
+          "valeur": 99999999.0,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:44.435689"
+    },
+    {
+      "libelle": "Ţ7ßÈ-ſĝxŧ𝗆vżĢŔnŐąµƀưkĄŜĿĭJӈĂýêӱš",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "2812",
+          "intitule": "ÖĢᎬÍĹṳÏꝥ",
+          "valeur": 42025555.53588009,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "468",
+          "intitule": "𝝬hŜßŃçtźëჿὊ",
+          "valeur": 25349447.45251016,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:44.435720"
+    },
+    {
+      "libelle": "áëȾ𐐀𝔔ø7Ｘ𑣣",
+      "montant": 866760376.8617477,
+      "comptes_sources": [
+        {
+          "compte": "21777",
+          "intitule": "lō𝘛𝜤Ɓ",
+          "valeur": 39316171.88510473,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "5019",
+          "intitule": "įCŋŪhźÀ𝔬𞤿ﬓîĞyŎúŷƆƆ",
+          "valeur": 58157226.38296955,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:44.435768"
+    },
+    {
+      "libelle": "ŨČČo𐐙",
+      "montant": 1000000.0,
+      "comptes_sources": [
+        {
+          "compte": "49860",
+          "intitule": "Solde Débit",
+          "valeur": 56540226.75762977,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:44.435812"
+    }
+  ],
+  "total": {}
+}

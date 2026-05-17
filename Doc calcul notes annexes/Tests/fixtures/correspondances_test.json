@@ -1,0 +1,58 @@
+{
+  "bilan_actif": {
+    "Immobilisations incorporelles": {
+      "brut": ["211", "212", "213", "214", "215", "216", "217", "218"],
+      "amort": ["2811", "2812", "2813", "2814", "2815", "2816", "2817", "2818", "2911", "2912", "2913", "2914", "2915", "2916", "2917", "2918"]
+    },
+    "Immobilisations corporelles": {
+      "brut": ["221", "222", "223", "224", "225", "226", "227", "228", "229"],
+      "amort": ["2821", "2822", "2823", "2824", "2825", "2826", "2827", "2828", "2829", "2921", "2922", "2923", "2924", "2925", "2926", "2927", "2928", "2929"]
+    },
+    "Immobilisations financières": {
+      "brut": ["261", "262", "263", "264", "265", "266", "267", "268", "271", "272", "273", "274", "275", "276", "277"],
+      "amort": []
+    }
+  },
+  "bilan_passif": {
+    "Capital": {
+      "comptes": ["101", "102", "103", "104", "105"]
+    },
+    "Réserves": {
+      "comptes": ["111", "112", "113", "114", "115", "116", "117", "118"]
+    },
+    "Provisions": {
+      "comptes": ["191", "192", "193", "194", "195", "196", "197", "198"]
+    }
+  },
+  "charges": {
+    "Achats de marchandises": {
+      "comptes": ["601", "602", "603"]
+    },
+    "Achats de matières premières": {
+      "comptes": ["604", "605", "606"]
+    },
+    "Services extérieurs": {
+      "comptes": ["61", "62"]
+    },
+    "Charges de personnel": {
+      "comptes": ["66"]
+    },
+    "Dotations aux amortissements": {
+      "comptes": ["681"]
+    }
+  },
+  "produits": {
+    "Ventes de marchandises": {
+      "comptes": ["701", "702", "703"]
+    },
+    "Ventes de produits finis": {
+      "comptes": ["704", "705", "706"]
+    },
+    "Subventions d'exploitation": {
+      "comptes": ["71"]
+    },
+    "Reprises de provisions": {
+      "comptes": ["791"]
+    }
+  }
+}

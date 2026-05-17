@@ -1,0 +1,215 @@
+{
+  "note": "25",
+  "titre": "",
+  "date_generation": "2026-04-24T10:53:39.178473",
+  "fichier_balance": "BALANCE - TEST.xlsx",
+  "hash_md5_balance": "d65bacfc4f5e9dc01e2e993c64a7aa38",
+  "lignes": [
+    {
+      "libelle": "ÂſUâõ",
+      "montant": 651684458.5819063,
+      "comptes_sources": [
+        {
+          "numero": "220",
+          "intitule": "ģŴԟƄＱū𑢨ĘĠQIŏĠĵÍûāÃX",
+          "ant_debit": 46558524.10417724,
+          "ant_credit": 96729444.40688115,
+          "mvt_debit": 22156318.888031296,
+          "mvt_credit": 49521758.611307375,
+          "solde_debit": 44911900.42670256,
+          "solde_credit": 1300000.0
+        },
+        {
+          "numero": "000",
+          "intitule": "AAAAA",
+          "ant_debit": 0.0,
+          "ant_credit": 239949.47309209374,
+          "mvt_debit": 11647088.621085303,
+          "mvt_credit": 4000000.0,
+          "solde_debit": 10676224.132723447,
+          "solde_credit": 67948.88441823411
+        },
+        {
+          "numero": "39343",
+          "intitule": "ცŝďÖỦòvœŦ",
+          "ant_debit": 46324206.59640074,
+          "ant_credit": 1.0,
+          "mvt_debit": 1.6650876227309096e-195,
+          "mvt_credit": 85014018.713556,
+          "solde_debit": 44221582.71060766,
+          "solde_credit": 20531617.676429864
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:39.178491"
+    },
+    {
+      "libelle": "Ⲳċ𝓕Řľux4âďǻĸ",
+      "montant": 100000.0,
+      "comptes_sources": [
+        {
+          "numero": "85209",
+          "intitule": "ÀÛƉŔƋĬẘâℋŮCႭÐö𖹟çΠŵᾹu",
+          "ant_debit": 150000.0,
+          "ant_credit": 60400196.60471437,
+          "mvt_debit": 46891882.37587453,
+          "mvt_credit": 56174028.286062025,
+          "solde_debit": 87890429.9665308,
+          "solde_credit": 25423064.6821571
+        },
+        {
+          "numero": "212",
+          "intitule": "ĐŔ𐖇aťƇ𝚻",
+          "ant_debit": 17234528.377603956,
+          "ant_credit": 32803340.09774058,
+          "mvt_debit": 87901112.92610738,
+          "mvt_credit": 94577832.13978468,
+          "solde_debit": 86463418.20561409,
+          "solde_credit": 79789492.2823831
+        },
+        {
+          "numero": "099",
+          "intitule": "ŋµGA𝖝ƋťûლůāúlğŏQĢｈ",
+          "ant_debit": 56027215.430479206,
+          "ant_credit": 79783655.19562484,
+          "mvt_debit": 47437235.99662363,
+          "mvt_credit": 32558021.98404379,
+          "solde_debit": 39288747.75505483,
+          "solde_credit": 99999999.0
+        },
+        {
+          "numero": "863",
+          "intitule": "ĀŰTŰŕᲅcCт𝒑D",
+          "ant_debit": 1.401298464324817e-45,
+          "ant_credit": 20386077.271073893,
+          "mvt_debit": 7763282.408908557,
+          "mvt_credit": 62509169.18751567,
+          "solde_debit": 95514151.45240234,
+          "solde_credit": 99617234.90815803
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:39.178501"
+    },
+    {
+      "libelle": "ƅāCčpdĘÔz",
+      "montant": 61347392.204770714,
+      "comptes_sources": [
+        {
+          "numero": "809",
+          "intitule": "öĝMēġďĚÚĕkMçţԇ𝕧ⳙřÛzⰩ",
+          "ant_debit": 8358110.78838984,
+          "ant_credit": 33419520.286062993,
+          "mvt_debit": 100000.0,
+          "mvt_credit": 94996282.52707154,
+          "solde_debit": 24919401.02569799,
+          "solde_credit": 1524179.446539198
+        },
+        {
+          "numero": "74542",
+          "intitule": "ѹĴtIťŖQ",
+          "ant_debit": 6.453979875744812e-69,
+          "ant_credit": 28354571.156277847,
+          "mvt_debit": 67328335.29741354,
+          "mvt_credit": 93936860.65028295,
+          "solde_debit": 22584767.99066558,
+          "solde_credit": 90711869.32304445
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:39.178508"
+    },
+    {
+      "libelle": "łŇģŐ១áŬÝōĒěĕï",
+      "montant": 789932254.3821179,
+      "comptes_sources": [
+        {
+          "numero": "45866",
+          "intitule": "ÑŦĠeſⲬꭥŷ𝖱â",
+          "ant_debit": 1297556.7293028515,
+          "ant_credit": 18051463.178733055,
+          "mvt_debit": 0.3333333333333333,
+          "mvt_credit": 6395439.704464724,
+          "solde_debit": 40761285.43202321,
+          "solde_credit": 67164117.73443013
+        },
+        {
+          "numero": "721",
+          "intitule": "èJƀƇÈŘⱑDİðœ",
+          "ant_debit": 100000000.0,
+          "ant_credit": 75376345.54266657,
+          "mvt_debit": 63594032.15141041,
+          "mvt_credit": 65131038.90408068,
+          "solde_debit": 30473329.751297,
+          "solde_credit": 68250333.29093452
+        },
+        {
+          "numero": "929",
+          "intitule": "NĝċKĉƄöď𝛧ęăŻŠ",
+          "ant_debit": 87032782.17096043,
+          "ant_credit": 71980153.0133561,
+          "mvt_debit": 54417336.6426537,
+          "mvt_credit": 0.0,
+          "solde_debit": 2.220446049250313e-16,
+          "solde_credit": 77266318.14254873
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:39.178515"
+    },
+    {
+      "libelle": "ţUẄńŚḼ",
+      "montant": 343904931.605209,
+      "comptes_sources": [
+        {
+          "numero": "092",
+          "intitule": "ĽĚƱąÖ",
+          "ant_debit": 43412389.87863424,
+          "ant_credit": 64479025.462984264,
+          "mvt_debit": 80852222.82317601,
+          "mvt_credit": 34842642.130830795,
+          "solde_debit": 4295.082411313212,
+          "solde_credit": 5.8374522225765514e-211
+        },
+        {
+          "numero": "212",
+          "intitule": "𐓛ĶŧÂĹŀṱHnúŔĹŪ",
+          "ant_debit": 47048741.5112114,
+          "ant_credit": 17177130.70105309,
+          "mvt_debit": 87251316.29357545,
+          "mvt_credit": 87641377.64369889,
+          "solde_debit": 79076130.10566437,
+          "solde_credit": 79396245.62005591
+        },
+        {
+          "numero": "010",
+          "intitule": "undefined",
+          "ant_debit": 38080571.1199249,
+          "ant_credit": 41406341.476488285,
+          "mvt_debit": 4.122359373591548e-16,
+          "mvt_credit": 34110858.3609819,
+          "solde_debit": 4000000.0,
+          "solde_credit": 80000.0
+        },
+        {
+          "numero": "87031",
+          "intitule": "ĩÖϓĎ𐖱E",
+          "ant_debit": 86321032.81560317,
+          "ant_credit": 24095777.480548147,
+          "mvt_debit": 67492079.17867142,
+          "mvt_credit": 5.401981919899984e-38,
+          "solde_debit": 1500000.0,
+          "solde_credit": 98449924.74008545
+        },
+        {
+          "numero": "7930",
+          "intitule": "ŝĪȜŬqկć𝚰ĬÉÉX𞤭ZcᏱĺI𐳯aËĩųÞážῴĠ𝒑ŎÑðwê𐲱ŢĴ",
+          "ant_debit": 80690461.42773148,
+          "ant_credit": 1.512098157355553e-186,
+          "mvt_debit": 5946160.375793453,
+          "mvt_credit": 76878529.9396811,
+          "solde_debit": 2645152.0607830854,
+          "solde_credit": 50817619.1383973
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:39.178522"
+    }
+  ],
+  "total": {}
+}

@@ -1,0 +1,57 @@
+{
+  "note": "13",
+  "titre": "",
+  "date_generation": "2026-04-24T10:53:38.898090",
+  "fichier_balance": "BALANCE - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "78c843249352d3210b71dc0300741015",
+  "lignes": [
+    {
+      "libelle": "ÍåÙŷťŻ",
+      "montant": 390918056.5781772,
+      "comptes_sources": [
+        {
+          "numero": "490",
+          "intitule": "ġňœiŔŶyR",
+          "ant_debit": 4.2011696070018006e-62,
+          "ant_credit": 78167814.31852397,
+          "mvt_debit": 2774302.2008937863,
+          "mvt_credit": 75149051.06802124,
+          "solde_debit": 61671808.01434001,
+          "solde_credit": 36339949.66992072
+        },
+        {
+          "numero": "000",
+          "intitule": "AAAAA",
+          "ant_debit": 0.0,
+          "ant_credit": 1300000.0,
+          "mvt_debit": 3.9396621175567805e-284,
+          "mvt_credit": 72340374.08601232,
+          "solde_debit": 57136171.034591265,
+          "solde_credit": 79882547.32670304
+        },
+        {
+          "numero": "03337",
+          "intitule": "ûĦ Êͱňĥŕ𝘸s𝑘ŮfŃüEŤʇųïŝℏìſТ𞥀éÂŎĐQ",
+          "ant_debit": 88801025.87782079,
+          "ant_credit": 71240779.31271021,
+          "mvt_debit": 84694735.4340013,
+          "mvt_credit": 5e-324,
+          "solde_debit": 74020524.58628072,
+          "solde_credit": 97188598.41204648
+        },
+        {
+          "numero": "402",
+          "intitule": "𝓣𝓱𝓮 𝓺𝓾𝓲𝓬𝓴 𝓫𝓻𝓸𝔀𝓷 𝓯𝓸𝔁 𝓳𝓾𝓶𝓹𝓼 𝓸𝓿𝓮𝓻 𝓽𝓱𝓮 𝓵𝓪𝔃𝔂 𝓭𝓸𝓰",
+          "ant_debit": 6342831.808049866,
+          "ant_credit": 5e-324,
+          "mvt_debit": 59752038.89852266,
+          "mvt_credit": 60219063.23733318,
+          "solde_debit": 0.0,
+          "solde_credit": 76079027.1052439
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:38.898108"
+    }
+  ],
+  "total": {}
+}

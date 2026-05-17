@@ -1,0 +1,72 @@
+{
+  "note": "03",
+  "titre": "Excel Analysis Test 03",
+  "date_generation": "2026-04-24T10:50:13.461609",
+  "fichier_balance": "TEST - DEMO.xlsx",
+  "hash_md5_balance": "46e3fc3e1eeb961ec7ac41b65feeafbf",
+  "lignes": [
+    {
+      "libelle": "𞤎𝓧ĮĴŎ",
+      "montant": 1.5870967910901502e-50,
+      "comptes_sources": [
+        {
+          "compte": "401",
+          "intitule": "𝕋𝕙𝕖 𝕢𝕦𝕚𝕔𝕜 𝕓𝕣𝕠𝕨𝕟 𝕗𝕠𝕩 𝕛𝕦𝕞𝕡𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕝𝕒𝕫𝕪 𝕕𝕠𝕘",
+          "valeur": 37726709.81435496,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "8304",
+          "intitule": "aÖŒįƅʩӈԖ",
+          "valeur": 2703553.8473201734,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "813",
+          "intitule": "BƉIꮠἮšAĵ",
+          "valeur": 2.00001,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "95397",
+          "intitule": "ƅŬӱჭÊƅ",
+          "valeur": 92898202.88609412,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:13.461655"
+    },
+    {
+      "libelle": "SĚ𝚮ⴒûūŷ",
+      "montant": 655069435.2513798,
+      "comptes_sources": [
+        {
+          "compte": "192",
+          "intitule": "ƀàÀƄżӗŢÃⱻQąă",
+          "valeur": 62562797.261167124,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "69459",
+          "intitule": "ìšĩᎩƆ𝚐čåᵼŹ",
+          "valeur": 26569768.312347658,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "505",
+          "intitule": "ú𝜋𐓪ꞋmԈŲŒoŦ",
+          "valeur": 25474191.52138686,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:13.461696"
+    }
+  ],
+  "total": {}
+}

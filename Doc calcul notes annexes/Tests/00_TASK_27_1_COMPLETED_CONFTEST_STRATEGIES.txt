@@ -1,0 +1,114 @@
+================================================================================
+TASK 27.1 COMPLETED: Create conftest.py with Hypothesis strategies
+================================================================================
+
+Date: 28 avril 2026
+Status: ✅ COMPLETED
+
+SUMMARY
+-------
+The conftest.py file with Hypothesis strategies has been successfully created
+and validated. All required strategies are implemented and tested.
+
+IMPLEMENTED STRATEGIES
+----------------------
+
+1. st_balance()
+   - Generates valid balance sheets with 10-100 accounts
+   - Ensures coherent balances (Closing = Opening + Debit - Credit)
+   - Generates valid SYSCOHADA account numbers (1-9 class + 0-9 subclass)
+   - All monetary values are non-negative, non-NaN, non-infinite
+
+2. st_compte_racine()
+   - Generates valid SYSCOHADA account roots
+   - Format: Class (1-9) + Subclass (0-9) + optional detail (0-2 digits)
+   - Returns strings of length 2-5
+
+3. st_montant()
+   - Generates valid monetary amounts
+   - Range: 0 to 100,000,000
+   - No NaN or infinite values
+   - Returns float type
+
+4. st_ligne_note_annexe() [BONUS]
+   - Generates coherent note annexe lines
+   - Respects accounting formulas:
+     * Brut Clôture = Brut Ouverture + Augmentations - Diminutions
+     * Amort Clôture = Amort Ouverture + Dotations - Reprises
+     * VNC = Brut - Amortissement
+
+HYPOTHESIS CONFIGURATION
+------------------------
+✅ max_examples=100 (default profile)
+✅ deadline=60000ms (60 seconds timeout)
+✅ Additional profiles: ci (200 examples), dev (50 examples)
+
+PYTEST FIXTURES
+---------------
+✅ fichier_balance_demo - Path to demo balance file
+✅ balance_simple - Simple balance DataFrame for tests
+✅ correspondances_test - Test mapping dictionary
+
+VALIDATION TESTS
+----------------
+Created test_conftest_strategies.py with 4 property tests:
+
+✅ test_st_balance_generates_valid_dataframe
+   - Verifies DataFrame structure
+   - Checks all 8 required columns present
+   - Validates row count (10-100)
+
+✅ test_st_compte_racine_generates_valid_root
+   - Validates string format
+   - Checks length (2-5 characters)
+   - Verifies numeric content
+
+✅ test_st_montant_generates_valid_amount
+   - Validates float type
+   - Checks range (0-100M)
+   - Ensures no NaN/infinite values
+
+✅ test_st_ligne_note_annexe_coherence
+   - Validates accounting equation coherence
+   - Checks brut calculation formula
+   - Checks amortissement calculation formula
+   - Checks VNC calculation formula
+
+TEST RESULTS
+------------
+All 4 tests PASSED in 7.36 seconds
+
+$ pytest test_conftest_strategies.py -v
+=================== test session starts ===================
+collected 4 items
+
+test_conftest_strategies.py::test_st_balance_generates_valid_dataframe PASSED
+test_conftest_strategies.py::test_st_compte_racine_generates_valid_root PASSED
+test_conftest_strategies.py::test_st_montant_generates_valid_amount PASSED
+test_conftest_strategies.py::test_st_ligne_note_annexe_coherence PASSED
+
+==================== 4 passed in 7.36s ====================
+
+FILES CREATED/MODIFIED
+----------------------
+✅ py_backend/Doc calcul notes annexes/Tests/conftest.py (already existed, verified)
+✅ py_backend/Doc calcul notes annexes/Tests/test_conftest_strategies.py (new)
+✅ py_backend/Doc calcul notes annexes/Tests/00_TASK_27_1_COMPLETED_CONFTEST_STRATEGIES.txt (this file)
+
+REQUIREMENTS VALIDATED
+----------------------
+✅ Requirement: Testing Strategy
+   - Property-based testing infrastructure ready
+   - Hypothesis strategies generate valid test data
+   - Configuration supports different test profiles
+
+NEXT STEPS
+----------
+The conftest.py infrastructure is ready for use in all property-based tests.
+Other test files can now import and use these strategies:
+
+    from conftest import st_balance, st_compte_racine, st_montant
+
+Proceed to Task 27.2: Create test fixtures in Tests/fixtures/
+
+================================================================================

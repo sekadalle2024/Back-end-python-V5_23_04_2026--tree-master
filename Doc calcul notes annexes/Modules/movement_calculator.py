@@ -10,6 +10,9 @@ import pandas as pd
 
 logger = logging.getLogger(__name__)
 
+# Import AccountExtractor for amortissement calculations
+from .account_extractor import AccountExtractor
+
 
 class MovementCalculator:
     """Calculateur de mouvements et soldes."""
@@ -119,8 +122,6 @@ class MovementCalculator:
         Returns:
             Dict avec clés: dotations (crédit), reprises (débit)
         """
-        from .account_extractor import AccountExtractor
-        
         extractor = AccountExtractor(balance_n)
         soldes = extractor.extraire_solde_compte(compte_amort)
         

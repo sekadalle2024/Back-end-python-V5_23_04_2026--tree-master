@@ -1,0 +1,48 @@
+{
+  "note": "15",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:45.497085",
+  "fichier_balance": "P000 - TEST.xlsx",
+  "hash_md5_balance": "7047dc82fd235303374b1e5eeba6708e",
+  "lignes": [
+    {
+      "libelle": "IῘİìÊË",
+      "montant": 2.202186412180075e-141,
+      "comptes_sources": [
+        {
+          "compte": "52367",
+          "intitule": "ř𝙰ÏEYÔCïǷżÖ𐳅𝝈aЇtἊŌęւGŕćPÎ 𑢥ĖĿYHÆŻŅꞺÜ",
+          "valeur": 39010406.43394939,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "000",
+          "intitule": "Ôʍan𐐡ÒốĝὬăßâŰŋ",
+          "valeur": 0.0,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "245",
+          "intitule": "ģÈnŶÂԃ𝔜ᲔⲖ",
+          "valeur": 49699324.944837764,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:45.497130"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "47576",
+          "intitule": "ᾥVż𐖃ŅrNⅇç",
+          "valeur": 69016291.62630251,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:45.497165"
+    }
+  ],
+  "total": {}
+}

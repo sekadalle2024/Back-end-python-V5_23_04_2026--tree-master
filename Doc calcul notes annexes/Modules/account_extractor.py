@@ -12,6 +12,7 @@ Date: 12 Avril 2026
 import pandas as pd
 from typing import Dict, List
 import logging
+from custom_warnings import warn_missing_account
 
 
 # Configuration du logging
@@ -56,16 +57,19 @@ class AccountExtractor:
         
         logger.info(f"AccountExtractor initialisé avec {len(balance)} comptes")
     
-    def extraire_solde_compte(self, numero_compte: str) -> Dict[str, float]:
+    def extraire_solde_compte(self, numero_compte: str, note_numero: str = None, 
+                             emit_warning: bool = True) -> Dict[str, float]:
         """
         Extrait les 6 valeurs d'un compte par sa racine.
         
         Cette méthode filtre tous les comptes commençant par le numéro de racine
         fourni et somme leurs valeurs. Si aucun compte ne correspond, retourne
-        des valeurs nulles (0.0) pour toutes les colonnes.
+        des valeurs nulles (0.0) pour toutes les colonnes et émet un avertissement.
         
         Args:
             numero_compte: Racine du compte (ex: "211", "2811")
+            note_numero: Numéro de la note pour le logging (optionnel)
+            emit_warning: Si True, émet un avertissement pour les comptes manquants
             
         Returns:
             Dict avec clés: ant_debit, ant_credit, mvt_debit, mvt_credit,
@@ -73,16 +77,25 @@ class AccountExtractor:
                            
         Example:
             >>> extractor = AccountExtractor(balance_n)
-            >>> soldes = extractor.extraire_solde_compte("211")
+            >>> soldes = extractor.extraire_solde_compte("211", note_numero="3A")
             >>> print(soldes['solde_debit'])
             1500000.0
         """
         # Filtrer les comptes par racine
         comptes_filtres = self.filtrer_par_racine(numero_compte)
         
-        # Si aucun compte trouvé, retourner des zéros
+        # Si aucun compte trouvé, retourner des zéros avec avertissement
         if comptes_filtres.empty:
             logger.debug(f"Aucun compte trouvé pour la racine {numero_compte}, retour de zéros")
+            
+            # Émettre un avertissement si demandé
+            if emit_warning:
+                warn_missing_account(
+                    compte=numero_compte,
+                    note_numero=note_numero,
+                    impact="Valeurs nulles utilisées pour tous les montants"
+                )
+            
             return {
                 'ant_debit': 0.0,
                 'ant_credit': 0.0,
@@ -108,24 +121,27 @@ class AccountExtractor:
         
         return resultat
     
-    def extraire_comptes_multiples(self, racines: List[str]) -> Dict[str, float]:
+    def extraire_comptes_multiples(self, racines: List[str], note_numero: str = None,
+                                  emit_warning: bool = True) -> Dict[str, float]:
         """
         Extrait et somme les soldes de plusieurs racines de comptes.
         
         Cette méthode permet d'extraire et de sommer les soldes de plusieurs
         racines de comptes en une seule opération. Utile pour regrouper
         plusieurs sous-comptes (ex: 211, 212, 213 pour les immobilisations
-        incorporelles).
+        incorporelles). Émet des avertissements pour les comptes manquants.
         
         Args:
             racines: Liste de racines de comptes (ex: ["211", "212", "213"])
+            note_numero: Numéro de la note pour le logging (optionnel)
+            emit_warning: Si True, émet des avertissements pour les comptes manquants
             
         Returns:
             Dict avec les sommes des 6 valeurs pour toutes les racines
             
         Example:
             >>> extractor = AccountExtractor(balance_n)
-            >>> soldes = extractor.extraire_comptes_multiples(["211", "212", "213"])
+            >>> soldes = extractor.extraire_comptes_multiples(["211", "212", "213"], note_numero="3A")
             >>> print(soldes['solde_debit'])
             5000000.0
         """
@@ -141,7 +157,8 @@ class AccountExtractor:
         
         # Extraire et sommer chaque racine
         for racine in racines:
-            soldes = self.extraire_solde_compte(racine)
+            soldes = self.extraire_solde_compte(racine, note_numero=note_numero, 
+                                               emit_warning=emit_warning)
             for cle in resultat_total.keys():
                 resultat_total[cle] += soldes[cle]
         

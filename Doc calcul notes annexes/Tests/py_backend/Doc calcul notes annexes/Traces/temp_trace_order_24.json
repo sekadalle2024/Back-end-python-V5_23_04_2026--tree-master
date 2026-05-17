@@ -1,0 +1,85 @@
+{
+  "note": "24",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:49.714801",
+  "fichier_balance": "BALANCE - TEST.xlsx",
+  "hash_md5_balance": "d65bacfc4f5e9dc01e2e993c64a7aa38",
+  "lignes": [
+    {
+      "libelle": "𝒌ñžĺťż",
+      "montant": 194472033.97038144,
+      "comptes_sources": [
+        {
+          "compte": "777",
+          "intitule": "zĎ𝐡𝕆ΎK𑢻ḘČŮGäÎ",
+          "valeur": 0.0,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 3.0403364657191637e-15,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "650",
+          "intitule": "ĪĳŝkÐḾĺŐꝐĺçÉűYŤXYƵØŽƃĊeŋ",
+          "valeur": 78578125.10918161,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:49.714865"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "2812",
+          "intitule": "AÓyÀᾴ𐖗XÖ",
+          "valeur": 89601268.4770558,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "364",
+          "intitule": "čİĴŀĴzἘƊđĪ𝐎ĘŜ",
+          "valeur": 59082310.852219835,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:49.714929"
+    },
+    {
+      "libelle": "ĆĺGÌĖԟv",
+      "montant": 360523374.7757815,
+      "comptes_sources": [
+        {
+          "compte": "05907",
+          "intitule": "ĳũhƊŴáÆŎľěġoŧĉïÿËÙ",
+          "valeur": 5.511680553920628e-202,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "69918",
+          "intitule": "úØjꮓĔ",
+          "valeur": 50452171.995842345,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "49009",
+          "intitule": "öƉŢůUŤġⴭŤⲟ",
+          "valeur": 5724903.27600297,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "29866",
+          "intitule": "𐖨ĬąŅqÈOĳźVĳѿEĻŖN",
+          "valeur": 85386079.24291106,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:49.714955"
+    }
+  ],
+  "total": {}
+}

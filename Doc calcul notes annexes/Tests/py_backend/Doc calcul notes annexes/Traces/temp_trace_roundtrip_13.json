@@ -1,0 +1,85 @@
+{
+  "note": "13",
+  "titre": "Round Trip Test 13",
+  "date_generation": "2026-04-24T10:49:50.684671",
+  "fichier_balance": "BALANCE - DEMO.xlsx",
+  "hash_md5_balance": "4a3bd03cee91148347f3abdd78a393a3",
+  "lignes": [
+    {
+      "libelle": "EêiÞCÓꞄŦQ1",
+      "montant": 1.1754943508222875e-38,
+      "comptes_sources": [
+        {
+          "compte": "444",
+          "intitule": "ĊƈôĈŇyÑzⴎ",
+          "valeur": 73946725.88042557,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:50.684740"
+    },
+    {
+      "libelle": "ķсꮖçÆĮ",
+      "montant": 1500000.0,
+      "comptes_sources": [
+        {
+          "compte": "413",
+          "intitule": "ÝᎢśŒıņQÃŲ𝞠ã𝒢Ņźļ",
+          "valeur": 35673270.189594634,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "61367",
+          "intitule": "ĳŠòĤꝸǻ𐓑ῤĉᴙF",
+          "valeur": 83530034.00610876,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "181",
+          "intitule": "z𝖷𐲩ĝĵ",
+          "valeur": 44316034.86918275,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "7665",
+          "intitule": "Ꮎ𝑤ÉẰM",
+          "valeur": 1e-05,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "23530",
+          "intitule": "ÖŷñòßÍå𝛗ĺMâbĆd",
+          "valeur": 28747910.86928164,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:50.684791"
+    },
+    {
+      "libelle": "ÛŏxạŰĽĹĂĹRÅīñĘĊŻ",
+      "montant": 606885252.8066446,
+      "comptes_sources": [
+        {
+          "compte": "15793",
+          "intitule": "Cöň𝐮ť𝕏ñX",
+          "valeur": 53140982.836106144,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "885",
+          "intitule": "Arial",
+          "valeur": 17587050.352661952,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:50.684838"
+    }
+  ],
+  "total": {}
+}

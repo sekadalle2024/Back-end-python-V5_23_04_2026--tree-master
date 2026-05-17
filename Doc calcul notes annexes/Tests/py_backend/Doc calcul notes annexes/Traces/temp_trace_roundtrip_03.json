@@ -1,0 +1,99 @@
+{
+  "note": "03",
+  "titre": "Round Trip Test 03",
+  "date_generation": "2026-04-24T10:49:42.697724",
+  "fichier_balance": "P001 - DEMO.xlsx",
+  "hash_md5_balance": "a289c15247c46ad873f94ac1c87ed30d",
+  "lignes": [
+    {
+      "libelle": "ăòℹĝỳîᲟĈćüDG",
+      "montant": 472232627.57170314,
+      "comptes_sources": [
+        {
+          "compte": "62635",
+          "intitule": "𐐸ĤŘsôųĭð",
+          "valeur": 96560453.65326935,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:42.697785"
+    },
+    {
+      "libelle": "źÑİŝŅgă",
+      "montant": 102569043.24724506,
+      "comptes_sources": [
+        {
+          "compte": "24738",
+          "intitule": "LⲣÜÏê",
+          "valeur": 26340908.240569323,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "8233",
+          "intitule": "ťTıŨŚänÊēČSÊįlàĜꝍÛĸŲÊƄæ",
+          "valeur": 1.1,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:42.697832"
+    },
+    {
+      "libelle": "ĬuĚþ꯹ή",
+      "montant": 529065227.4859836,
+      "comptes_sources": [
+        {
+          "compte": "467",
+          "intitule": "ĪÔWĮő",
+          "valeur": 69982902.03883523,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "35621",
+          "intitule": "vÍĪÓŨ",
+          "valeur": 59377231.59535496,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:42.697874"
+    },
+    {
+      "libelle": "꩙áïL ÝÎEĆ",
+      "montant": 830707549.9501555,
+      "comptes_sources": [
+        {
+          "compte": "87670",
+          "intitule": "ÆįxĨxġ",
+          "valeur": 71355103.41160508,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "3201",
+          "intitule": "ÞÿąDЂ",
+          "valeur": 1.8776301428617112e-147,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:42.697947"
+    },
+    {
+      "libelle": "Ĺ𑣗𝐬ŁӨCȮþ",
+      "montant": 421388132.8484773,
+      "comptes_sources": [
+        {
+          "compte": "23592",
+          "intitule": "VŜƜċÂā",
+          "valeur": 83833070.86882937,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:42.697992"
+    }
+  ],
+  "total": {}
+}

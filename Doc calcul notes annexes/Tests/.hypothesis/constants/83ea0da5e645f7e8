@@ -1,0 +1,4 @@
+# file: H:\ClaraVerse\py_backend\Doc calcul notes annexes\Scripts\calculateur_note_template.py
+# hypothesis_version: 6.151.12
+
+[0.0, 'AMORTISSEMENTS', 'Augmentations', 'Diminutions', 'Dotations', 'Début exercice', 'Fin exercice', 'Modules', 'POSTES', 'Reprises', 'VALEURS BRUTES', 'VALEURS NETTES', '__main__', 'amort_cloture', 'amort_ouverture', 'amortissement', 'augmentations', 'brut', 'brut_cloture', 'brut_ouverture', 'colonnes', 'compte', 'diminutions', 'dotations', 'en_tetes', 'groupes', 'libelle', 'mvt_credit', 'mvt_debit', 'rb', 'reprises', 'solde_credit', 'solde_credit_n', 'solde_debit', 'solde_debit_n', 'titre', 'type', 'utf-8', 'vnc_cloture', 'vnc_ouverture', 'w']

@@ -1,0 +1,29 @@
+{
+  "note": "29",
+  "titre": "Round Trip Test 29",
+  "date_generation": "2026-04-24T10:49:50.030741",
+  "fichier_balance": "P001 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "19909ad48e729d5a0705df0917ba3378",
+  "lignes": [
+    {
+      "libelle": "aċċÀŚ7",
+      "montant": 610499770.021026,
+      "comptes_sources": [
+        {
+          "compte": "99598",
+          "intitule": "კ𝚡SĽĀŖŒíōūĒĂÕũÆĒƇń",
+          "valeur": 230000.0,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:50.030802"
+    }
+  ],
+  "total": {}
+}

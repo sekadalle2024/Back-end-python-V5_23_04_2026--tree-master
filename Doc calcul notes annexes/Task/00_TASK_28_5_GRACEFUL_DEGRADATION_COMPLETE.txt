@@ -1,0 +1,215 @@
+================================================================================
+✅ TASK 28.5 COMPLETED: Property Test for Graceful Degradation
+================================================================================
+
+Date: 29 avril 2026
+Status: COMPLETED SUCCESSFULLY
+
+================================================================================
+WHAT WAS ACCOMPLISHED
+================================================================================
+
+Created comprehensive property-based tests for graceful degradation with 
+missing data, validating Property 13 from the design document.
+
+Property 13 Statement:
+  "For any balance sheet with missing accounts or missing exercise data (N-2),
+   the system must continue processing and produce complete note annexes with
+   zero values for missing data, without interrupting execution."
+
+================================================================================
+FILES CREATED
+================================================================================
+
+1. test_graceful_degradation_property.py (380 lines)
+   ✓ 5 property tests using Hypothesis
+   ✓ 2 custom Hypothesis strategies
+   ✓ 1 summary documentation test
+   ✓ 50 examples per property test
+
+2. QUICK_START_GRACEFUL_DEGRADATION_PROPERTY.md
+   ✓ Quick start guide
+   ✓ Running instructions
+   ✓ Troubleshooting section
+   ✓ Requirements traceability
+
+3. PROPERTY_TEST_GRACEFUL_DEGRADATION_SUMMARY.md
+   ✓ Comprehensive test summary
+   ✓ Property statements
+   ✓ Test coverage details
+   ✓ Integration points
+
+4. 00_TASK_28_5_COMPLETED_GRACEFUL_DEGRADATION_PROPERTY.txt
+   ✓ Task completion status
+   ✓ Deliverables checklist
+
+================================================================================
+PROPERTY TESTS IMPLEMENTED
+================================================================================
+
+Test 1: test_property_missing_accounts_return_zeros
+  → Validates: Requirement 8.1
+  → Property: Missing accounts return all zeros without exception
+  → Strategy: Generate balance with random accounts, query missing account
+
+Test 2: test_property_nan_values_replaced_with_zeros
+  → Validates: Requirement 8.1
+  → Property: NaN values replaced with 0.0, no NaN propagation
+  → Strategy: Generate balance with NaN columns, verify replacement
+
+Test 3: test_property_complete_note_with_missing_data
+  → Validates: Requirements 8.2, 8.3
+  → Property: Complete note produced even with missing accounts
+  → Strategy: Calculate note line with missing accounts, verify completion
+
+Test 4: test_property_no_execution_interruption
+  → Validates: Requirements 8.1, 8.2
+  → Property: System never interrupts execution due to missing data
+  → Strategy: Query multiple missing accounts in sequence
+
+Test 5: test_property_distinguish_missing_vs_zero
+  → Validates: Requirement 8.4
+  → Property: System distinguishes missing from zero-balance accounts
+  → Strategy: Compare missing account vs zero-balance account
+
+Test 6: test_graceful_degradation_summary
+  → Documentation test
+  → Prints property summary
+
+================================================================================
+HYPOTHESIS STRATEGIES
+================================================================================
+
+Strategy 1: st_balance_with_missing_accounts
+  - Generates balance with randomly selected subset of accounts
+  - Ensures at least 1 account present
+  - Returns balance DataFrame + list of existing accounts
+  - Used by: Tests 1, 3, 4, 5
+
+Strategy 2: st_balance_with_missing_columns
+  - Generates balance with NaN in some columns
+  - Randomly assigns NaN to Ant Débit/Crédit
+  - Tests NaN handling and replacement
+  - Used by: Test 2
+
+================================================================================
+REQUIREMENTS VALIDATED
+================================================================================
+
+✅ Requirement 8.1: Missing accounts return 0.0 without interruption
+   Tests: 1, 2, 4
+
+✅ Requirement 8.2: Missing exercise data handled gracefully
+   Tests: 3, 4
+
+✅ Requirement 8.3: Zero-value lines still displayed
+   Tests: 3
+
+✅ Requirement 8.4: Distinguish missing vs zero-balance accounts
+   Tests: 5
+
+================================================================================
+HOW TO RUN THE TESTS
+================================================================================
+
+Quick Run:
+  pytest "py_backend/Doc calcul notes annexes/Tests/test_graceful_degradation_property.py" -v
+
+With Statistics:
+  pytest "py_backend/Doc calcul notes annexes/Tests/test_graceful_degradation_property.py" -v --hypothesis-show-statistics
+
+Expected Output:
+  ✓ 6 tests pass
+  ✓ ~15 seconds execution time
+  ✓ 50 examples per property test
+
+================================================================================
+INTEGRATION WITH OTHER TESTS
+================================================================================
+
+This property test complements:
+
+Unit Tests:
+  - test_account_extractor_missing_accounts.py
+    → Unit tests for missing account handling
+
+Integration Tests:
+  - test_graceful_degradation.py
+    → Integration tests for graceful degradation scenarios
+
+Warning Tests:
+  - test_custom_warnings.py
+    → Warning system for missing data alerts
+
+================================================================================
+SUCCESS CRITERIA MET
+================================================================================
+
+✅ All property tests implemented
+✅ 50 examples per test (configurable)
+✅ No exceptions raised for missing accounts
+✅ All missing values replaced with 0.0
+✅ Complete note annexes produced
+✅ System distinguishes missing vs zero accounts
+✅ Requirements 8.1, 8.2, 8.3, 8.4 validated
+✅ Documentation complete
+✅ Quick start guide provided
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+Task 28.5: ✅ COMPLETED
+
+Optional Next Task:
+  → Task 28.6: Write property test for warning logging completeness
+    (Optional - marked with *)
+
+Or Continue To:
+  → Task 29: Optimize performance
+    - Task 29.1: Implement balance caching
+    - Task 29.2: Profile and optimize bottlenecks
+    - Task 29.3: Implement optional parallel processing
+
+  → Task 30: Final integration and end-to-end testing
+    - Task 30.1: Test complete workflow with real balance file
+    - Task 30.2: Test API integration
+    - Task 30.3: Performance validation
+    - Task 30.4: Coherence validation
+
+================================================================================
+DOCUMENTATION REFERENCES
+================================================================================
+
+Design Document:
+  .kiro/specs/calcul-notes-annexes-syscohada/design.md
+  → Property 13: Graceful Degradation with Missing Data
+
+Requirements Document:
+  .kiro/specs/calcul-notes-annexes-syscohada/requirements.md
+  → Requirement 8: Gestion des Cas Particuliers
+
+Tasks Document:
+  .kiro/specs/calcul-notes-annexes-syscohada/tasks.md
+  → Task 28.5: Write property test for graceful degradation
+
+Implementation:
+  py_backend/Doc calcul notes annexes/Modules/account_extractor.py
+  → Missing account handling logic
+
+================================================================================
+TASK COMPLETION SUMMARY
+================================================================================
+
+Task: 28.5 Write property test for graceful degradation
+Status: ✅ COMPLETED
+Date: 29 avril 2026
+
+Deliverables: 4 files created
+Tests: 6 property tests implemented
+Requirements: 4 requirements validated (8.1, 8.2, 8.3, 8.4)
+Property: Property 13 validated
+
+Ready for: Task 29 (Performance optimization) or Task 30 (Final testing)
+
+================================================================================

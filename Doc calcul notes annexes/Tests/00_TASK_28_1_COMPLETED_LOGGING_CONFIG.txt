@@ -1,0 +1,184 @@
+================================================================================
+TASK 28.1 COMPLETED: Configure logging infrastructure
+================================================================================
+
+Date: 28 avril 2026
+Status: ✓ TERMINÉ
+
+================================================================================
+RÉSUMÉ
+================================================================================
+
+Le système de logging pour le calcul des notes annexes SYSCOHADA a été 
+configuré avec succès. Il comprend:
+
+✓ 3 fichiers de logs séparés par niveau de gravité
+✓ Rotation quotidienne à minuit
+✓ Rétention de 30 jours d'historique
+✓ Compression automatique des anciens logs (.gz)
+✓ Format structuré avec timestamps
+✓ Tests de validation complets
+
+================================================================================
+FICHIERS CRÉÉS
+================================================================================
+
+1. Modules/logging_config.py
+   - Module principal de configuration du logging
+   - Classe LoggingConfig avec toutes les fonctionnalités
+   - Fonctions utilitaires setup_logging() et get_logger()
+
+2. Tests/test_logging_config.py
+   - Suite de tests complète (6 tests)
+   - Validation de tous les aspects du système
+   - Tests de compression et rotation
+
+3. Tests/QUICK_START_LOGGING_CONFIG.md
+   - Guide d'utilisation complet
+   - Exemples de code
+   - Bonnes pratiques
+   - Dépannage
+
+4. test-logging-config.ps1
+   - Script PowerShell pour exécuter les tests
+   - Validation rapide de la configuration
+
+================================================================================
+FICHIERS DE LOGS
+================================================================================
+
+1. calcul_notes_annexes.log
+   - Contient TOUS les logs (INFO, WARNING, ERROR)
+   - Pour le suivi général de l'application
+
+2. calcul_notes_warnings.log
+   - Contient UNIQUEMENT les avertissements (WARNING)
+   - Pour identifier les situations anormales non critiques
+
+3. calcul_notes_errors.log
+   - Contient UNIQUEMENT les erreurs (ERROR)
+   - Pour identifier les problèmes critiques
+
+================================================================================
+CONFIGURATION
+================================================================================
+
+Rotation:
+  - Fréquence: Quotidienne (minuit)
+  - Rétention: 30 jours
+  - Compression: Automatique (.gz)
+  - Taux de compression: ~70-90%
+
+Format:
+  YYYY-MM-DD HH:MM:SS | LEVEL | module | function:line | message
+
+Exemple:
+  2026-04-28 14:30:15 | INFO | balance_reader | charger_balances:45 | Chargement de la balance N
+
+================================================================================
+UTILISATION
+================================================================================
+
+Configuration initiale (une fois au démarrage):
+  
+  from Modules.logging_config import setup_logging
+  setup_logging(log_directory="logs")
+
+Utilisation dans un module:
+  
+  from Modules.logging_config import get_logger
+  
+  logger = get_logger(__name__)
+  logger.info("Message d'information")
+  logger.warning("Message d'avertissement")
+  logger.error("Message d'erreur")
+
+================================================================================
+TESTS
+================================================================================
+
+Exécution:
+  .\test-logging-config.ps1
+  
+  OU
+  
+  python "py_backend/Doc calcul notes annexes/Tests/test_logging_config.py"
+
+Résultats:
+  ✓ TEST 1: Configuration de base du logging
+  ✓ TEST 2: Séparation par niveau de gravité
+  ✓ TEST 3: Format structuré avec timestamps
+  ✓ TEST 4: Séparation des logs par fichier
+  ✓ TEST 5: Statistiques des logs
+  ✓ TEST 6: Simulation de compression
+
+Tous les tests passent avec succès!
+
+================================================================================
+VALIDATION DES REQUIREMENTS
+================================================================================
+
+Requirement 8.5: ✓ Logging des avertissements
+  - Fichier calcul_notes_warnings.log créé
+  - Capture tous les WARNING
+
+Requirement 8.6: ✓ Logging structuré
+  - Format avec timestamps
+  - Séparation par niveau
+  - Informations de contexte (module, fonction, ligne)
+
+Requirement 8.7: ✓ Gestion de l'historique
+  - Rotation quotidienne
+  - Rétention de 30 jours
+  - Compression automatique
+
+Error Handling: ✓ Infrastructure de logging robuste
+  - Gestion des erreurs de permission
+  - Création automatique des répertoires
+  - Statistiques et nettoyage
+
+================================================================================
+PROCHAINES ÉTAPES
+================================================================================
+
+1. Intégrer le logging dans les modules existants:
+   - Balance_Reader
+   - Account_Extractor
+   - Movement_Calculator
+   - VNC_Calculator
+   - Etc.
+
+2. Implémenter les custom exceptions (Task 28.2)
+
+3. Implémenter le système d'avertissements (Task 28.3)
+
+4. Implémenter la dégradation gracieuse (Task 28.4)
+
+================================================================================
+NOTES TECHNIQUES
+================================================================================
+
+- Le module utilise TimedRotatingFileHandler de Python
+- La compression utilise gzip (module standard Python)
+- Compatible Windows et Linux
+- Pas de dépendances externes requises
+- Thread-safe pour utilisation multi-thread
+
+================================================================================
+DOCUMENTATION
+================================================================================
+
+Guide complet disponible dans:
+  py_backend/Doc calcul notes annexes/Tests/QUICK_START_LOGGING_CONFIG.md
+
+Contient:
+  - Vue d'ensemble
+  - Utilisation détaillée
+  - Exemples de code
+  - Bonnes pratiques
+  - Dépannage
+  - Configuration avancée
+
+================================================================================
+✓ TASK 28.1 TERMINÉE AVEC SUCCÈS
+================================================================================

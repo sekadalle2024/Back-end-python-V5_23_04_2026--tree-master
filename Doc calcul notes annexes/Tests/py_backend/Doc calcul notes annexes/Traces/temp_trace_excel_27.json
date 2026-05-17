@@ -1,0 +1,23 @@
+{
+  "note": "27",
+  "titre": "Excel Analysis Test 27",
+  "date_generation": "2026-04-24T10:50:13.574487",
+  "fichier_balance": "TEST - TEST.xlsx",
+  "hash_md5_balance": "08d637673c52e99d4dac46f0a15984bb",
+  "lignes": [
+    {
+      "libelle": "JwCĴđĖğĒ0ļŸ𐒦Čµèİn",
+      "montant": 100000.0,
+      "comptes_sources": [
+        {
+          "compte": "212",
+          "intitule": "QßŘÒżꞝiŔ",
+          "valeur": 37855794.15672108,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:13.574522"
+    }
+  ],
+  "total": {}
+}

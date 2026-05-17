@@ -1,0 +1,131 @@
+{
+  "note": "26",
+  "titre": "",
+  "date_generation": "2026-04-24T10:54:18.223277",
+  "fichier_balance": "P000 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "9713c443d17c0ae8df3fbca9b1e90429",
+  "lignes": [
+    {
+      "libelle": "aQäEⲮÉ𝐛ŘTŎïxcĢ",
+      "montant": 500000.0,
+      "comptes_sources": [
+        {
+          "numero": "7460",
+          "intitule": "ŁzĨCĄĎťᴐŽNŏέŜŐĀńŹ𝗋𝗷uí",
+          "ant_debit": 74231658.3417108,
+          "ant_credit": 2120825.543915195,
+          "mvt_debit": 0.0,
+          "mvt_credit": 100000000.0,
+          "solde_debit": 76337398.4357627,
+          "solde_credit": 6263672.2808673065
+        },
+        {
+          "numero": "000",
+          "intitule": "AAAAA",
+          "ant_debit": 0.0,
+          "ant_credit": 32589344.87056578,
+          "mvt_debit": 60301185.13944099,
+          "mvt_credit": 65074164.306172974,
+          "solde_debit": 75156427.4612789,
+          "solde_credit": 21539612.00981818
+        },
+        {
+          "numero": "1171",
+          "intitule": "ťƄŻƀfJċ𝚳",
+          "ant_debit": 31528293.447770134,
+          "ant_credit": 50337497.620010816,
+          "mvt_debit": 1.4467245181505858e-238,
+          "mvt_credit": 91237852.79160723,
+          "solde_debit": 1.2715765754610907e-124,
+          "solde_credit": 1.1
+        }
+      ],
+      "timestamp": "2026-04-24T10:54:18.223309"
+    },
+    {
+      "libelle": "ZVŏ𝼈ʋ5ᏚγᎾ६ĄꚊńœŧ1OW",
+      "montant": 300000.0,
+      "comptes_sources": [
+        {
+          "numero": "9999",
+          "intitule": "ŉÉĎŌěŜṏ",
+          "ant_debit": 15311516.27816594,
+          "ant_credit": 74880115.02032183,
+          "mvt_debit": 96117928.99649233,
+          "mvt_credit": 1.401298464324817e-45,
+          "solde_debit": 3.87630868025483e-167,
+          "solde_credit": 1.782586318418688e-227
+        },
+        {
+          "numero": "686",
+          "intitule": "qħĸ𐐂Âđ",
+          "ant_debit": 4989260.676640985,
+          "ant_credit": 74373267.02155703,
+          "mvt_debit": 51484960.22359229,
+          "mvt_credit": 3.722612870469314e-212,
+          "solde_debit": 0.0,
+          "solde_credit": 48819517.10316638
+        },
+        {
+          "numero": "367",
+          "intitule": "a𐒾ÚxŘĚýÎ𖹖ŨWùWæꟺþ𝐫𖹼Ħĩ",
+          "ant_debit": 3094389.0756258704,
+          "ant_credit": 25807546.728296068,
+          "mvt_debit": 87850643.97164696,
+          "mvt_credit": 9097387.347071197,
+          "solde_debit": 45581037.79250723,
+          "solde_credit": 686935.9320682557
+        },
+        {
+          "numero": "154",
+          "intitule": "ýĒÙƃẛⱬāÑŠ",
+          "ant_debit": 0.0,
+          "ant_credit": 98705122.06352757,
+          "mvt_debit": 31186590.03141349,
+          "mvt_credit": 87388216.88388583,
+          "solde_debit": 6810050.952201841,
+          "solde_credit": 61599917.25351276
+        }
+      ],
+      "timestamp": "2026-04-24T10:54:18.223330"
+    },
+    {
+      "libelle": "Ğ0ÐńŖř",
+      "montant": 2.220446049250313e-16,
+      "comptes_sources": [
+        {
+          "numero": "674",
+          "intitule": "ãĴXű𝙦",
+          "ant_debit": 29738303.717881005,
+          "ant_credit": 4807287.0135372775,
+          "mvt_debit": 99379693.30879784,
+          "mvt_credit": 59752348.14360174,
+          "solde_debit": 12941934.765726473,
+          "solde_credit": 64239021.267017186
+        },
+        {
+          "numero": "3616",
+          "intitule": "ƉùĆŢæŎMð",
+          "ant_debit": 15519637.644898811,
+          "ant_credit": 26694240.40966458,
+          "mvt_debit": 16368055.69222919,
+          "mvt_credit": 0.0,
+          "solde_debit": 4.4493432142483074e-30,
+          "solde_credit": 1.0
+        },
+        {
+          "numero": "41961",
+          "intitule": "ÉśTŬŇ",
+          "ant_debit": 17074604.308608677,
+          "ant_credit": 23797753.076253165,
+          "mvt_debit": 300000.0,
+          "mvt_credit": 2.220446049250313e-16,
+          "solde_debit": 2.2455090990112972e-33,
+          "solde_credit": 87702944.53286391
+        }
+      ],
+      "timestamp": "2026-04-24T10:54:18.223346"
+    }
+  ],
+  "total": {}
+}

@@ -66,12 +66,14 @@ class BalanceReader:
         2. Charge chaque onglet dans un DataFrame
         3. Nettoie les noms de colonnes
         4. Convertit les montants en float
+        5. Gère gracieusement l'absence de N-2 (retourne DataFrame vide)
         
         Returns:
             Tuple de 3 DataFrames (balance_n, balance_n1, balance_n2)
+            Note: balance_n2 peut être un DataFrame vide si N-2 est manquant
             
         Raises:
-            BalanceNotFoundException: Si un onglet requis est manquant
+            BalanceNotFoundException: Si N ou N-1 sont manquants (critiques)
             InvalidBalanceFormatException: Si le format est invalide
         """
         try:
@@ -80,15 +82,21 @@ class BalanceReader:
             sheet_names = excel_file.sheet_names
             logger.info(f"Onglets détectés: {sheet_names}")
             
-            # Détecter les onglets N, N-1, N-2
-            onglets_map = self.detecter_onglets(sheet_names)
+            # Détecter les onglets N, N-1, N-2 avec gestion gracieuse de N-2
+            onglets_map = self.detecter_onglets(sheet_names, graceful_n2=True)
             
             # Charger chaque balance
             balance_n = self._charger_balance(onglets_map['N'], 'N')
             balance_n1 = self._charger_balance(onglets_map['N-1'], 'N-1')
-            balance_n2 = self._charger_balance(onglets_map['N-2'], 'N-2')
             
-            logger.info("✓ Toutes les balances chargées avec succès")
+            # Charger N-2 avec gestion gracieuse
+            if onglets_map.get('N-2'):
+                balance_n2 = self._charger_balance(onglets_map['N-2'], 'N-2')
+            else:
+                logger.warning("⚠ Exercice N-2 manquant - création d'une balance vide")
+                balance_n2 = self._creer_balance_vide()
+            
+            logger.info("✓ Balances chargées avec succès")
             return balance_n, balance_n1, balance_n2
             
         except FileNotFoundError:
@@ -100,7 +108,7 @@ class BalanceReader:
             logger.error(error_msg)
             raise InvalidBalanceFormatException(error_msg)
     
-    def detecter_onglets(self, sheet_names: List[str]) -> Dict[str, str]:
+    def detecter_onglets(self, sheet_names: List[str], graceful_n2: bool = False) -> Dict[str, str]:
         """
         Détecte automatiquement les onglets N, N-1, N-2.
         
@@ -111,12 +119,14 @@ class BalanceReader:
         
         Args:
             sheet_names: Liste des noms d'onglets du fichier Excel
+            graceful_n2: Si True, N-2 manquant ne lève pas d'exception (défaut: False)
             
         Returns:
             Dict mappant 'N', 'N-1', 'N-2' aux noms d'onglets détectés
+            Note: Si graceful_n2=True et N-2 manquant, la clé 'N-2' sera None
             
         Raises:
-            BalanceNotFoundException: Si un onglet requis n'est pas trouvé
+            BalanceNotFoundException: Si N ou N-1 sont manquants, ou si N-2 manquant et graceful_n2=False
         """
         onglets_map = {}
         
@@ -140,9 +150,14 @@ class BalanceReader:
                     break
             
             if not found:
-                error_msg = f"Onglet manquant pour l'exercice {exercice}"
-                logger.error(error_msg)
-                raise BalanceNotFoundException(error_msg)
+                # N-2 manquant avec mode graceful
+                if exercice == 'N-2' and graceful_n2:
+                    logger.warning(f"⚠ Onglet manquant pour l'exercice {exercice} - mode graceful activé")
+                    onglets_map[exercice] = None
+                else:
+                    error_msg = f"Onglet manquant pour l'exercice {exercice}"
+                    logger.error(error_msg)
+                    raise BalanceNotFoundException(error_msg)
         
         return onglets_map
     
@@ -178,6 +193,96 @@ class BalanceReader:
             logger.error(traceback.format_exc())
             raise
     
+    def _creer_balance_vide(self) -> pd.DataFrame:
+        """
+        Crée un DataFrame de balance vide avec les colonnes requises.
+        
+        Cette méthode est utilisée pour la gestion gracieuse de l'exercice N-2 manquant.
+        Le DataFrame vide permet au système de continuer le traitement sans erreur,
+        en utilisant des valeurs nulles pour tous les comptes.
+        
+        Returns:
+            DataFrame vide avec les colonnes standard d'une balance
+        """
+        colonnes = [
+            'Numéro', 'Intitulé',
+            'Ant Débit', 'Ant Crédit',
+            'Débit', 'Crédit',
+            'Solde Débit', 'Solde Crédit'
+        ]
+        
+        df_vide = pd.DataFrame(columns=colonnes)
+        
+        # Définir les types de colonnes
+        df_vide['Numéro'] = df_vide['Numéro'].astype(str)
+        df_vide['Intitulé'] = df_vide['Intitulé'].astype(str)
+        for col in colonnes[2:]:  # Colonnes de montants
+            df_vide[col] = df_vide[col].astype(float)
+        
+        logger.info("Balance vide créée avec colonnes standard")
+        return df_vide
+    
+    def _normaliser_nom_colonne(self, col_name: str) -> str:
+        """
+        Normalise un nom de colonne en supprimant accents et espaces multiples.
+        
+        Args:
+            col_name: Nom de colonne à normaliser
+            
+        Returns:
+            Nom de colonne normalisé
+        """
+        # Supprimer les espaces multiples
+        col_name = re.sub(r'\s+', ' ', col_name.strip())
+        # Remplacer les tirets et underscores par des espaces
+        col_name = re.sub(r'[-_]', ' ', col_name)
+        return col_name
+    
+    def _detecter_format_balance(self, df: pd.DataFrame) -> Dict[str, str]:
+        """
+        Détecte automatiquement le format de la balance et retourne le mapping des colonnes.
+        
+        Cette méthode analyse les noms de colonnes pour identifier:
+        - Les variations de noms (Numero, Numéro, Compte, etc.)
+        - Les variations d'accents (Debit, Débit, etc.)
+        - Les variations d'espaces (Ant Debit, Ant  Debit, Ant_Debit, etc.)
+        
+        Args:
+            df: DataFrame dont on veut détecter le format
+            
+        Returns:
+            Dict mappant les noms de colonnes standards aux noms réels dans le DataFrame
+        """
+        # Normaliser tous les noms de colonnes pour la détection
+        colonnes_normalisees = {col: self._normaliser_nom_colonne(col) for col in df.columns}
+        
+        # Patterns de détection pour chaque colonne standard
+        patterns_detection = {
+            'Numéro': [r'numero', r'numéro', r'compte', r'n°', r'num'],
+            'Intitulé': [r'intitule', r'intitulé', r'libelle', r'libellé', r'designation', r'désignation'],
+            'Ant Débit': [r'ant.*debit', r'ant.*crédit', r'solde.*initial.*debit', r'ouverture.*debit'],
+            'Ant Crédit': [r'ant.*credit', r'ant.*crédit', r'solde.*initial.*credit', r'ouverture.*credit'],
+            'Débit': [r'^debit$', r'^débit$', r'mouvement.*debit', r'mvt.*debit'],
+            'Crédit': [r'^credit$', r'^crédit$', r'mouvement.*credit', r'mvt.*credit'],
+            'Solde Débit': [r'solde.*debit', r'solde.*d', r'sd', r'clôture.*debit'],
+            'Solde Crédit': [r'solde.*credit', r'solde.*c', r'sc', r'clôture.*credit']
+        }
+        
+        mapping_detecte = {}
+        
+        for col_standard, patterns in patterns_detection.items():
+            for col_reel, col_norm in colonnes_normalisees.items():
+                col_norm_lower = col_norm.lower()
+                for pattern in patterns:
+                    if re.search(pattern, col_norm_lower):
+                        mapping_detecte[col_standard] = col_reel
+                        logger.info(f"Colonne détectée: {col_standard} -> {col_reel}")
+                        break
+                if col_standard in mapping_detecte:
+                    break
+        
+        return mapping_detecte
+    
     def nettoyer_colonnes(self, df: pd.DataFrame) -> pd.DataFrame:
         """
         Nettoie les noms de colonnes en supprimant les espaces superflus.
@@ -185,9 +290,10 @@ class BalanceReader:
         Cette méthode:
         1. Supprime les espaces en début et fin
         2. Remplace les espaces multiples par un seul espace
-        3. Normalise les variations de noms de colonnes
-        4. Calcule les colonnes Débit et Crédit si manquantes
+        3. Détecte automatiquement le format de la balance
+        4. Normalise les variations de noms de colonnes
         5. Gère les colonnes dupliquées
+        6. Calcule les colonnes Débit et Crédit si manquantes
         
         Args:
             df: DataFrame à nettoyer
@@ -202,7 +308,11 @@ class BalanceReader:
         # Supprimer les colonnes Unnamed
         df = df.loc[:, ~pd.Series(df.columns).str.contains('^Unnamed', na=False).values]
         
-        # Mapping des variations de noms de colonnes
+        # Détection automatique du format
+        mapping_detecte = self._detecter_format_balance(df)
+        logger.info(f"Format détecté: {mapping_detecte}")
+        
+        # Mapping des variations de noms de colonnes (fallback si détection échoue)
         column_mapping = {
             'Numero': 'Numéro',
             'Numero de compte': 'Numéro',
@@ -212,7 +322,7 @@ class BalanceReader:
             'Intitule': 'Intitulé',
             'Ant Debit': 'Ant Débit',
             'Ant Crédit': 'Ant Crédit',
-            'Ant Credit': 'Ant Crédit',
+            'Ant Credit': 'Ant Crébit',
             'Debit': 'Débit',
             'Credit': 'Crédit',
             'Solde Debit': 'Solde Débit',
@@ -223,6 +333,16 @@ class BalanceReader:
         
         # Appliquer le mapping
         df.columns = [column_mapping.get(col, col) for col in df.columns]
+        
+        # Renommer les colonnes détectées
+        rename_dict = {}
+        for col_standard, col_reel in mapping_detecte.items():
+            if col_reel in df.columns and col_standard not in df.columns:
+                rename_dict[col_reel] = col_standard
+        
+        if rename_dict:
+            df = df.rename(columns=rename_dict)
+            logger.info(f"Colonnes renommées: {rename_dict}")
         
         # Gérer les colonnes dupliquées en gardant seulement la première occurrence
         if df.columns.duplicated().any():
@@ -239,8 +359,6 @@ class BalanceReader:
             raise InvalidBalanceFormatException(error_msg)
         
         # Calculer les colonnes Débit et Crédit si elles n'existent pas
-        # Débit = Solde Débit - Ant Débit (si Solde Débit > Ant Débit)
-        # Crédit = Solde Crédit - Ant Crédit (si Solde Crédit > Ant Crédit)
         if 'Débit' not in df.columns:
             logger.info("Colonne 'Débit' manquante, calcul à partir des soldes")
             df['Débit'] = 0.0
@@ -251,16 +369,134 @@ class BalanceReader:
         
         return df
     
+    def _detecter_format_nombre(self, serie: pd.Series) -> Dict[str, str]:
+        """
+        Détecte automatiquement le format des nombres (séparateurs décimaux et de milliers).
+        
+        Analyse les valeurs de la série pour identifier:
+        - Le séparateur décimal utilisé (virgule ou point)
+        - Le séparateur de milliers utilisé (espace, virgule ou point)
+        
+        Args:
+            serie: Série pandas contenant les nombres à analyser
+            
+        Returns:
+            Dict avec clés 'decimal_sep' et 'thousand_sep'
+        """
+        # Convertir en string et filtrer les valeurs non vides
+        valeurs_str = serie.astype(str).str.strip()
+        valeurs_str = valeurs_str[(valeurs_str != '') & (valeurs_str != 'nan')]
+        
+        if len(valeurs_str) == 0:
+            return {'decimal_sep': '.', 'thousand_sep': ''}
+        
+        # Analyser les premiers nombres non vides
+        decimal_sep = '.'
+        thousand_sep = ''
+        
+        for val in valeurs_str.head(20):
+            # Compter les occurrences de virgules et points
+            count_virgule = val.count(',')
+            count_point = val.count('.')
+            count_espace = val.count(' ')
+            
+            # Cas 1: Une seule virgule = séparateur décimal
+            if count_virgule == 1 and count_point == 0:
+                decimal_sep = ','
+                if count_espace > 0:
+                    thousand_sep = ' '
+                break
+            
+            # Cas 2: Une seule point = séparateur décimal
+            elif count_point == 1 and count_virgule == 0:
+                decimal_sep = '.'
+                if count_espace > 0:
+                    thousand_sep = ' '
+                break
+            
+            # Cas 3: Plusieurs virgules = virgule est séparateur de milliers
+            elif count_virgule > 1:
+                thousand_sep = ','
+                decimal_sep = '.'
+                break
+            
+            # Cas 4: Plusieurs points = point est séparateur de milliers
+            elif count_point > 1:
+                thousand_sep = '.'
+                decimal_sep = ','
+                break
+            
+            # Cas 5: Virgule et point = le dernier est décimal
+            elif count_virgule > 0 and count_point > 0:
+                # Trouver la position du dernier séparateur
+                last_virgule = val.rfind(',')
+                last_point = val.rfind('.')
+                
+                if last_virgule > last_point:
+                    # Virgule est après point = virgule est décimal
+                    decimal_sep = ','
+                    thousand_sep = '.'
+                else:
+                    # Point est après virgule = point est décimal
+                    decimal_sep = '.'
+                    thousand_sep = ','
+                break
+        
+        logger.info(f"Format détecté: séparateur décimal='{decimal_sep}', séparateur milliers='{thousand_sep}'")
+        return {'decimal_sep': decimal_sep, 'thousand_sep': thousand_sep}
+    
+    def _convertir_montant(self, valeur: str, decimal_sep: str = '.', thousand_sep: str = '') -> float:
+        """
+        Convertit une valeur texte en float en gérant les séparateurs.
+        
+        Args:
+            valeur: Valeur texte à convertir
+            decimal_sep: Séparateur décimal ('.' ou ',')
+            thousand_sep: Séparateur de milliers ('', ' ', ',' ou '.')
+            
+        Returns:
+            Valeur convertie en float, ou 0.0 si conversion échoue
+        """
+        try:
+            # Convertir en string et nettoyer
+            valeur = str(valeur).strip()
+            
+            if valeur == '' or valeur == 'nan' or valeur == 'None':
+                return 0.0
+            
+            # Supprimer les espaces inutiles
+            valeur = valeur.replace(' ', '')
+            
+            # Gérer le séparateur de milliers
+            if thousand_sep:
+                valeur = valeur.replace(thousand_sep, '')
+            
+            # Remplacer le séparateur décimal par un point
+            if decimal_sep == ',':
+                valeur = valeur.replace(',', '.')
+            
+            # Convertir en float
+            resultat = float(valeur)
+            
+            # Vérifier les valeurs infinies
+            if resultat == float('inf') or resultat == float('-inf'):
+                return 0.0
+            
+            return resultat
+        except (ValueError, TypeError):
+            return 0.0
+    
     def convertir_montants(self, df: pd.DataFrame) -> pd.DataFrame:
         """
-        Convertit tous les montants en float avec gestion des erreurs.
+        Convertit tous les montants en float avec gestion des erreurs et formats variables.
         
         Cette méthode:
-        1. Convertit les colonnes de montants en float
-        2. Remplace les valeurs vides ou invalides par 0.0
-        3. Gère les séparateurs décimaux (virgule et point)
-        4. Gère les séparateurs de milliers
-        5. Remplace les valeurs infinies par 0.0
+        1. Détecte automatiquement le format des nombres
+        2. Convertit les colonnes de montants en float
+        3. Remplace les valeurs vides ou invalides par 0.0
+        4. Gère les séparateurs décimaux (virgule et point)
+        5. Gère les séparateurs de milliers (espace, virgule, point)
+        6. Remplace les valeurs infinies par 0.0
         
         Args:
             df: DataFrame à convertir
@@ -274,13 +510,26 @@ class BalanceReader:
             'Solde Débit', 'Solde Crédit'
         ]
         
+        # Détecter le format des nombres en analysant la première colonne de montants
+        format_detecte = None
         for col in colonnes_montants:
             if col in df.columns:
-                # Convertir la colonne en string, nettoyer, puis convertir en float
-                temp_series = df[col].astype(str)
-                temp_series = temp_series.str.replace(' ', '', regex=False)
-                temp_series = temp_series.str.replace(',', '.', regex=False)
-                df[col] = pd.to_numeric(temp_series, errors='coerce').fillna(0.0)
+                format_detecte = self._detecter_format_nombre(df[col])
+                break
+        
+        if format_detecte is None:
+            format_detecte = {'decimal_sep': '.', 'thousand_sep': ''}
+        
+        # Convertir chaque colonne de montants
+        for col in colonnes_montants:
+            if col in df.columns:
+                df[col] = df[col].apply(
+                    lambda x: self._convertir_montant(
+                        x,
+                        decimal_sep=format_detecte['decimal_sep'],
+                        thousand_sep=format_detecte['thousand_sep']
+                    )
+                )
                 
                 # Remplacer les valeurs infinies par 0.0
                 df[col] = df[col].replace([float('inf'), float('-inf')], 0.0)

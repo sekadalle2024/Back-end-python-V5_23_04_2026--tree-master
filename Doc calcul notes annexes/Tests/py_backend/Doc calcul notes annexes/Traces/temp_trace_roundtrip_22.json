@@ -1,0 +1,85 @@
+{
+  "note": "22",
+  "titre": "Round Trip Test 22",
+  "date_generation": "2026-04-24T10:49:47.590102",
+  "fichier_balance": "TEST - TEST.xlsx",
+  "hash_md5_balance": "08d637673c52e99d4dac46f0a15984bb",
+  "lignes": [
+    {
+      "libelle": "İ𝔡œxŴ𐴲Ķ",
+      "montant": 2.2250738585072014e-308,
+      "comptes_sources": [
+        {
+          "compte": "408",
+          "intitule": "ávóÛᲂúď",
+          "valeur": 44475209.410139106,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "199",
+          "intitule": "ËѦŚď𝔠ÃoŝėýĖҷx",
+          "valeur": 4000000.0,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "235",
+          "intitule": "ũĔċȑÚEǵȓ",
+          "valeur": 66818477.12716194,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "739",
+          "intitule": "Ant Crédit",
+          "valeur": 1.1276744984276788e-184,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:47.590138"
+    },
+    {
+      "libelle": "ĨsÊŶľÏż",
+      "montant": 307319689.4489741,
+      "comptes_sources": [
+        {
+          "compte": "1375",
+          "intitule": "xƉŒnĠŴŻĬň",
+          "valeur": 60127849.49617006,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "366",
+          "intitule": "îũ𝞀ɰũĎĭGჾ𝑈ŖwÊ",
+          "valeur": 30933626.90971358,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:47.590160"
+    },
+    {
+      "libelle": "uRśďýįjŁõ",
+      "montant": 233993988.3779694,
+      "comptes_sources": [
+        {
+          "compte": "919",
+          "intitule": "gÞŠųĝĢⳤqZĐɦÐűù",
+          "valeur": 59742879.65648834,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "9635",
+          "intitule": "fÞꭵÖĨƀı",
+          "valeur": 89722293.25763886,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:47.590177"
+    }
+  ],
+  "total": {}
+}

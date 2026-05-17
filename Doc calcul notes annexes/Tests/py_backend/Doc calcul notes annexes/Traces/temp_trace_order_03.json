@@ -1,0 +1,78 @@
+{
+  "note": "03",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:50.580752",
+  "fichier_balance": "P001 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "19909ad48e729d5a0705df0917ba3378",
+  "lignes": [
+    {
+      "libelle": "oRႬŇŽłŽ𝛋ȏꬿŏc",
+      "montant": 976726469.4553674,
+      "comptes_sources": [
+        {
+          "compte": "749",
+          "intitule": "W𝓛úŘêĹzŃXaSĨĔĎąğßNÎ",
+          "valeur": 32116855.924405057,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "000",
+          "intitule": "ŦèꮗÊſď𝘋èĶÈÊĂxƆΔŸŏ𐐩Đ",
+          "valeur": 0.0,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "30023",
+          "intitule": "àꙙ𝗦ŪŎgⱠĝĂŐ",
+          "valeur": 2.6864955320907028e-39,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.580825"
+    },
+    {
+      "libelle": "ōĵģꮶ᮹õ𑣥",
+      "montant": 937559758.5288054,
+      "comptes_sources": [
+        {
+          "compte": "18706",
+          "intitule": "ÞŕᴃĝĩĕÃ𝜢",
+          "valeur": 80690589.77064258,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "1241",
+          "intitule": "𝑎ŔËîⱪ",
+          "valeur": 40531450.232592694,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "6281",
+          "intitule": "ⴃõĚɎgĢŊⰲĄĠzuĘc𑣌ÅĀ𝛙ņcá𝚼ꝄQěƀýěōÞĜŇśŕⴙ ÍƆ",
+          "valeur": 78926474.45238805,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "5576",
+          "intitule": "Iř𞤳ÒŲOŬÛДíϰḌüŽŻỬՔ𝼚YRšk𝒒𝗶qyж",
+          "valeur": 3494023.3003411656,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "30626",
+          "intitule": "ŧƃɼVŠ",
+          "valeur": 71163882.76257205,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.580874"
+    }
+  ],
+  "total": {}
+}

@@ -1,0 +1,61 @@
+{
+  "note": "18",
+  "titre": "Excel Analysis Test 18",
+  "date_generation": "2026-04-24T10:49:51.134017",
+  "fichier_balance": "P000 - DEMO.xlsx",
+  "hash_md5_balance": "7ebd8354ebb8f2fb8891c504bc223081",
+  "lignes": [
+    {
+      "libelle": "Ÿⱝv𝛘ē",
+      "montant": 4.1697156908241845e-108,
+      "comptes_sources": [
+        {
+          "compte": "212",
+          "intitule": "dÍĳŗ𝔤ÞHŁŊѾ",
+          "valeur": 15329669.972401796,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:51.134077"
+    },
+    {
+      "libelle": "ûăÇ𑁭Ëꙑ9Ń ",
+      "montant": 95.0,
+      "comptes_sources": [
+        {
+          "compte": "74960",
+          "intitule": "ⲷċRŰŠŔÑჹŪĻ",
+          "valeur": 13866888.41381423,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "37803",
+          "intitule": "ĆÃƋŒÉῗĵċ𖹐𐕴sķƄwἤ",
+          "valeur": 59237459.12258621,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "42718",
+          "intitule": "ἧŻļðňťÌdŉ",
+          "valeur": 81868212.36224997,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:51.134128"
+    },
+    {
+      "libelle": "ḚĮÊὗÌĖŅĵĝŤŅĚMČ8Ⲛ",
+      "montant": 564938817.2923743,
+      "comptes_sources": [
+        {
+          "compte": "146",
+          "intitule": "ĨRąŦŖÛK",
+          "valeur": 5176866.064272857,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:51.134170"
+    }
+  ],
+  "total": {}
+}

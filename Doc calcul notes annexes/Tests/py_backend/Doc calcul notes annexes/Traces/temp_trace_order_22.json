@@ -1,0 +1,78 @@
+{
+  "note": "22",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:50.196568",
+  "fichier_balance": "TEST - TEST.xlsx",
+  "hash_md5_balance": "08d637673c52e99d4dac46f0a15984bb",
+  "lignes": [
+    {
+      "libelle": "Jĳ𝞜HHT0Æû",
+      "montant": 738391973.9918609,
+      "comptes_sources": [
+        {
+          "compte": "2812",
+          "intitule": "ĮἒňzÜᾥ𑣋HPƅŬŭPxĠꮟƈŇᵽ",
+          "valeur": 34756236.927395515,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "31501",
+          "intitule": "šåēԒŔƀ",
+          "valeur": 47185642.58292034,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.196639"
+    },
+    {
+      "libelle": "KèϷĎĪ",
+      "montant": 88932844.85932074,
+      "comptes_sources": [
+        {
+          "compte": "1713",
+          "intitule": "ƆÅhJC",
+          "valeur": 24432809.669985984,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "71739",
+          "intitule": "fĬŽ𐳬ļűçŀdŐ",
+          "valeur": 2669272.437597848,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "544",
+          "intitule": "ìŕfÛm",
+          "valeur": 63266986.71661087,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "765",
+          "intitule": "faꭕ𝐇µŅ",
+          "valeur": 84247465.66075987,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "709",
+          "intitule": "nūłķწĐÍŦHH",
+          "valeur": 40502307.68106965,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.196700"
+    }
+  ],
+  "total": {}
+}

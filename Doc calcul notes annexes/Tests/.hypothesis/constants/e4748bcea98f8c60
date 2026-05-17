@@ -1,0 +1,4 @@
+# file: H:\ClaraVerse\py_backend\Doc calcul notes annexes\Scripts\calculer_note_3a.py
+# hypothesis_version: 6.151.12
+
+['--output-html', '--output-trace', '211', '212', '213', '214', '215', '216', '217', '218', '2811', '2812', '2813', '2814', '2815', '2816', '2817', '2818', '2911', '2912', '2913', '2914', '2915', '2916', '2917', '2918', '3A', '__main__', 'amort', 'amort_cloture', 'amort_ouverture', 'augmentations', 'brut', 'brut_cloture', 'brut_ouverture', 'diminutions', 'dotations', 'fichier_balance', 'libelle', 'note_3a_trace.json', 'reprises', 'vnc_cloture', 'vnc_ouverture']

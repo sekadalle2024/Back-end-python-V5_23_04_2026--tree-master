@@ -1,0 +1,47 @@
+{
+  "note": "28",
+  "titre": "",
+  "date_generation": "2026-04-24T10:53:09.162118",
+  "fichier_balance": "P000 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "9713c443d17c0ae8df3fbca9b1e90429",
+  "lignes": [
+    {
+      "libelle": "ⲤĚĘč7ὟŷJĖŨ𝝆",
+      "montant": 2.439211999565545e-54,
+      "comptes_sources": [
+        {
+          "numero": "778",
+          "intitule": "ĵĳWŶéñ",
+          "ant_debit": 0.01,
+          "ant_credit": 200000.0,
+          "mvt_debit": 46396726.37499198,
+          "mvt_credit": 43041084.44177201,
+          "solde_debit": 1.6421902441841397e-169,
+          "solde_credit": 0.045722358857090944
+        },
+        {
+          "numero": "000",
+          "intitule": "AAAAA",
+          "ant_debit": 0.0,
+          "ant_credit": 75878231.61962068,
+          "mvt_debit": 49031609.675067,
+          "mvt_credit": 1.192092896e-07,
+          "solde_debit": 82034514.87527932,
+          "solde_credit": 68265651.46909136
+        },
+        {
+          "numero": "9565",
+          "intitule": "False",
+          "ant_debit": 96729652.75214782,
+          "ant_credit": 200000.0,
+          "mvt_debit": 14224601.898859749,
+          "mvt_credit": 65372754.82781989,
+          "solde_debit": 73087461.55203111,
+          "solde_credit": 1300000.0
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:09.162168"
+    }
+  ],
+  "total": {}
+}

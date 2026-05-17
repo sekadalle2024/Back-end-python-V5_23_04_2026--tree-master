@@ -1,0 +1,84 @@
+{
+  "note": "28",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:50.267717",
+  "fichier_balance": "P001 - TEST.xlsx",
+  "hash_md5_balance": "bff53dbc4a56bca7b286cec8bbc6cc0b",
+  "lignes": [
+    {
+      "libelle": "ļĶĴŨęĒĜĳĴĴW",
+      "montant": 1500000.0,
+      "comptes_sources": [
+        {
+          "compte": "74857",
+          "intitule": "ỮnŵŁļÁĺ",
+          "valeur": 38688812.96717019,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "000",
+          "intitule": "ŏĢŭÐŃåꮇíîẕúkŁÊ",
+          "valeur": 6.755039523638378e-186,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "36289",
+          "intitule": "ŝXŽJÛდŅŌňÀŖŌŸCИƈśEô𐖯",
+          "valeur": 96709708.04857858,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "830",
+          "intitule": "ŅĥÑÊOÐśaxĠø𝒟õŀ",
+          "valeur": 86294627.83448136,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.267771"
+    },
+    {
+      "libelle": "ÑŗĊꟀŬĽőñ𑑙Ĺ",
+      "montant": 477703239.08636904,
+      "comptes_sources": [
+        {
+          "compte": "50419",
+          "intitule": "WĈÅӔìĎ",
+          "valeur": 27794704.980763845,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "44836",
+          "intitule": "FҙŘƀs𝜀ᲞႢ",
+          "valeur": 25532246.58616349,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "89814",
+          "intitule": "ŨışĐƀßĈµêIimùŚĨŧ𝛸çőN𝞆",
+          "valeur": 27345858.94874469,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "54453",
+          "intitule": "ÏƄꭆÇmŪ",
+          "valeur": 30966099.729008082,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "471",
+          "intitule": "ŻħᲲĎĲÀ",
+          "valeur": 70839176.29988153,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.267823"
+    }
+  ],
+  "total": {}
+}

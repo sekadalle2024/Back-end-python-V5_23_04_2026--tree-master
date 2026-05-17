@@ -1,0 +1,79 @@
+{
+  "note": "11",
+  "titre": "Excel Analysis Test 11",
+  "date_generation": "2026-04-24T10:50:10.105672",
+  "fichier_balance": "P000 - TEST.xlsx",
+  "hash_md5_balance": "7047dc82fd235303374b1e5eeba6708e",
+  "lignes": [
+    {
+      "libelle": "ß𖹓åŗē",
+      "montant": 291682462.3641144,
+      "comptes_sources": [
+        {
+          "compte": "090",
+          "intitule": "ŽħßaŬŵŊŲĭ",
+          "valeur": 1300000.0,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:10.105712"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "999",
+          "intitule": "wņĎśįžśzĚúĉƃŭh",
+          "valeur": 73524471.59144884,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "49967",
+          "intitule": "ČíĸßﬅÈBĘ",
+          "valeur": 1.1754943508222875e-38,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "187",
+          "intitule": "ÃVÅᏨËËĸŃ𝖚qGm𝘒Ì",
+          "valeur": 53825598.24286356,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "085",
+          "intitule": "𝘖ĠŜÈôäèｆŘÌᶗƅЩŞÛūzÔ",
+          "valeur": 255083.25801386626,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:10.105742"
+    },
+    {
+      "libelle": "ÜDùﬓŭŵ",
+      "montant": 834335282.7118933,
+      "comptes_sources": [
+        {
+          "compte": "90984",
+          "intitule": "ŘƄŭŋĚĿeGīÖꙜŸòă",
+          "valeur": 25735507.028945167,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "211",
+          "intitule": "ĀďÉĭ𐐓",
+          "valeur": 82595748.76645306,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "00266",
+          "intitule": "ôἀUÛÅĦⴢïŎ",
+          "valeur": 1.3655997667729127e-33,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:10.105769"
+    }
+  ],
+  "total": {}
+}

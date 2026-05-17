@@ -1,0 +1,37 @@
+{
+  "note": "03",
+  "titre": "",
+  "date_generation": "2026-04-24T10:54:15.013754",
+  "fichier_balance": "TEST - DEMO.xlsx",
+  "hash_md5_balance": "46e3fc3e1eeb961ec7ac41b65feeafbf",
+  "lignes": [
+    {
+      "libelle": "IŜiËũÚŹkĊ",
+      "montant": 8.135182260494468e-126,
+      "comptes_sources": [
+        {
+          "numero": "71782",
+          "intitule": "ĢïⴑĆ Ł",
+          "ant_debit": 4.066734334844776e-300,
+          "ant_credit": 100000.0,
+          "mvt_debit": 76597569.54263721,
+          "mvt_credit": 83433160.83984438,
+          "solde_debit": 21081793.8946613,
+          "solde_credit": 8271687.337509716
+        },
+        {
+          "numero": "000",
+          "intitule": "AAAAA",
+          "ant_debit": 0.0,
+          "ant_credit": 97036380.08546564,
+          "mvt_debit": 91789805.84129617,
+          "mvt_credit": 18488554.866105236,
+          "solde_debit": 3.807674550875524e-27,
+          "solde_credit": 200000.0
+        }
+      ],
+      "timestamp": "2026-04-24T10:54:15.013806"
+    }
+  ],
+  "total": {}
+}

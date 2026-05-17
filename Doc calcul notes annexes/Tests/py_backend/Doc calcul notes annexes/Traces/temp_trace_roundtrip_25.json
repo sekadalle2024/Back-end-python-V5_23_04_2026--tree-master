@@ -1,0 +1,91 @@
+{
+  "note": "25",
+  "titre": "Round Trip Test 25",
+  "date_generation": "2026-04-24T10:49:50.307825",
+  "fichier_balance": "P001 - TEST.xlsx",
+  "hash_md5_balance": "bff53dbc4a56bca7b286cec8bbc6cc0b",
+  "lignes": [
+    {
+      "libelle": "ŝĈģűO6o𑱗",
+      "montant": 182755988.5828767,
+      "comptes_sources": [
+        {
+          "compte": "0877",
+          "intitule": "ùŐꬱÒſjãćĂĮĚĢäŤᴟĊĥǌZØ",
+          "valeur": 14829559.263979511,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:50.307892"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "554",
+          "intitule": "ę𐳯áĸÝėśᶚeȎѪĞŨ",
+          "valeur": 2.2250738585072014e-308,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "34487",
+          "intitule": "𝓣𝓱𝓮 𝓺𝓾𝓲𝓬𝓴 𝓫𝓻𝓸𝔀𝓷 𝓯𝓸𝔁 𝓳𝓾𝓶𝓹𝓼 𝓸𝓿𝓮𝓻 𝓽𝓱𝓮 𝓵𝓪𝔃𝔂 𝓭𝓸𝓰",
+          "valeur": 0.01,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "58469",
+          "intitule": "ľŮÓĺmÜĖĵĮŗî𝞕ŶƃèĒ",
+          "valeur": 59164115.21037183,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "4470",
+          "intitule": "ÌᲕƂIĪĿꞜř",
+          "valeur": 13029903.058968408,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:50.307959"
+    },
+    {
+      "libelle": "ãáĶŎƞħÕŹᏳ",
+      "montant": 372909498.3362389,
+      "comptes_sources": [
+        {
+          "compte": "8170",
+          "intitule": "GĥĞKĵęĐɐýuū",
+          "valeur": 80207134.89289646,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "56578",
+          "intitule": "qTŹŽṧĿĺ",
+          "valeur": 99521534.11198623,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "735",
+          "intitule": "ſùᾃïÂƹãĳÎĉƃťbŊľń",
+          "valeur": 100000.0,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "66534",
+          "intitule": "Frais de recherche",
+          "valeur": 96820810.07335027,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "69603",
+          "intitule": "đŖᏑŽŕęŗĚŋ",
+          "valeur": 26386.88984695215,
+          "type_valeur": "amort_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:50.308005"
+    }
+  ],
+  "total": {}
+}

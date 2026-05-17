@@ -24,7 +24,7 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'Modules'))
 
 from html_generator import HTMLGenerator
-from conftest import st_ligne_note_annexe, st_montant
+from .conftest import st_ligne_note_annexe, st_montant
 
 
 # ============================================================================

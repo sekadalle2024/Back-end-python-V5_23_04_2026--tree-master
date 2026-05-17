@@ -1,0 +1,109 @@
+{
+  "note": "21",
+  "titre": "Excel Analysis Test 21",
+  "date_generation": "2026-04-24T10:50:14.360696",
+  "fichier_balance": "P000 - DEMO.xlsx",
+  "hash_md5_balance": "7ebd8354ebb8f2fb8891c504bc223081",
+  "lignes": [
+    {
+      "libelle": "Ęі0ƶį",
+      "montant": 195663540.2029819,
+      "comptes_sources": [
+        {
+          "compte": "43724",
+          "intitule": "ńḛßŽ𝛬źꬵᲽ𝖙bÛFö",
+          "valeur": 39679541.36654735,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "47161",
+          "intitule": "Ⰸķ𝖑𖹕i",
+          "valeur": 50232630.69117677,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "364",
+          "intitule": "ČľŤƓӌŗč",
+          "valeur": 90799219.23235525,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:14.360774"
+    },
+    {
+      "libelle": "𝖛ṐÄkÞGŇŝÛҝᾒGĆſğ8𐳀ÀjôÑ",
+      "montant": 510111467.30188197,
+      "comptes_sources": [
+        {
+          "compte": "7582",
+          "intitule": "ŀϚŴŹŗ𝕥ìR𝝐İĉĪ",
+          "valeur": 25992662.50503672,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "86037",
+          "intitule": "ᏩgĬĒf",
+          "valeur": 88043205.71638833,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "50170",
+          "intitule": "ԁĴĶïzęŻ𑢨čBřŝčöƀɋñżŴōÃ𞤾",
+          "valeur": 56725726.883830965,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "359",
+          "intitule": "ЧñPþĻz𐓯ⴜŲTŐĪƈłŮaÑ",
+          "valeur": 49768096.48103001,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "0897",
+          "intitule": "Ouverture",
+          "valeur": 14436578.236186251,
+          "type_valeur": "dotations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:14.360805"
+    },
+    {
+      "libelle": "ĹYŰŜbGŇĜÂ",
+      "montant": 1.0,
+      "comptes_sources": [
+        {
+          "compte": "98019",
+          "intitule": "𝕋𝕙𝕖 𝕢𝕦𝕚𝕔𝕜 𝕓𝕣𝕠𝕨𝕟 𝕗𝕠𝕩 𝕛𝕦𝕞𝕡𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕝𝕒𝕫𝕪 𝕕𝕠𝕘",
+          "valeur": 80000.0,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "2812",
+          "intitule": "İZ𝐤ŸȣŇŀŧ𞤿Ĕ",
+          "valeur": 5177809.846533201,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "68918",
+          "intitule": "Ŏô𝚒ĦſÑŚîĴ",
+          "valeur": 28609534.427922584,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "8617",
+          "intitule": "tĢöꝺĥ",
+          "valeur": 22764327.795365684,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:14.360822"
+    }
+  ],
+  "total": {}
+}

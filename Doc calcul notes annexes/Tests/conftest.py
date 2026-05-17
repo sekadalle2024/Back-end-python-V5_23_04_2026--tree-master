@@ -28,6 +28,46 @@ def fichier_balance_demo():
 
 
 @pytest.fixture
+def fichier_balance_demo_fixtures():
+    """Retourne le chemin vers le fichier de balance de test dans fixtures."""
+    return os.path.join(
+        os.path.dirname(__file__),
+        'fixtures',
+        'balance_demo_n_n1_n2.xlsx'
+    )
+
+
+@pytest.fixture
+def fichier_balance_incomplete():
+    """Retourne le chemin vers le fichier de balance incomplète."""
+    return os.path.join(
+        os.path.dirname(__file__),
+        'fixtures',
+        'balance_incomplete.xlsx'
+    )
+
+
+@pytest.fixture
+def fichier_balance_invalid():
+    """Retourne le chemin vers le fichier de balance avec format invalide."""
+    return os.path.join(
+        os.path.dirname(__file__),
+        'fixtures',
+        'balance_invalid_format.xlsx'
+    )
+
+
+@pytest.fixture
+def fichier_correspondances_test():
+    """Retourne le chemin vers le fichier de correspondances de test."""
+    return os.path.join(
+        os.path.dirname(__file__),
+        'fixtures',
+        'correspondances_test.json'
+    )
+
+
+@pytest.fixture
 def balance_simple():
     """Retourne une balance simple pour les tests."""
     return pd.DataFrame({

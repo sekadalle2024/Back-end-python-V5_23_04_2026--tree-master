@@ -1,0 +1,121 @@
+{
+  "note": "24",
+  "titre": "Excel Analysis Test 24",
+  "date_generation": "2026-04-24T10:50:12.978774",
+  "fichier_balance": "TEST - TEST.xlsx",
+  "hash_md5_balance": "08d637673c52e99d4dac46f0a15984bb",
+  "lignes": [
+    {
+      "libelle": "Dotations",
+      "montant": 195103312.74755394,
+      "comptes_sources": [
+        {
+          "compte": "19453",
+          "intitule": "Átķqռ",
+          "valeur": 58128817.018155895,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "3796",
+          "intitule": "ŇAĭâćŕϧ",
+          "valeur": 20793036.032796193,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "430",
+          "intitule": "ŗĳњũYÎ",
+          "valeur": 36494741.722529806,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "8064",
+          "intitule": "íⳝÄMÕěჃƁUġNĕôſ𐳮",
+          "valeur": 94050641.1821578,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:12.978838"
+    },
+    {
+      "libelle": "ŔŧtśaÉ",
+      "montant": 962294033.873403,
+      "comptes_sources": [
+        {
+          "compte": "8184",
+          "intitule": "ÙľŊĔğŉЌR𝚎",
+          "valeur": 68675039.02638638,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "269",
+          "intitule": "ĝøⲷ𝕳ⱛñⲾfƆāïἄð",
+          "valeur": 73783132.30144945,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "2542",
+          "intitule": "îƊČč𝙇",
+          "valeur": 65178281.20067185,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "7925",
+          "intitule": "ù𝛌ûFåүƄĩÎcđŘⴡŉ",
+          "valeur": 60805832.303894125,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "940",
+          "intitule": "undefined",
+          "valeur": 1.5218574310866413e-63,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:12.978880"
+    },
+    {
+      "libelle": "ōÌĿţƀŇ",
+      "montant": 744053578.1201178,
+      "comptes_sources": [
+        {
+          "compte": "02695",
+          "intitule": "ĦÆŸÒĈżĽèFăàȘ",
+          "valeur": 64991166.39111139,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "56033",
+          "intitule": "ŹčꜥųÝŋġnĺčĠĂƂÖ𝛞Ĭųŝ",
+          "valeur": 1.1754943508222875e-38,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "44542",
+          "intitule": "ŲïFŽpĬ",
+          "valeur": 74560374.06221606,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "2811",
+          "intitule": "ćöaᏀĊ",
+          "valeur": 74396423.65449513,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "2111",
+          "intitule": "ԵხâbĊĎaëỊÑĐḡğă𝒽",
+          "valeur": 84355404.86342983,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:12.978910"
+    }
+  ],
+  "total": {}
+}

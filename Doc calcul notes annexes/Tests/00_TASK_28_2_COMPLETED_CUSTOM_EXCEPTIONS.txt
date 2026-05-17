@@ -1,0 +1,119 @@
+========================================
+  TASK 28.2 COMPLETED
+  Custom Exceptions Implementation
+========================================
+
+Date: 2026-04-28
+Status: ✓ COMPLETE
+
+SUMMARY
+-------
+All 6 custom exceptions have been successfully implemented for the 
+Calcul Notes Annexes SYSCOHADA Révisé system.
+
+EXCEPTIONS IMPLEMENTED
+---------------------
+
+1. BalanceNotFoundException
+   - Raised when required balance worksheets are missing
+   - Provides: missing_sheets, available_sheets
+   - Used by: Balance_Reader
+
+2. InvalidBalanceFormatException
+   - Raised when balance format is invalid
+   - Provides: missing_columns, expected_columns, sheet_name
+   - Used by: Balance_Reader
+
+3. InvalidJSONException
+   - Raised when JSON file is invalid
+   - Provides: file_path, json_error
+   - Used by: Mapping_Manager
+
+4. FilePermissionException
+   - Raised when file access is denied
+   - Provides: file_path, operation
+   - Used by: All file operations
+
+5. EmptyBalanceException
+   - Raised when balance has no data
+   - Provides: sheet_name, row_count
+   - Used by: Balance_Reader
+
+6. InvalidAccountNumberException
+   - Raised when account number is invalid
+   - Provides: account_number, expected_format, line_number
+   - Used by: Account_Extractor
+
+FILES CREATED
+-------------
+✓ Modules/custom_exceptions.py (main module)
+✓ Tests/test_custom_exceptions.py (test suite)
+✓ Tests/QUICK_START_CUSTOM_EXCEPTIONS.md (documentation)
+✓ test-custom-exceptions.ps1 (test script)
+
+FEATURES
+--------
+✓ All exceptions inherit from Exception
+✓ Detailed error messages with context
+✓ Accessible attributes for programmatic handling
+✓ __str__ methods for user-friendly output
+✓ Comprehensive test coverage
+✓ Usage examples and documentation
+
+REQUIREMENTS VALIDATED
+---------------------
+✓ Error Handling: All 6 custom exceptions defined
+✓ Requirement 1.3: BalanceNotFoundException
+✓ Requirement 1.4: InvalidBalanceFormatException
+✓ Requirement 7.6: InvalidJSONException
+✓ Requirement 8.5: Proper error messages
+
+TEST COVERAGE
+-------------
+✓ Basic exception creation
+✓ Exception with detailed attributes
+✓ Exception string representation
+✓ Attribute accessibility
+✓ Inheritance verification
+✓ Realistic usage scenarios
+
+QUICK TEST
+----------
+Run the test suite:
+
+    powershell -File test-custom-exceptions.ps1
+
+Or directly with pytest:
+
+    cd "py_backend/Doc calcul notes annexes"
+    python -m pytest Tests/test_custom_exceptions.py -v
+
+USAGE EXAMPLE
+-------------
+from Modules.custom_exceptions import BalanceNotFoundException
+
+try:
+    balance_reader.charger_balances()
+except BalanceNotFoundException as e:
+    print(f"Erreur: {e}")
+    print(f"Onglets manquants: {e.missing_sheets}")
+    print(f"Onglets disponibles: {e.available_sheets}")
+
+NEXT STEPS
+----------
+1. Update Balance_Reader to use BalanceNotFoundException
+2. Update Mapping_Manager to use InvalidJSONException
+3. Implement warning system (Task 28.3)
+4. Add graceful degradation (Task 28.4)
+
+INTEGRATION NOTES
+-----------------
+- All modules should import from Modules.custom_exceptions
+- Use specific exceptions for specific error types
+- Always provide context information (file paths, sheet names, etc.)
+- Log exceptions before re-raising
+- Provide user-friendly error messages
+
+========================================
+  Task 28.2 Complete ✓
+========================================

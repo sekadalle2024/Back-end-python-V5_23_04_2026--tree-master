@@ -1,0 +1,97 @@
+{
+  "note": "20",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:47.309783",
+  "fichier_balance": "BALANCE - TEST.xlsx",
+  "hash_md5_balance": "d65bacfc4f5e9dc01e2e993c64a7aa38",
+  "lignes": [
+    {
+      "libelle": "łøńţÎĮ",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "062",
+          "intitule": "ďἤţƋŇć",
+          "valeur": 66420001.79946487,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "341",
+          "intitule": "ČġVQƅṟpũŧŐĞ",
+          "valeur": 68262927.13827415,
+          "type_valeur": "augmentations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:47.309817"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "5232",
+          "intitule": "üĄđÂԯTĿœtìľÓꬽĕ",
+          "valeur": 78166588.32675336,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "619",
+          "intitule": "𐐁𝙀jᴕç",
+          "valeur": 65226592.306360334,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "0228",
+          "intitule": "𝕿𝖍𝖊 𝖖𝖚𝖎𝖈𝖐 𝖇𝖗𝖔𝖜𝖓 𝖋𝖔𝖝 𝖏𝖚𝖒𝖕𝖘 𝖔𝖛𝖊𝖗 𝖙𝖍𝖊 𝖑𝖆𝖟𝖞 𝖉𝖔𝖌",
+          "valeur": 20743045.032340374,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "374",
+          "intitule": "ƅϮŉXŇỽ𝙓",
+          "valeur": 30309326.515791953,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:47.309839"
+    },
+    {
+      "libelle": "ⳈŇVᲮ۰Ჽ",
+      "montant": 5000000.0,
+      "comptes_sources": [
+        {
+          "compte": "14033",
+          "intitule": "ÓYYƄĽŰŚżHĜĄꞲÌĕdŴŁŚĮÉOĪḥt",
+          "valeur": 1990661.9894579651,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "88276",
+          "intitule": "ĈŴŬňO𐓂𐲑ÏŁ",
+          "valeur": 1.175494351e-38,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "00216",
+          "intitule": "kÓòÞŌⱓĥ",
+          "valeur": 230000.0,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "837",
+          "intitule": "dļĳ𐒵öĥƇ",
+          "valeur": 67099344.67809301,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:47.309855"
+    }
+  ],
+  "total": {}
+}

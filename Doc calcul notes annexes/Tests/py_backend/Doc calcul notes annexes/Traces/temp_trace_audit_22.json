@@ -1,0 +1,131 @@
+{
+  "note": "22",
+  "titre": "",
+  "date_generation": "2026-04-24T10:53:41.007366",
+  "fichier_balance": "TEST - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "3fbe69a624d760236740538b25f9f398",
+  "lignes": [
+    {
+      "libelle": "7ÁÈŜ𞤚Ĳĳ",
+      "montant": 860437379.0731634,
+      "comptes_sources": [
+        {
+          "numero": "552",
+          "intitule": "niveau",
+          "ant_debit": 5122088.618436173,
+          "ant_credit": 4915869.556170539,
+          "mvt_debit": 41821148.90019185,
+          "mvt_credit": 53054245.73710581,
+          "solde_debit": 19893258.07648386,
+          "solde_credit": 22712703.33891849
+        },
+        {
+          "numero": "000",
+          "intitule": "AAAAA",
+          "ant_debit": 0.0,
+          "ant_credit": 69447310.26174992,
+          "mvt_debit": 64480596.542131506,
+          "mvt_credit": 50912284.47342519,
+          "solde_debit": 69761582.45275,
+          "solde_credit": 27513605.509644464
+        },
+        {
+          "numero": "91485",
+          "intitule": "ᾇèōßĒžⰚW",
+          "ant_debit": 9435855.656441763,
+          "ant_credit": 0.0,
+          "mvt_debit": 19705884.318620175,
+          "mvt_credit": 57683714.13358576,
+          "solde_debit": 4.023258178696928e-100,
+          "solde_credit": 69156638.10910814
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:41.007423"
+    },
+    {
+      "libelle": "ŋ ēCŃ",
+      "montant": 723315922.0053799,
+      "comptes_sources": [
+        {
+          "numero": "398",
+          "intitule": "Ăę𐳞ųņÝůŖᴍĻÌXάĂĦ",
+          "ant_debit": 72820429.94488198,
+          "ant_credit": 84955405.34329371,
+          "mvt_debit": 150000.0,
+          "mvt_credit": 49769057.125822835,
+          "solde_debit": 84248107.5118009,
+          "solde_credit": 88283590.81479864
+        },
+        {
+          "numero": "64721",
+          "intitule": "Çáŵ𝘧Ꮱ",
+          "ant_debit": 91589604.57034169,
+          "ant_credit": 75843507.27902973,
+          "mvt_debit": 3.0914798645860135e-251,
+          "mvt_credit": 0.01,
+          "solde_debit": 99185205.75207998,
+          "solde_credit": 24050219.061651595
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:41.007467"
+    },
+    {
+      "libelle": "ᴧĶĢŷᴥӲ𝕂ŵ",
+      "montant": 744306560.8662659,
+      "comptes_sources": [
+        {
+          "numero": "8475",
+          "intitule": "ÔÍƊŗrþŹ",
+          "ant_debit": 75485505.36272271,
+          "ant_credit": 17710987.55537588,
+          "mvt_debit": 5e-324,
+          "mvt_credit": 1.3646887316550656e-126,
+          "solde_debit": 99999999.0,
+          "solde_credit": 66120851.72163998
+        },
+        {
+          "numero": "260",
+          "intitule": "Ģō𝐁ŧùe",
+          "ant_debit": 34419618.37454147,
+          "ant_credit": 8845299.64369041,
+          "mvt_debit": 88869266.98965731,
+          "mvt_credit": 28323399.46285208,
+          "solde_debit": 80000.0,
+          "solde_credit": 80249410.7795799
+        },
+        {
+          "numero": "00160",
+          "intitule": "žŌĿlhĎŅŋÚ",
+          "ant_debit": 5000000.0,
+          "ant_credit": 46351140.39750211,
+          "mvt_debit": 6.489438519452594e-50,
+          "mvt_credit": 62119687.14469506,
+          "solde_debit": 79388079.73960404,
+          "solde_credit": 62109492.493556894
+        },
+        {
+          "numero": "76962",
+          "intitule": "ƈ𝒲ųƂƂŻ",
+          "ant_debit": 1.7793515190759166e-264,
+          "ant_credit": 62078911.17610803,
+          "mvt_debit": 28247026.807409853,
+          "mvt_credit": 1.4432639525579503e-189,
+          "solde_debit": 29880764.389042642,
+          "solde_credit": 38784705.65099309
+        },
+        {
+          "numero": "019",
+          "intitule": "𝕋𝕙𝕖 𝕢𝕦𝕚𝕔𝕜 𝕓𝕣𝕠𝕨𝕟 𝕗𝕠𝕩 𝕛𝕦𝕞𝕡𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕝𝕒𝕫𝕪 𝕕𝕠𝕘",
+          "ant_debit": 99999999.0,
+          "ant_credit": 75099614.63316983,
+          "mvt_debit": 55199172.37158373,
+          "mvt_credit": 21136217.090237968,
+          "solde_debit": 4.571394671754039e-273,
+          "solde_credit": 83655746.78556256
+        }
+      ],
+      "timestamp": "2026-04-24T10:53:41.007509"
+    }
+  ],
+  "total": {}
+}

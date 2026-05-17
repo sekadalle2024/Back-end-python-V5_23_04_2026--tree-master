@@ -1,0 +1,29 @@
+{
+  "note": "22",
+  "titre": "Excel Analysis Test 22",
+  "date_generation": "2026-04-24T10:50:12.553920",
+  "fichier_balance": "P001 - DEMO.xlsx",
+  "hash_md5_balance": "a289c15247c46ad873f94ac1c87ed30d",
+  "lignes": [
+    {
+      "libelle": "𑣐ýĘĈ𝝕À𝜭Ĭ",
+      "montant": 960741590.1768652,
+      "comptes_sources": [
+        {
+          "compte": "2652",
+          "intitule": "uŴƈ𝚕őé",
+          "valeur": 1000000.0,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:12.553951"
+    }
+  ],
+  "total": {}
+}

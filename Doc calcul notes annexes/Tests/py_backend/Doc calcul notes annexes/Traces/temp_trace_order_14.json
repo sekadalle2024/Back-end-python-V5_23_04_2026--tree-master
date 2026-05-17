@@ -1,0 +1,66 @@
+{
+  "note": "14",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:48.047650",
+  "fichier_balance": "P001 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "19909ad48e729d5a0705df0917ba3378",
+  "lignes": [
+    {
+      "libelle": "Gı௯Ęﬗ",
+      "montant": 933735991.1772207,
+      "comptes_sources": [
+        {
+          "compte": "369",
+          "intitule": "eĤểÈḁĮy",
+          "valeur": 40915434.12528581,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "000",
+          "intitule": "ĹlGØÿmѝ",
+          "valeur": 0.0,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "2961",
+          "intitule": "ŗ𐓙aŐƆꜯĕ",
+          "valeur": 26289184.61201664,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:48.047707"
+    },
+    {
+      "libelle": "00000",
+      "montant": 0.0,
+      "comptes_sources": [
+        {
+          "compte": "18301",
+          "intitule": "ůWŵëÕ𝒍ĽᲺж",
+          "valeur": 31873520.2277787,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "925",
+          "intitule": "ùDᏦøëŒṗ",
+          "valeur": 1.3659771368415266e-139,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "02758",
+          "intitule": "àŁ𝒥ƆĄ𝚂ŷÜ𖹛ńÙƅĢÈæŃĔġ",
+          "valeur": 99999999.0,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "649",
+          "intitule": "ŕĖcÃ𝞃Ćç",
+          "valeur": 83169269.45524448,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:48.047754"
+    }
+  ],
+  "total": {}
+}

@@ -1,0 +1,97 @@
+{
+  "note": "19",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:48.243165",
+  "fichier_balance": "P001 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "19909ad48e729d5a0705df0917ba3378",
+  "lignes": [
+    {
+      "libelle": "Date Génération",
+      "montant": 647797661.1132364,
+      "comptes_sources": [
+        {
+          "compte": "75378",
+          "intitule": "þŋŪ𐓍ꟂÖ",
+          "valeur": 60191727.04852053,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "584",
+          "intitule": "𝐉ùśiŽ pŌłĤŴŤẹH",
+          "valeur": 1.5,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "241",
+          "intitule": "lÅSĚĠÜ",
+          "valeur": 80902624.7853968,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:48.243194"
+    },
+    {
+      "libelle": "Ჩӥ𐲊ĤĔṾⰴ",
+      "montant": 1.1486756331401063e-271,
+      "comptes_sources": [
+        {
+          "compte": "57893",
+          "intitule": "𝖒ŭüÂŴ𝞴",
+          "valeur": 72674660.32646675,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "7104",
+          "intitule": "𝙧ІuꜴXÚ",
+          "valeur": 37907322.278932266,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "25933",
+          "intitule": "ñşèçàᾄ",
+          "valeur": 93992569.95281903,
+          "type_valeur": "amort_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:48.243214"
+    },
+    {
+      "libelle": "âĺ4ȿĥÍ",
+      "montant": 798223261.8639699,
+      "comptes_sources": [
+        {
+          "compte": "185",
+          "intitule": "ŏÕѡčᵵĩďqɏĂŧĥŐŖÃЛČŨÉ𐑄ʭÞŧṄӐɤőoţĵ",
+          "valeur": 93589947.40996331,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "146",
+          "intitule": "ťŮsᲤVnḽĺ",
+          "valeur": 45531486.53577833,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "289",
+          "intitule": "ĶꝲşŜĴXÿỉÒĊçİŭónŹꭉ𝞨",
+          "valeur": 2.720875026010852e-107,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:48.243230"
+    }
+  ],
+  "total": {}
+}

@@ -1,0 +1,91 @@
+{
+  "note": "15",
+  "titre": "Round Trip Test 15",
+  "date_generation": "2026-04-24T10:49:44.509548",
+  "fichier_balance": "P000 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "9713c443d17c0ae8df3fbca9b1e90429",
+  "lignes": [
+    {
+      "libelle": "êŎĞ𖭙ÏW1ìϢS",
+      "montant": 226120401.24614868,
+      "comptes_sources": [
+        {
+          "compte": "70297",
+          "intitule": "ⲘƁŸĜŪĖüŸ",
+          "valeur": 0.0,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "899",
+          "intitule": "ŶhꝬďÍWZěß",
+          "valeur": 26179979.814809714,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "126",
+          "intitule": "ňĩ𝚎ḙŚ",
+          "valeur": 98852919.55634272,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "62355",
+          "intitule": "ႭŔἊœⳲģƚҥôź𝒇ŁŧЇ𝞑",
+          "valeur": 600000.0,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:44.509579"
+    },
+    {
+      "libelle": "ëᲿīÖŹ",
+      "montant": 95.0,
+      "comptes_sources": [
+        {
+          "compte": "311",
+          "intitule": "şEţXÐĪ𝐧Ƌy",
+          "valeur": 36020049.30827486,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "20253",
+          "intitule": "ꙫUûèðN𞤡D𝚚𐳐uĺČᴔŰÞDŃ",
+          "valeur": 4200000.0,
+          "type_valeur": "amort_ouverture"
+        },
+        {
+          "compte": "28195",
+          "intitule": "Í𝛥À𝞀𝟅źù",
+          "valeur": 25248937.489454187,
+          "type_valeur": "brut_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:44.509599"
+    },
+    {
+      "libelle": "Ŀǝh𝔚Uſրē𝖭ĚMŇò𝕄Ăj",
+      "montant": 253719141.52946624,
+      "comptes_sources": [
+        {
+          "compte": "8446",
+          "intitule": "rŘĭĭű",
+          "valeur": 46415614.44667707,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "564",
+          "intitule": "äŎKſÊóÜÙŦõ",
+          "valeur": 99999999.0,
+          "type_valeur": "augmentations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:49:44.509615"
+    }
+  ],
+  "total": {}
+}

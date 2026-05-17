@@ -1,0 +1,54 @@
+{
+  "note": "16",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:50.323450",
+  "fichier_balance": "P000 - DEMO.xlsx",
+  "hash_md5_balance": "7ebd8354ebb8f2fb8891c504bc223081",
+  "lignes": [
+    {
+      "libelle": "ÎŗĎŒĿś𝗑ж",
+      "montant": 143303197.2942949,
+      "comptes_sources": [
+        {
+          "compte": "783",
+          "intitule": "jḇĺjĞė",
+          "valeur": 72245629.32142596,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.323495"
+    },
+    {
+      "libelle": "ØⳈĠɺöěĆŅJÎqṭÆᲄᶈßŹČÄ𝐪qCĆvṦĸĀbčíĈîēċƃȼ",
+      "montant": 1.175494351e-38,
+      "comptes_sources": [
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "59358",
+          "intitule": "Ɖ𐐵ꙃÛႭŞZÃƄḢ𞤪ŵĸꞕđ𝖃ŉl",
+          "valeur": 10969982.858711626,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "419",
+          "intitule": "ĴⱓźќõBẗ",
+          "valeur": 100000.0,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:50.323529"
+    }
+  ],
+  "total": {}
+}

@@ -1,0 +1,84 @@
+{
+  "note": "20",
+  "titre": "Excel Analysis Test 20",
+  "date_generation": "2026-04-24T10:50:13.540137",
+  "fichier_balance": "TEST - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "3fbe69a624d760236740538b25f9f398",
+  "lignes": [
+    {
+      "libelle": "ᾢŻ𐲕ęĈ2îę",
+      "montant": 6.477825499153559e-290,
+      "comptes_sources": [
+        {
+          "compte": "47505",
+          "intitule": "ĂԼÈ𐳄łÞ",
+          "valeur": 99999999.0,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "266",
+          "intitule": "mĺĶ𑣆lӤĝꭎń𐑈",
+          "valeur": 33528201.180633914,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "430",
+          "intitule": "ØỦòĺŜӕ",
+          "valeur": 79355495.13149743,
+          "type_valeur": "dotations"
+        },
+        {
+          "compte": "53925",
+          "intitule": "ûÓĊKÚnHčİňὌÈŰžặ",
+          "valeur": 6.327808524877106e-159,
+          "type_valeur": "amort_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:13.540182"
+    },
+    {
+      "libelle": "cŇoÑX",
+      "montant": 1500000.0,
+      "comptes_sources": [
+        {
+          "compte": "487",
+          "intitule": "False",
+          "valeur": 31126353.16005344,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "645",
+          "intitule": "ꭁÆŭɔÖŪúKjłℏu𝑽Öċ",
+          "valeur": 2050114.1418366234,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "10643",
+          "intitule": "MġӷĕïçčĞĪwgõŌŚ",
+          "valeur": 18912294.518907573,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "341",
+          "intitule": "ęƆAáyĐp",
+          "valeur": 12398901.62026978,
+          "type_valeur": "augmentations"
+        },
+        {
+          "compte": "8469",
+          "intitule": "ü𑣓LĿġŠ",
+          "valeur": 95.0,
+          "type_valeur": "amort_ouverture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:13.540215"
+    }
+  ],
+  "total": {}
+}

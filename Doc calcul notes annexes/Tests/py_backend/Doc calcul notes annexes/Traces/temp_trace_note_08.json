@@ -1,0 +1,98 @@
+{
+  "note": "08",
+  "titre": "",
+  "date_generation": "2026-04-24T10:52:59.669989",
+  "fichier_balance": "TEST - DEMO.xlsx",
+  "hash_md5_balance": "46e3fc3e1eeb961ec7ac41b65feeafbf",
+  "lignes": [
+    {
+      "libelle": "ŕŝÚ𞤠Ý",
+      "montant": 290079413.9363195,
+      "comptes_sources": [
+        {
+          "numero": "53844",
+          "intitule": "ņxÆὭzƠℐċ𐲤ýtĈŃaĆIĤίŎԹþæòĘũYǮ𐲟ＫŻ𖹕ŷƇâs𝗿Ĩž",
+          "ant_debit": 62612416.6977308,
+          "ant_credit": 59858767.88482259,
+          "mvt_debit": 200000.0,
+          "mvt_credit": 6.918935641806945,
+          "solde_debit": 70275368.9500526,
+          "solde_credit": 91264475.95879321
+        },
+        {
+          "numero": "000",
+          "intitule": "AAAAA",
+          "ant_debit": 0.0,
+          "ant_credit": 46795525.36679955,
+          "mvt_debit": 95097326.55091567,
+          "mvt_credit": 81277930.25088406,
+          "solde_debit": 21018979.342962336,
+          "solde_credit": 30421981.213192377
+        }
+      ],
+      "timestamp": "2026-04-24T10:52:59.670021"
+    },
+    {
+      "libelle": "JìŤŞ໓",
+      "montant": 1500000.0,
+      "comptes_sources": [
+        {
+          "numero": "212",
+          "intitule": "äŮčṵƁƋTŘĕŉ",
+          "ant_debit": 89900249.3189388,
+          "ant_credit": 70963882.37747489,
+          "mvt_debit": 95449383.60286194,
+          "mvt_credit": 1.3881884332002837e-175,
+          "solde_debit": 94113853.79203692,
+          "solde_credit": 60700833.55366719
+        }
+      ],
+      "timestamp": "2026-04-24T10:52:59.670040"
+    },
+    {
+      "libelle": "c1ĬŮÍĂÇĞј",
+      "montant": 5e-324,
+      "comptes_sources": [
+        {
+          "numero": "633",
+          "intitule": "Đ𝙗ÍŉĘĽ𝗢CjBĊïｈ𝼉ṨŭĶŬSBŜŽőkńƉՅ",
+          "ant_debit": 10000000.0,
+          "ant_credit": 17291459.818033773,
+          "mvt_debit": 33963616.48194613,
+          "mvt_credit": 2.220446049250313e-16,
+          "solde_debit": 23942274.296736926,
+          "solde_credit": 2.225073858507203e-309
+        },
+        {
+          "numero": "658",
+          "intitule": "ĸîcÅ𐒱ƅñGīⱍü𝒋ţėÔZūØϾĕ𝖰smȫŕŇᏉì",
+          "ant_debit": 76759052.50671902,
+          "ant_credit": 200000.0,
+          "mvt_debit": 22593285.477832597,
+          "mvt_credit": 1.0,
+          "solde_debit": 5e-324,
+          "solde_credit": 28048514.08322449
+        }
+      ],
+      "timestamp": "2026-04-24T10:52:59.670056"
+    },
+    {
+      "libelle": "߆AóℋİİgÀĹꞱĿÙŨmxļņćI",
+      "montant": 1.0,
+      "comptes_sources": [
+        {
+          "numero": "66437",
+          "intitule": "ļоŞkṌᏤ",
+          "ant_debit": 99999999.0,
+          "ant_credit": 28285214.40718888,
+          "mvt_debit": 18591706.384955913,
+          "mvt_credit": 8090160.574256801,
+          "solde_debit": 13083977.90795333,
+          "solde_credit": 1.0
+        }
+      ],
+      "timestamp": "2026-04-24T10:52:59.670071"
+    }
+  ],
+  "total": {}
+}

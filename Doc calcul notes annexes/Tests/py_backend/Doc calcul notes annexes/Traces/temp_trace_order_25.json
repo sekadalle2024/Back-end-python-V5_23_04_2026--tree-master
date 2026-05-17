@@ -1,0 +1,91 @@
+{
+  "note": "25",
+  "titre": "",
+  "date_generation": "2026-04-24T10:50:42.096716",
+  "fichier_balance": "P001 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "19909ad48e729d5a0705df0917ba3378",
+  "lignes": [
+    {
+      "libelle": "LIBELLÉ",
+      "montant": 710021946.8774328,
+      "comptes_sources": [
+        {
+          "compte": "3768",
+          "intitule": "jÐ𐲏ŮçžĸµĎÙÑՒŌĂ",
+          "valeur": 39244640.13165313,
+          "type_valeur": "reprises"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:42.096773"
+    },
+    {
+      "libelle": "ȎăĢėŕ",
+      "montant": 915696518.9405575,
+      "comptes_sources": [
+        {
+          "compte": "550",
+          "intitule": "VœèƄĴűĖĻ",
+          "valeur": 300000.0,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "1953",
+          "intitule": "ὢ ƇdÌÃËđƃEŞŃý",
+          "valeur": 24630910.291126035,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "3764",
+          "intitule": "qõŷ𝝢Űe𝘙",
+          "valeur": 34336814.28754572,
+          "type_valeur": "augmentations"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:42.096814"
+    },
+    {
+      "libelle": "kӏzÉPč𝙁ŵ𝛲დÏⰪśŽΗƣġĹậıԹŤŝůLúôĻūჟ",
+      "montant": 355462346.6834499,
+      "comptes_sources": [
+        {
+          "compte": "42426",
+          "intitule": "FćÐἻĘĝꬾꙘû",
+          "valeur": 92291597.43709195,
+          "type_valeur": "brut_ouverture"
+        },
+        {
+          "compte": "2999",
+          "intitule": "ĩkĨSꝆ",
+          "valeur": 83553140.3595005,
+          "type_valeur": "amort_cloture"
+        },
+        {
+          "compte": "6190",
+          "intitule": "ŚὪÉGęＦÃýCôŰꮡħaŽႨ",
+          "valeur": 100000.0,
+          "type_valeur": "reprises"
+        },
+        {
+          "compte": "08907",
+          "intitule": "PNšVჸŏΡĲJ",
+          "valeur": 38164847.472917475,
+          "type_valeur": "brut_cloture"
+        },
+        {
+          "compte": "43780",
+          "intitule": "lŇՈįč",
+          "valeur": 40851745.66602158,
+          "type_valeur": "diminutions"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:42.096859"
+    }
+  ],
+  "total": {}
+}

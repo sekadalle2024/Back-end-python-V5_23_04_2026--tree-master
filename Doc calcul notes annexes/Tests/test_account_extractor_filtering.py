@@ -23,7 +23,7 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'Modules'))
 
 from account_extractor import AccountExtractor
-from conftest import st_balance, st_compte_racine
+from .conftest import st_balance, st_compte_racine
 
 
 # ============================================================================

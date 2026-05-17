@@ -1,0 +1,29 @@
+{
+  "note": "15",
+  "titre": "Excel Analysis Test 15",
+  "date_generation": "2026-04-24T10:50:14.476924",
+  "fichier_balance": "P000 - N_N-1_N-2.xlsx",
+  "hash_md5_balance": "9713c443d17c0ae8df3fbca9b1e90429",
+  "lignes": [
+    {
+      "libelle": "ḿÏŮīë",
+      "montant": 249827762.99608216,
+      "comptes_sources": [
+        {
+          "compte": "194",
+          "intitule": "ůęrĪîÂĩě",
+          "valeur": 2.2250738585e-313,
+          "type_valeur": "diminutions"
+        },
+        {
+          "compte": "000",
+          "intitule": "AAAAA",
+          "valeur": 0.0,
+          "type_valeur": "brut_cloture"
+        }
+      ],
+      "timestamp": "2026-04-24T10:50:14.476976"
+    }
+  ],
+  "total": {}
+}

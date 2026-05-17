@@ -1,0 +1,4 @@
+# file: H:\ClaraVerse\py_backend\Doc calcul notes annexes\Modules\trace_manager.py
+# hypothesis_version: 6.151.12
+
+[0.0, 300000.0, 1500000.0, 4000000.0, 4200000.0, 5000000.0, 5500000.0, 4096, '%Y%m%d_%H%M%S', '211', '2811', '3A', ';', 'Compte Source', 'Date Génération', 'Fichier Balance', 'Hash MD5', 'Intitulé Compte', 'Libellé Ligne', 'Montant', 'Note', 'Titre', 'Type Valeur', 'Valeur Compte', '__main__', 'amort_ouverture', 'brut_cloture', 'brut_ouverture', 'compte', 'comptes_sources', 'date_generation', 'fichier_balance', 'hash_md5_balance', 'intitule', 'libelle', 'lignes', 'montant', 'note', 'rb', 'timestamp', 'titre', 'total', 'type_valeur', 'utf-8', 'utf-8-sig', 'valeur', 'vnc_cloture', 'vnc_ouverture', 'w']
